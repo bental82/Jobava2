@@ -9,6 +9,10 @@ export interface TreeNode {
   id: string;
   /** SAN of the move that LED to this node, e.g. "Bf4". null for the root. */
   san: string | null;
+  /** Origin square of the move that led here (e.g. "c1"). null for root. */
+  fromSq: string | null;
+  /** Destination square of the move that led here (e.g. "f4"). null for root. */
+  toSq: string | null;
   /** FEN of the position AT this node (after `san` was played). */
   fen: string;
   /** Ply depth from the root (root = 0). */
@@ -45,6 +49,25 @@ export function pathKey(sanPath: string[]): string {
 /** Split a key back into its SAN sequence. "" -> []. */
 export function keyToPath(key: string): string[] {
   return key.length === 0 ? [] : key.split(SEP);
+}
+
+/**
+ * Collect every root-to-leaf line (root-exclusive), in PGN/DFS order — i.e.
+ * the same order and content as the variations in the source PGN. Used to
+ * render the "lines menu". Each entry is the ordered list of nodes in the line.
+ */
+export function collectLines(root: TreeNode): TreeNode[][] {
+  const lines: TreeNode[][] = [];
+  function dfs(node: TreeNode, acc: TreeNode[]) {
+    const next = node.san === null ? acc : [...acc, node];
+    if (node.children.length === 0) {
+      if (next.length > 0) lines.push(next);
+      return;
+    }
+    for (const child of node.children) dfs(child, next);
+  }
+  dfs(root, []);
+  return lines;
 }
 
 /** Depth-first walk over every node (root included). */

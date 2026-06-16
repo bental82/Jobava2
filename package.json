@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "enrich": "tsx scripts/enrich.ts",
+    "build-explanations": "tsx scripts/build-explanations.ts",
     "verify-pgn": "tsx scripts/verify-pgn.ts"
   },
   "dependencies": {

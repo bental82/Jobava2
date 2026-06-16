@@ -20,11 +20,30 @@ deployed app is fast and costs nothing at runtime.
   to `data/explanations.json` keyed by the move-path. The deployed app only
   **reads** this file. Re-running enrich only calls the model for new/changed
   nodes (cache-by-content-hash).
-- **Reliability.** Claude is used only for the verbal "why" (plans, structure,
-  piece placement, what Black idea is being met). It is explicitly instructed
-  **not** to invent tactical lines beyond moves it is given. The architecture
-  has a clean seam for Stockfish (single-threaded WASM) to supply concrete
-  evals/candidate moves later — see `src/lib/engine.ts`.
+- **Reliability.** Anything concrete (evals, candidate moves, whether the
+  repertoire move is the engine's top pick) comes from **Stockfish**, not the
+  language model. Single-threaded Stockfish (classical SF10, ~370 KB wasm, no
+  NNUE net) runs both offline (grounding the text) and live in the browser via
+  a Web Worker (eval bar + top lines in the panel). Single-threaded = **no
+  COOP/COEP headers needed**, so it deploys cleanly on Vercel.
+
+## Two ways to generate explanations
+
+The committed `data/explanations.json` is what the app reads. You can fill it
+either way:
+
+1. **`npm run build-explanations` (no API key).** Walks the tree, runs Stockfish
+   locally for grounding, and composes Hebrew rationales from a curated Jobava
+   knowledge base (`scripts/knowledge.ts`). Deterministic, free, re-runnable.
+   This is how the committed file was produced.
+2. **`npm run enrich` (Anthropic API).** Same grounding, but the verbal "why" is
+   written by Claude (`claude-sonnet-4-6` by default; `ENRICH_MODEL` to override).
+   Requires `ANTHROPIC_API_KEY`. Caches by content hash, so re-runs only call the
+   API for new/changed nodes.
+
+Either way: **commit `data/explanations.json`**, and keep the Vercel Build
+Command as plain **`npm run build`** (do NOT run enrich during the build — it
+would be slow and would not be persisted to git).
 
 ## Project structure
 
@@ -123,11 +142,15 @@ route). It is never exposed to the client.
 
 1. Push this repo to GitHub and import it into Vercel (framework: Next.js —
    auto-detected).
-2. In **Project Settings → Environment Variables**, add `ANTHROPIC_API_KEY`
-   (only needed if you want the optional live "ask" box; the pre-generated
-   explanations work without it).
-3. Deploy. `data/explanations.json` is committed, so explanations are available
-   immediately and the build is fully static for the main page.
+2. **Build Command:** keep it as the default **`npm run build`**. The
+   explanations are already in `data/explanations.json`, so the build is fast
+   and fully static for the main page. (Running enrich in the build is slow and
+   its output is not committed back to git — don't do it.)
+3. In **Project Settings → Environment Variables**, add `ANTHROPIC_API_KEY`
+   only if you want the optional live "ask" box; the pre-generated explanations
+   work without it.
+4. To update explanations: run `npm run build-explanations` (or `npm run enrich`)
+   locally, commit the updated JSON, and push.
 
 Stockfish is single-threaded by design, so **no** COOP/COEP cross-origin
 isolation headers are required — it deploys cleanly on Vercel when enabled.

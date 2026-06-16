@@ -120,6 +120,8 @@ function makeNode(
   return {
     id: pathKey(newPath),
     san,
+    fromSq: moveResult.from,
+    toSq: moveResult.to,
     fen,
     ply: parent.ply + 1,
     turn,
@@ -142,6 +144,8 @@ export function parseRepertoire(pgnText: string): ParsedRepertoire {
   const root: TreeNode = {
     id: '',
     san: null,
+    fromSq: null,
+    toSq: null,
     fen: START_FEN,
     ply: 0,
     turn: 'w',

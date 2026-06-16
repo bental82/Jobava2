@@ -10,6 +10,14 @@ import type { ExplanationMap } from '@/lib/explanations';
 import Board from './Board';
 import VariationTree from './VariationTree';
 import NodePanel from './NodePanel';
+import LinesMenu from './LinesMenu';
+import Overview from './Overview';
+
+const QUALITY_COLOR: Record<string, string> = {
+  good: '#15a34a',
+  dubious: '#f59e0b',
+  blunder: '#dc2626',
+};
 
 interface Props {
   root: TreeNode;
@@ -113,10 +121,25 @@ export default function Explorer({ root, explanations }: Props) {
   const canBack = parentOf.has(currentId);
   const canForward = current.children.length > 0;
 
+  // Sibling variations available at the current branch (for variation nav).
+  const siblings = useMemo(() => {
+    const pid = parentOf.get(currentId);
+    const parent = pid !== undefined ? byId.get(pid) : root;
+    return parent ? parent.children : [];
+  }, [currentId, parentOf, byId, root]);
+  const hasVariations = siblings.length > 1;
+
+  // Colored arrow for the move that led to the current position.
+  const arrows = useMemo(() => {
+    if (!current.fromSq || !current.toSq) return [] as [string, string, string?][];
+    const color = QUALITY_COLOR[explanation?.quality ?? 'good'] ?? QUALITY_COLOR.good;
+    return [[current.fromSq, current.toSq, color]] as [string, string, string?][];
+  }, [current, explanation]);
+
   return (
     <div className="explorer">
       <div className="left-col">
-        <Board fen={current.fen} />
+        <Board fen={current.fen} arrows={arrows} />
         <div className="nav-controls" dir="ltr">
           <button type="button" onClick={goBack} disabled={!canBack} aria-label="הקודם">
             ‹ הקודם
@@ -130,7 +153,29 @@ export default function Explorer({ root, explanations }: Props) {
             הבא ›
           </button>
         </div>
-        <p className="nav-hint">חיצי ימינה/שמאלה: קדימה/אחורה · למעלה/למטה: מעבר בין וריאציות</p>
+        <div className="nav-controls var-controls" dir="ltr">
+          <button
+            type="button"
+            onClick={() => cycleSibling(-1)}
+            disabled={!hasVariations}
+            title="וריאציה קודמת"
+          >
+            ↑ ליין קודם
+          </button>
+          <button
+            type="button"
+            onClick={() => cycleSibling(1)}
+            disabled={!hasVariations}
+            title="וריאציה הבאה"
+          >
+            ליין הבא ↓
+          </button>
+        </div>
+        <p className="nav-hint">
+          ←/→: קדימה/אחורה · ↑/↓: מעבר בין ליינים באותה נקודה · לחיצה על מהלך בעץ
+          קופצת אליו
+        </p>
+        <LinesMenu root={root} activeId={currentId} onSelect={setCurrentId} />
         <div className="tree-wrap">
           <VariationTree
             root={root}
@@ -141,6 +186,7 @@ export default function Explorer({ root, explanations }: Props) {
         </div>
       </div>
       <div className="right-col">
+        <Overview />
         <NodePanel node={current} line={line} explanation={explanation} />
       </div>
     </div>

@@ -12,6 +12,13 @@ export interface Explanation {
   san: string | null;
   /** The generated verbal rationale (Hebrew). */
   rationale: string;
+  /**
+   * Move quality of the move that led to this node, from the perspective of
+   * the side that played it. Drives the board arrow color:
+   *  'good'    -> green, 'dubious' -> orange, 'blunder' -> red.
+   * Optional: older caches / API-generated entries may omit it.
+   */
+  quality?: 'good' | 'dubious' | 'blunder';
   /** Model that produced it, e.g. "claude-sonnet-4-6". */
   model: string;
   /**

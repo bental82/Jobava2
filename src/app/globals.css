@@ -89,10 +89,112 @@ body {
   cursor: default;
 }
 
+.var-controls button {
+  background: var(--panel);
+}
+
 .nav-hint {
   margin: 0;
   color: var(--muted);
   font-size: 0.8rem;
+}
+
+/* ---- lines menu ---- */
+.lines-menu {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--panel);
+  overflow: hidden;
+}
+
+.lines-menu-toggle,
+.overview-toggle {
+  width: 100%;
+  text-align: start;
+  background: var(--panel-2);
+  color: var(--text);
+  border: none;
+  padding: 10px 14px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.lines-menu-body {
+  max-height: 260px;
+  overflow: auto;
+  padding: 8px 12px;
+}
+
+.lines-group {
+  margin-bottom: 10px;
+}
+
+.lines-group-title {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin: 6px 0 3px;
+}
+
+.lines-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.line-entry {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  color: var(--text);
+  font: inherit;
+  font-size: 0.82rem;
+  padding: 3px 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.line-entry:hover {
+  background: var(--panel-2);
+}
+
+.line-entry-active {
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+/* ---- overview / opening meta ---- */
+.overview {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--panel);
+  overflow: hidden;
+}
+
+.overview-body {
+  padding: 4px 16px 12px;
+}
+
+.overview-body p {
+  margin: 10px 0;
+  font-size: 0.95rem;
+}
+
+.overview-body strong {
+  color: var(--accent);
+}
+
+.overview-note {
+  color: var(--muted);
+  font-size: 0.85rem !important;
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
 }
 
 /* ---- variation tree ---- */
