@@ -1,12 +1,13 @@
-// Curated knowledge base for the Jobava London repertoire.
+// Curated knowledge base for the Jobava London repertoire (bilingual: he/en).
 //
-// Produces a Hebrew rationale for every node WITHOUT calling an external API,
-// by combining (a) the strategic idea of the move in this system with
-// (b) real Stockfish grounding (eval + whether it was the engine's top pick).
-// This is what `npm run build-explanations` writes into data/explanations.json.
+// Produces a rationale for every node WITHOUT calling an external API, by
+// combining (a) the strategic idea of the move in this system with (b) real
+// Stockfish grounding (the position's evaluation). This is what
+// `npm run build-explanations` writes into data/explanations.json, and what
+// `npm run export-pgn` uses to annotate the exported PGN.
 //
-// Design rule: keep strategic statements general enough to stay correct across
-// transpositions; lean on the engine fields for anything position-specific.
+// We deliberately do NOT state which move the engine "prefers" — only the
+// position's evaluation is reported as grounding.
 
 export interface NodeFacts {
   index: number;
@@ -24,25 +25,28 @@ export interface NodeFacts {
 }
 
 export type Quality = 'good' | 'dubious' | 'blunder';
+export type Lang = 'he' | 'en';
+
+export interface ComposeOptions {
+  lang?: Lang; // default 'he'
+  includeEval?: boolean; // default true — include the engine-evaluation sentence
+}
 
 /**
- * Move quality from the mover's POV — drives the board arrow color.
+ * Move quality from the mover's POV — drives the quality badge / tree dots.
  *
- * White moves are repertoire RECOMMENDATIONS: they stay green unless the move
- * is objectively losing. The "engine prefers X" nuance lives in the text, not
- * the arrow. Black moves are judged by how much they worsen Black's position
- * (a large swing = the inaccuracy/blunder the repertoire is set up to punish).
+ * White moves are repertoire RECOMMENDATIONS: they stay 'good' unless the move
+ * is objectively losing. Black moves are judged by how much they worsen Black's
+ * position (a large swing = the inaccuracy/blunder the repertoire punishes).
  */
 export function computeQuality(n: NodeFacts): Quality {
   if (n.evalHereCp === null) return 'good';
   if (n.playedBy === 'w') {
-    // From White's POV: only flag if White's own move lands in a bad eval.
     if (n.evalHereCp <= -300) return 'blunder';
     if (n.evalHereCp <= -150) return 'dubious';
     return 'good';
   }
   if (n.bestParentCp === null) return 'good';
-  // Black: swing between best Black could get and what this move yields.
   const best = -n.bestParentCp;
   const got = -n.evalHereCp;
   const swing = best - got;
@@ -51,49 +55,68 @@ export function computeQuality(n: NodeFacts): Quality {
   return 'good';
 }
 
-const W = '‏'; // RLM helper for mixed text (kept minimal)
+// ---- engine-evaluation phrasing -----------------------------------------
 
-function pawns(cp: number): string {
-  if (cp >= 9000) return 'מט';
-  if (cp <= -9000) return 'מט נגד הלבן';
+function pawns(cp: number, lang: Lang): string {
+  if (cp >= 9000) return lang === 'he' ? 'מט' : 'mate';
+  if (cp <= -9000) return lang === 'he' ? 'מט נגד הלבן' : 'mate against White';
   const p = cp / 100;
   return (p >= 0 ? '+' : '') + p.toFixed(2);
 }
 
-/** Short engine evaluation phrase from White's POV. */
-function evalPhrase(cp: number | null): string {
+function evalPhrase(cp: number | null, lang: Lang): string {
   if (cp === null) return '';
-  if (cp >= 9000) return 'הלבן מנצח (מט בכפייה)';
-  if (cp <= -9000) return 'השחור מנצח';
+  if (lang === 'he') {
+    if (cp >= 9000) return 'הלבן מנצח (מט בכפייה)';
+    if (cp <= -9000) return 'השחור מנצח';
+    const a = Math.abs(cp);
+    const who = cp > 0 ? 'ללבן' : 'לשחור';
+    if (a < 30) return 'העמדה שקולה בקירוב';
+    if (a < 90) return `יתרון קל ${who}`;
+    if (a < 200) return `יתרון ברור ${who}`;
+    if (a < 500) return `יתרון גדול ${who}`;
+    return `יתרון מכריע ${who}`;
+  }
+  if (cp >= 9000) return 'White is winning (forced mate)';
+  if (cp <= -9000) return 'Black is winning';
   const a = Math.abs(cp);
-  const who = cp > 0 ? 'ללבן' : 'לשחור';
-  if (a < 30) return 'העמדה שקולה בקירוב';
-  if (a < 90) return `יתרון קל ${who}`;
-  if (a < 200) return `יתרון ברור ${who}`;
-  if (a < 500) return `יתרון גדול ${who}`;
-  return `יתרון מכריע ${who}`;
+  const who = cp > 0 ? 'for White' : 'for Black';
+  if (a < 30) return 'roughly equal';
+  if (a < 90) return `a slight edge ${who}`;
+  if (a < 200) return `a clear edge ${who}`;
+  if (a < 500) return `a large edge ${who}`;
+  return `a decisive edge ${who}`;
 }
 
-/** The engine grounding clause appended to most explanations. */
-function grounding(n: NodeFacts, quality: Quality): string {
-  const parts: string[] = [];
-  const ev = evalPhrase(n.evalHereCp);
-  if (n.evalHereCp !== null) {
-    parts.push(`הערכת המנוע לאחר המהלך: ${pawns(n.evalHereCp)} (${ev}).`);
-  }
-  // NOTE: we deliberately do NOT state which move the engine "prefers" — the
-  // point of a repertoire is the chosen move and its plan, not the engine's
-  // top pick. Only the position's evaluation is reported as grounding.
-  if (n.playedBy === 'b') {
-    if (quality === 'blunder') parts.push('זהו מהלך שגוי שהלבן מנצל מיד לזכייה בחומר.');
-    else if (quality === 'dubious') parts.push('ניסיון לא מדויק שמשחק לידי הלבן.');
-  }
-  return parts.join(' ');
+/** The "Engine evaluation after the move: …" sentence, or null if no eval. */
+function evalSentence(n: NodeFacts, lang: Lang): string | null {
+  if (n.evalHereCp === null) return null;
+  const val = pawns(n.evalHereCp, lang);
+  const phrase = evalPhrase(n.evalHereCp, lang);
+  return lang === 'he'
+    ? `הערכת המנוע לאחר המהלך: ${val} (${phrase}).`
+    : `Engine evaluation after the move: ${val} (${phrase}).`;
 }
 
-// ---- strategic idea text -------------------------------------------------
+/** A short note for Black inaccuracies/blunders, or null. */
+function blackNote(n: NodeFacts, quality: Quality, lang: Lang): string | null {
+  if (n.playedBy !== 'b') return null;
+  if (quality === 'blunder') {
+    return lang === 'he'
+      ? 'זהו מהלך שגוי שהלבן מנצל מיד לזכייה בחומר.'
+      : 'This is a mistake that White exploits at once to win material.';
+  }
+  if (quality === 'dubious') {
+    return lang === 'he'
+      ? 'ניסיון לא מדויק שמשחק לידי הלבן.'
+      : "An inaccuracy that plays into White's hands.";
+  }
+  return null;
+}
 
-const WHITE_IDEA: Record<string, (n: NodeFacts) => string> = {
+// ---- strategic idea text (he) -------------------------------------------
+
+const WHITE_IDEA_HE: Record<string, (n: NodeFacts) => string> = {
   d4: () =>
     '1.d4 פותח את המרכז ותופס שטח. זהו הבסיס לשיטת ז׳ובבה־לונדון, שבה הלבן ישלב במהירות Nc3 ו-Bf4 לפיתוח טבעי וללחץ, בלי להיכנס לתיאוריה כבדה.',
   Nc3: () =>
@@ -144,7 +167,7 @@ const WHITE_IDEA: Record<string, (n: NodeFacts) => string> = {
     'מרחיב את המרכז ועובר למבנה רחב יותר נגד סטאפים שקטים של השחור (...c6/...Nc6).',
 };
 
-const BLACK_IDEA: Record<string, (n: NodeFacts) => string> = {
+const BLACK_IDEA_HE: Record<string, (n: NodeFacts) => string> = {
   d5: () =>
     'תופס מרכז קלאסי ומבסס נוכחות ב-d5/e4. הלבן ימשיך בתוכנית הז׳ובבה: Nc3, Bf4 ולחץ.',
   Nf6: () =>
@@ -201,16 +224,145 @@ const BLACK_IDEA: Record<string, (n: NodeFacts) => string> = {
     'פיתוח לא שגרתי לשוליים. הלבן תופס מרכז (e4) ומפתח בנוחות עם יתרון.',
 };
 
-const FALLBACK_W = 'מהלך פיתוח/מבני בתוך תוכנית הז׳ובבה של הלבן: השלמת פיתוח, שמירה על מרכז איתן והכנת לחץ.';
-const FALLBACK_B = 'מהלך של השחור בתוך הסטאפ שבחר; הלבן ממשיך בתוכנית הטבעית של פיתוח, מרכז ולחץ.';
+// ---- strategic idea text (en) -------------------------------------------
 
-/** Compose the full Hebrew rationale for a node. */
-export function composeRationale(n: NodeFacts): string {
-  const idea =
-    n.playedBy === 'w'
-      ? (WHITE_IDEA[n.san]?.(n) ?? FALLBACK_W)
-      : (BLACK_IDEA[n.san]?.(n) ?? FALLBACK_B);
+const WHITE_IDEA_EN: Record<string, (n: NodeFacts) => string> = {
+  d4: () =>
+    '1.d4 opens the center and grabs space. It is the foundation of the Jobava London, where White quickly adds Nc3 and Bf4 for natural development and pressure, without heavy theory.',
+  Nc3: () =>
+    'The signature move of the Jobava London: the knight develops to c3, pressuring d5 and e4 without blocking the c-pawn. This keeps the Nb5 jump and fast pressure available, unlike the classical London with c3.',
+  Bf4: () =>
+    'The dark-squared bishop comes outside the pawn chain before e3 — the heart of the system. From f4 it pressures c7 and Black\'s kingside and prepares ideas like Nb5.',
+  Nb5: () =>
+    'The knight jumps to b5, exploiting the weakness of c7. Threats of Nxc7+ (forking king and rook) and an invasion on d6 arise — a practical, aggressive move typical of the Jobava.',
+  e3: () =>
+    'A foundational move: it opens the f1-bishop, reinforces d4 and completes a solid setup. White now has a sturdy London structure with the bishop already active outside the chain.',
+  Nf3: () =>
+    'Natural development supporting d4 and e5, preparing short castling and completing White\'s solid setup.',
+  Ne2: () =>
+    'To e2 rather than f3: this keeps the f-pawn free for a future g4 push, supports the c3-knight, and if Black trades with ...Bxc3 White recaptures with the knight and keeps a good structure. A flexible move typical against ...Bb4.',
+  a3: () =>
+    'Questions the bishop on b4: if ...Bxc3 White opens a file, improves the structure and keeps the bishop pair; if the bishop retreats White has gained a tempo and space.',
+  g4: () =>
+    'An aggressive kingside pawn push: it gains space, threatens to trap Black\'s bishop (usually on f5/g6) and opens attacking lines. Typical against ...Bf5 and when Black is slow.',
+  f3: () =>
+    'Reinforces the center and prepares g4. Against ...Bf5 the idea is g4 and h4 to chase the bishop and grab kingside space.',
+  h4: () =>
+    'Continues the wing push: it supports g5, widens the attacking chain and sometimes traps Black\'s bishop that retreated to g6.',
+  Bd3: () =>
+    'Places the bishop on the b1-h7 diagonal, prepares castling, and sometimes trades off Black\'s f5-bishop to control the light squares.',
+  dxe5: () =>
+    'Opens the center and exploits ...e5. After the exchanges the f4-bishop and b5-knight are very active, and Black often runs into tactical trouble around c7 and d5.',
+  Bxe5: (n) =>
+    n.evalHereCp !== null && n.evalHereCp >= 300
+      ? 'The bishop grabs the knight and wins a whole piece: after ...Nxe5?? Black has no compensation due to the b5-knight and the pressure on c7.'
+      : 'The bishop captures in the center and keeps a structural edge with an active pair of pieces.',
+  Qxd5: () =>
+    'A tactical shot: the queen grabs the d5-pawn with tempo. After the queen trade comes Nxc7+ forking, and White wins material.',
+  'Nxc7+': () =>
+    'The decisive fork: the knight gives check and grabs the rook on a8 — the culmination of the idea behind Nb5.',
+  Bxc7: () =>
+    'Grabs the undefended c7-pawn and wins material, exploiting the weakness ...Nc6/...Rb8 left on c7.',
+  'Nxd6+': () =>
+    'Trades off the d6-bishop — Black\'s good bishop — forcing ...cxd6, which leaves Black with doubled, heavy pawns on the d-file.',
+  exd6: () =>
+    'The pawn recaptures and keeps the extra material from the gambit, while opening lines that favor White\'s development.',
+  e4: () =>
+    'Grabs the full center. Against a hypermodern setup (...g6/...d6) White builds a big center and prepares e5 to seize the initiative.',
+  e5: () =>
+    'Pushes the knight from f6, grabs space and shuts in Black\'s c8-bishop — White gains a spatial initiative.',
+  d5: () =>
+    'Grabs space and pushes the knight back; against ...c5 White gets a reversed Benoni structure with a tempo and central control.',
+  c4: () =>
+    'Broadens the center and shifts to a wider structure against Black\'s quiet setups (...c6/...Nc6).',
+};
+
+const BLACK_IDEA_EN: Record<string, (n: NodeFacts) => string> = {
+  d5: () =>
+    'Takes the classical center and establishes a presence on d5/e4. White continues the Jobava plan: Nc3, Bf4 and pressure.',
+  Nf6: () =>
+    'Develops the knight and controls e4 and d5. White will usually reply Bf4 with calm development.',
+  e6: () =>
+    'Supports d5 and opens the f8-bishop, but temporarily blocks the c8-bishop (the "bad bishop"). White continues e3 and natural development.',
+  Nc6: () =>
+    'Active development, but it weakens the defense of c7 and invites Nb5 with threats of Nxc7+ and Nd6 — exactly the structure White welcomes.',
+  Ne4: () =>
+    'An active central knight that invites trades and tries to ease Black\'s game. White usually responds with a3/f3 or development that exploits the central stability.',
+  Bd6: () =>
+    'Offers to trade White\'s important f4-bishop. White will consider Bxd6 (giving Black a doubled structure) or retreating to keep the bishop, depending on the position.',
+  a6: () =>
+    'Pre-empts Nb5 and stakes out a little wing space, but it is a slow move that lets White play g4 or develop calmly with a spatial edge.',
+  Bb4: () =>
+    'Pins the c3-knight and pressures the center. White answers a3 (to question the bishop) or Ne2 (to support c3 and keep the g4 break flexible).',
+  Bf5: () =>
+    'Develops the "problem bishop" outside the chain before ...e6. White responds with the f3-g4-h4 plan to chase the bishop and grab space.',
+  c6: () =>
+    'A solid Slav-like structure supporting d5. White continues e3 and development, with comfortable, easier play.',
+  e5: () =>
+    'An attempt to break in the center. Usually after dxe5 lines and files open in favor of White\'s developed pieces.',
+  d6: () =>
+    'A restrained move preparing ...e5 or a hypermodern setup. White grabs the center with e4 and plays on space.',
+  Bg6: () =>
+    'The bishop retreats after g4. White continues h4-h5 to chase the bishop and open the kingside.',
+  Nxe5: () =>
+    'Grabs the e5-pawn, but here it is a mistake: Bxe5 wins the knight thanks to the b5-knight and the lack of defense — White wins a piece.',
+  Qxd5: () =>
+    'Recaptures the pawn, but walks into the Nxc7+ fork; White wins material.',
+  Nh5: () =>
+    'Attacks the f4-bishop, but the knight is pushed to the rim. White plays e3/Bg5 and keeps an edge.',
+  Rb8: () =>
+    'Tries to defend c7 indirectly / unpin the rook, but it is too late: White already grabs with Bxc7 or Nxc7+.',
+  cxd6: () =>
+    'Recaptures on d6, but is left with doubled, heavy pawns on the d-file — exactly the structural edge White was after.',
+  c5: () =>
+    'Challenges d4 at once. White can play d5 to grab space, or develop while exploiting the lead in development.',
+  g6: () =>
+    'A King\'s Indian setup: the bishop develops to g7 and pressures the center from afar. White grabs a big center with e4 and prepares e5.',
+  Bg7: () =>
+    'Completes the fianchetto and pressures the long diagonal. White continues building the center with e4-e5.',
+  Qe7: () =>
+    'In the 1...e5 line, tries to regain the pawn by pressuring e5. White develops carefully (Nf3, Nc3) and keeps the extra material.',
+  Bc5: () =>
+    'In the 1...e5 gambit line, develops with tempo against f2. White develops with Nf3 and Nc3 and keeps the extra pawn.',
+  Ne7: () =>
+    'A knight heading to g6 to pressure e5. White completes development and keeps the material edge.',
+  b6: () =>
+    'Prepares a fianchetto of the bishop to b7. White grabs the center with e4 and plays on space.',
+  f5: () =>
+    'An aggressive Dutch-like setup, but it weakens the king. White develops with Nc3 and pressures the weaknesses.',
+  Na6: () =>
+    'An offbeat development to the rim. White grabs the center (e4) and develops comfortably with an edge.',
+};
+
+const FALLBACK = {
+  he: {
+    w: 'מהלך פיתוח/מבני בתוך תוכנית הז׳ובבה של הלבן: השלמת פיתוח, שמירה על מרכז איתן והכנת לחץ.',
+    b: 'מהלך של השחור בתוך הסטאפ שבחר; הלבן ממשיך בתוכנית הטבעית של פיתוח, מרכז ולחץ.',
+  },
+  en: {
+    w: "A developing/structural move within White's Jobava plan: completing development, keeping a solid center and preparing pressure.",
+    b: 'A move by Black within the chosen setup; White continues the natural plan of development, center and pressure.',
+  },
+};
+
+function idea(n: NodeFacts, lang: Lang): string {
+  if (n.playedBy === 'w') {
+    const table = lang === 'he' ? WHITE_IDEA_HE : WHITE_IDEA_EN;
+    return table[n.san]?.(n) ?? FALLBACK[lang].w;
+  }
+  const table = lang === 'he' ? BLACK_IDEA_HE : BLACK_IDEA_EN;
+  return table[n.san]?.(n) ?? FALLBACK[lang].b;
+}
+
+/** Compose the full rationale for a node. */
+export function composeRationale(n: NodeFacts, opts: ComposeOptions = {}): string {
+  const lang = opts.lang ?? 'he';
+  const includeEval = opts.includeEval ?? true;
   const quality = computeQuality(n);
-  const ground = grounding(n, quality);
-  return [idea, ground].filter(Boolean).join(' ').trim();
+  const parts = [
+    idea(n, lang),
+    includeEval ? evalSentence(n, lang) : null,
+    blackNote(n, quality, lang),
+  ];
+  return parts.filter(Boolean).join(' ').trim();
 }
