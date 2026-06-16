@@ -23,8 +23,14 @@ import {
   type Explanation,
   type ExplanationMap,
 } from '../src/lib/explanations';
-import { buildUserPrompt, SYSTEM_PROMPT, type NodeContext } from '../src/lib/prompt';
-import { nullEngine, summarizeEngine } from '../src/lib/engine';
+import {
+  buildUserPrompt,
+  buildEngineNote,
+  SYSTEM_PROMPT,
+  type NodeContext,
+} from '../src/lib/prompt';
+import type { EngineAnalysis } from '../src/lib/engine';
+import { createNodeEngine, type NodeEngine } from '../src/lib/engineNode';
 
 // ---- tiny dependency-free .env loader (so `npm run enrich` finds the key) ----
 function loadEnvFile(file: string) {
@@ -57,6 +63,11 @@ const CONCURRENCY = 4;
 
 const MODEL = process.env.ENRICH_MODEL ?? 'claude-sonnet-4-6';
 
+// Stockfish grounding is ON by default (set STOCKFISH=0 to disable).
+const ENGINE_ON = process.env.STOCKFISH !== '0';
+const SF_DEPTH = parseInt(process.env.SF_DEPTH ?? '14', 10);
+const SF_MULTIPV = parseInt(process.env.SF_MULTIPV ?? '3', 10);
+
 const DATA_DIR = join(process.cwd(), 'data');
 const PGN_PATH = join(DATA_DIR, 'repertoire.pgn');
 const OUT_PATH = join(DATA_DIR, 'explanations.json');
@@ -69,10 +80,58 @@ const cache: ExplanationMap = existsSync(OUT_PATH)
   ? (JSON.parse(readFileSync(OUT_PATH, 'utf8')) as ExplanationMap)
   : {};
 
-// ---- engine summary (currently disabled — nullEngine returns null) ----
-async function engineSummaryFor(fen: string): Promise<string | null> {
-  const analysis = await nullEngine.analyze(fen);
-  return summarizeEngine(analysis);
+// ---- index for parent lookups (used to judge if a move was engine's best) ---
+const parentOf = new Map<string, string>();
+const byId = new Map<string, TreeNode>();
+walk(root, (n) => {
+  byId.set(n.id, n);
+  for (const c of n.children) parentOf.set(c.id, n.id);
+});
+
+/**
+ * Pre-analyze every position once with Stockfish and build a Hebrew engine
+ * note per node (eval + leading continuations here, plus whether the
+ * repertoire move was the engine's top choice in the parent position).
+ * Returns a map id -> note string (or empty map when the engine is off).
+ */
+async function buildEngineNotes(): Promise<Map<string, string>> {
+  const notes = new Map<string, string>();
+  if (!ENGINE_ON) return notes;
+
+  console.log(`Stockfish: analyzing positions (depth ${SF_DEPTH}, multipv ${SF_MULTIPV})…`);
+  const engine: NodeEngine = await createNodeEngine({
+    depth: SF_DEPTH,
+    multiPv: SF_MULTIPV,
+  });
+
+  // Analyze every node's position (root included, so 1.d4 can be judged).
+  const analysisById = new Map<string, EngineAnalysis | null>();
+  const nodes: TreeNode[] = [];
+  walk(root, (n) => nodes.push(n));
+
+  let i = 0;
+  for (const node of nodes) {
+    analysisById.set(node.id, await engine.analyze(node.fen));
+    i++;
+    if (i % 25 === 0 || i === nodes.length) {
+      console.log(`  analyzed ${i}/${nodes.length}`);
+    }
+  }
+  engine.quit();
+
+  // Build a note per (non-root) node using its own and its parent's analysis.
+  for (const node of nodes) {
+    if (node.san === null) continue;
+    const parentId = parentOf.get(node.id);
+    const analysisParent = parentId !== undefined ? analysisById.get(parentId) ?? null : null;
+    const note = buildEngineNote({
+      san: node.san,
+      analysisHere: analysisById.get(node.id) ?? null,
+      analysisParent,
+    });
+    if (note) notes.set(node.id, note);
+  }
+  return notes;
 }
 
 // ---- collect nodes needing work ----
@@ -82,7 +141,7 @@ interface Job {
   inputHash: string;
 }
 
-async function planJobs(): Promise<Job[]> {
+function planJobs(engineNotes: Map<string, string>): Job[] {
   const jobs: Job[] = [];
   const nodes: TreeNode[] = [];
   walk(root, (n) => {
@@ -90,7 +149,7 @@ async function planJobs(): Promise<Job[]> {
   });
 
   for (const node of nodes) {
-    const engineSummary = await engineSummaryFor(node.fen);
+    const engineSummary = engineNotes.get(node.id) ?? null;
     const inputHash = explanationInputHash({
       key: node.id,
       fen: node.fen,
@@ -149,10 +208,12 @@ function saveCache() {
 }
 
 async function main() {
-  const allJobs = await planJobs();
+  const engineNotes = await buildEngineNotes();
+  const allJobs = planJobs(engineNotes);
   const jobs = allJobs.slice(0, LIMIT === Infinity ? allJobs.length : LIMIT);
 
   console.log(`Model            : ${MODEL}`);
+  console.log(`Stockfish        : ${ENGINE_ON ? `on (depth ${SF_DEPTH})` : 'off'}`);
   console.log(`Nodes needing work: ${allJobs.length}`);
   console.log(`Will process      : ${jobs.length}${DRY_RUN ? ' (dry run)' : ''}`);
 

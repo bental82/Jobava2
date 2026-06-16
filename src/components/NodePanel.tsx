@@ -10,6 +10,7 @@
 import type { TreeNode } from '@/lib/tree';
 import type { Explanation } from '@/lib/explanations';
 import AskBox from './AskBox';
+import EnginePanel from './EnginePanel';
 
 interface Props {
   node: TreeNode;
@@ -74,12 +75,7 @@ export default function NodePanel({ node, line, explanation }: Props) {
         )}
       </section>
 
-      {/* Engine seam: hidden while Stockfish is disabled. When enabled, render
-          an eval bar + top candidate lines here from EngineAnalysis. */}
-      <section className="panel-section engine-seam" hidden>
-        <h2 className="panel-heading">הערכת מנוע</h2>
-        <p className="engine-disabled">המנוע (Stockfish) כבוי.</p>
-      </section>
+      <EnginePanel fen={node.fen} />
 
       <AskBox fen={node.fen} sanPath={line.map((n) => n.san ?? '')} />
     </div>
