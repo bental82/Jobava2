@@ -5,7 +5,7 @@
 // scrolled into view, and small color dots flagging dubious/blunder moves.
 // This is the single primary navigator — click any move to jump the board.
 
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { walk, type TreeNode } from '@/lib/tree';
 import type { ExplanationMap } from '@/lib/explanations';
 
@@ -30,7 +30,6 @@ export default function MoveTree({
   onSelect,
 }: Props) {
   const [expanded, setExpanded] = useState<Set<string>>(() => new Set(activePath));
-  const activeRef = useRef<HTMLButtonElement | null>(null);
 
   const branchCount = useMemo(() => {
     let n = 0;
@@ -50,11 +49,6 @@ export default function MoveTree({
     // activePath is derived from activeId; depending on activeId avoids
     // re-running on every render (activePath is a fresh Set each time).
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [activeId]);
-
-  // Keep the active row in view as you navigate by keyboard/board.
-  useEffect(() => {
-    activeRef.current?.scrollIntoView({ block: 'nearest' });
   }, [activeId]);
 
   const toggle = (id: string) =>
@@ -107,7 +101,6 @@ export default function MoveTree({
           )}
           <button
             type="button"
-            ref={isActive ? activeRef : undefined}
             className={`tree-move${isActive ? ' tree-move-active' : ''}`}
             dir="ltr"
             onClick={() => onSelect(node.id)}

@@ -62,8 +62,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  position: sticky;
-  top: 16px;
 }
 
 .board {
@@ -149,8 +147,6 @@ body {
 }
 
 .movetree-body {
-  max-height: 420px;
-  overflow: auto;
   padding: 8px 6px 10px;
 }
 
@@ -547,7 +543,6 @@ code {
     grid-template-columns: 1fr;
   }
   .left-col {
-    position: static;
     max-width: 440px;
     margin: 0 auto;
     width: 100%;
