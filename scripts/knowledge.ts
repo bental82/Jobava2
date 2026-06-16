@@ -81,19 +81,9 @@ function grounding(n: NodeFacts, quality: Quality): string {
   if (n.evalHereCp !== null) {
     parts.push(`הערכת המנוע לאחר המהלך: ${pawns(n.evalHereCp)} (${ev}).`);
   }
-  // "Practical, not objectively best" note for White repertoire choices that
-  // the engine doesn't rank first — but never for clearly winning tactics.
-  const winningTactic = n.evalHereCp !== null && n.evalHereCp >= 250 && n.playedBy === 'w';
-  if (
-    n.playedBy === 'w' &&
-    !winningTactic &&
-    n.bestParentMove !== null &&
-    (n.rankAtParent === -1 || (n.rankAtParent !== null && n.rankAtParent > 1))
-  ) {
-    parts.push(
-      `מבחינת המנוע זו אינה בחירתו הראשונה (הוא מעדיף ${n.bestParentMove}), אלא בחירת רפרטואר מעשית עם תוכניות ברורות וקלות לשחק.`,
-    );
-  }
+  // NOTE: we deliberately do NOT state which move the engine "prefers" — the
+  // point of a repertoire is the chosen move and its plan, not the engine's
+  // top pick. Only the position's evaluation is reported as grounding.
   if (n.playedBy === 'b') {
     if (quality === 'blunder') parts.push('זהו מהלך שגוי שהלבן מנצל מיד לזכייה בחומר.');
     else if (quality === 'dubious') parts.push('ניסיון לא מדויק שמשחק לידי הלבן.');

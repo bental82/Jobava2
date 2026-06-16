@@ -12,12 +12,6 @@ import MoveTree from './MoveTree';
 import NodePanel from './NodePanel';
 import Overview from './Overview';
 
-const QUALITY_COLOR: Record<string, string> = {
-  good: '#15a34a',
-  dubious: '#f59e0b',
-  blunder: '#dc2626',
-};
-
 interface Props {
   root: TreeNode;
   explanations: ExplanationMap;
@@ -128,17 +122,10 @@ export default function Explorer({ root, explanations }: Props) {
   }, [currentId, parentOf, byId, root]);
   const hasVariations = siblings.length > 1;
 
-  // Colored arrow for the move that led to the current position.
-  const arrows = useMemo(() => {
-    if (!current.fromSq || !current.toSq) return [] as [string, string, string?][];
-    const color = QUALITY_COLOR[explanation?.quality ?? 'good'] ?? QUALITY_COLOR.good;
-    return [[current.fromSq, current.toSq, color]] as [string, string, string?][];
-  }, [current, explanation]);
-
   return (
     <div className="explorer">
       <div className="left-col">
-        <Board fen={current.fen} arrows={arrows} />
+        <Board fen={current.fen} />
         <div className="nav-controls" dir="ltr">
           <button type="button" onClick={goBack} disabled={!canBack} aria-label="הקודם">
             ‹ הקודם
