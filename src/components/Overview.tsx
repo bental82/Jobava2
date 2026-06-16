@@ -2,12 +2,20 @@
 
 // Opening-level "meta": a concise overview of the Jobava London — the ideas,
 // pawn structures and typical plans that the per-move explanations build on.
-// Collapsible so it stays out of the way once read.
+// Shown expanded only at the opening position; once you browse onward it
+// collapses to a slim bar so it stays out of the way of the per-move text.
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
-export default function Overview() {
-  const [open, setOpen] = useState(true);
+export default function Overview({ atOpening }: { atOpening: boolean }) {
+  const [open, setOpen] = useState(atOpening);
+
+  // Auto-expand when back at the opening, auto-collapse when moving on. Manual
+  // toggling in between is preserved until the next opening/away transition.
+  useEffect(() => {
+    setOpen(atOpening);
+  }, [atOpening]);
+
   return (
     <section className="overview">
       <button

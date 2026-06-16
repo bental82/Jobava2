@@ -8,9 +8,8 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { TreeNode } from '@/lib/tree';
 import type { ExplanationMap } from '@/lib/explanations';
 import Board from './Board';
-import VariationTree from './VariationTree';
+import MoveTree from './MoveTree';
 import NodePanel from './NodePanel';
-import LinesMenu from './LinesMenu';
 import Overview from './Overview';
 
 const QUALITY_COLOR: Record<string, string> = {
@@ -175,18 +174,16 @@ export default function Explorer({ root, explanations }: Props) {
           ←/→: קדימה/אחורה · ↑/↓: מעבר בין ליינים באותה נקודה · לחיצה על מהלך בעץ
           קופצת אליו
         </p>
-        <LinesMenu root={root} activeId={currentId} onSelect={setCurrentId} />
-        <div className="tree-wrap">
-          <VariationTree
-            root={root}
-            activeId={currentId}
-            activePath={activePath}
-            onSelect={setCurrentId}
-          />
-        </div>
+        <MoveTree
+          root={root}
+          activeId={currentId}
+          activePath={activePath}
+          explanations={explanations}
+          onSelect={setCurrentId}
+        />
       </div>
       <div className="right-col">
-        <Overview />
+        <Overview atOpening={current.ply <= 1} />
         <NodePanel node={current} line={line} explanation={explanation} />
       </div>
     </div>
