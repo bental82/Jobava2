@@ -13,6 +13,8 @@ import Breadcrumb from './Breadcrumb';
 import NextMoves from './NextMoves';
 import NodePanel from './NodePanel';
 import MoveTree from './MoveTree';
+import BigPicture from './BigPicture';
+import { GUIDES, classifySituation } from '@/lib/guide';
 
 interface RepertoireData {
   id: RepId;
@@ -104,6 +106,7 @@ export default function RepertoireApp({ repertoires }: { repertoires: Repertoire
   }, [goBack, goForward, cycleSibling]);
 
   const explanation = rep.explanations[currentId] ?? null;
+  const situation = useMemo(() => classifySituation(activeId, line), [activeId, line]);
   const canBack = parentOf.has(currentId);
   const canForward = current.children.length > 0;
 
@@ -149,7 +152,13 @@ export default function RepertoireApp({ repertoires }: { repertoires: Repertoire
         </div>
 
         <div className="right-col">
-          <NodePanel node={current} sanPath={line.map((n) => n.san ?? '')} explanation={explanation} />
+          <BigPicture guide={GUIDES[activeId]} atOpening={current.ply <= 1} />
+          <NodePanel
+            node={current}
+            sanPath={line.map((n) => n.san ?? '')}
+            explanation={explanation}
+            situation={situation}
+          />
         </div>
       </div>
     </main>

@@ -1,10 +1,12 @@
 'use client';
 
-// Right-hand panel for the current node: the move, one concise sentence on what
-// it's trying to do in the opening, then the optional engine + ask tools.
+// Right-hand panel for the current node: the move, WHICH big-picture situation
+// this position belongs to and that situation's plan (the main takeaway), then
+// a short note on the specific move, then the optional engine + ask tools.
 
 import type { TreeNode } from '@/lib/tree';
 import type { Explanation } from '@/lib/explanations';
+import type { Situation } from '@/lib/guide';
 import AskBox from './AskBox';
 import EnginePanel from './EnginePanel';
 
@@ -12,9 +14,10 @@ interface Props {
   node: TreeNode;
   sanPath: string[];
   explanation: Explanation | null;
+  situation: Situation | null;
 }
 
-export default function NodePanel({ node, sanPath, explanation }: Props) {
+export default function NodePanel({ node, sanPath, explanation, situation }: Props) {
   const isRoot = node.san === null;
 
   return (
@@ -28,12 +31,23 @@ export default function NodePanel({ node, sanPath, explanation }: Props) {
             {node.playedBy === 'w' ? '.' : '…'} {node.san}
           </p>
         )}
-        {explanation && explanation.rationale ? (
-          <p className="rationale">{explanation.rationale}</p>
-        ) : !isRoot ? (
-          <p className="rationale rationale-missing">בחרו צעד מהרשימה למעלה.</p>
+
+        {situation ? (
+          <div className="situation">
+            <span className="situation-badge">{situation.name}</span>
+            <p className="situation-plan">{situation.plan}</p>
+          </div>
         ) : (
-          <p className="rationale rationale-missing">בחרו צעד כדי לראות מה הוא מנסה לעשות.</p>
+          !isRoot && (
+            <p className="situation-hint">המשיכו עד שמבנה הלבן מתברר — אז יופיע המצב והתוכנית.</p>
+          )
+        )}
+
+        {explanation && explanation.rationale && !isRoot && (
+          <p className="rationale">
+            <span className="rationale-label">הצעד הזה: </span>
+            {explanation.rationale}
+          </p>
         )}
       </section>
 
