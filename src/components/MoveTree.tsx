@@ -1,34 +1,20 @@
 'use client';
 
-// The repertoire as an interactive, collapsible TREE (file-explorer style):
-// carets to expand/collapse, indentation by depth, the active move revealed and
-// scrolled into view, and small color dots flagging dubious/blunder moves.
-// This is the single primary navigator — click any move to jump the board.
+// The full repertoire as a collapsible tree (behind a toggle). Carets to
+// expand/collapse, indentation by depth, the active move revealed. This is the
+// secondary "see everything" view; the next-move chips are the primary nav.
 
 import { useEffect, useMemo, useState } from 'react';
 import { walk, type TreeNode } from '@/lib/tree';
-import type { ExplanationMap } from '@/lib/explanations';
 
 interface Props {
   root: TreeNode;
   activeId: string;
   activePath: Set<string>;
-  explanations: ExplanationMap;
   onSelect: (id: string) => void;
 }
 
-const DOT_COLOR: Record<string, string> = {
-  dubious: '#f59e0b',
-  blunder: '#dc2626',
-};
-
-export default function MoveTree({
-  root,
-  activeId,
-  activePath,
-  explanations,
-  onSelect,
-}: Props) {
+export default function MoveTree({ root, activeId, activePath, onSelect }: Props) {
   const [expanded, setExpanded] = useState<Set<string>>(() => new Set(activePath));
 
   const branchCount = useMemo(() => {
@@ -39,15 +25,12 @@ export default function MoveTree({
     return n;
   }, [root]);
 
-  // Reveal (expand the path to) the active node whenever it changes.
   useEffect(() => {
     setExpanded((prev) => {
       const next = new Set(prev);
       for (const id of activePath) next.add(id);
       return next;
     });
-    // activePath is derived from activeId; depending on activeId avoids
-    // re-running on every render (activePath is a fresh Set each time).
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeId]);
 
@@ -67,20 +50,17 @@ export default function MoveTree({
     });
     setExpanded(all);
   };
-  // Collapse, but keep the path to the current move visible.
   const collapseAll = () => setExpanded(new Set(activePath));
 
-  function renderRows(nodes: TreeNode[], depth: number): React.ReactNode[] {
+  function rows(nodes: TreeNode[], depth: number): React.ReactNode[] {
     const out: React.ReactNode[] = [];
     for (const node of nodes) {
       const hasKids = node.children.length > 0;
       const isOpen = expanded.has(node.id);
       const isActive = node.id === activeId;
       const onPath = activePath.has(node.id);
-      const quality = explanations[node.id]?.quality;
-      const label =
+      const labelText =
         node.playedBy === 'w' ? `${node.moveNumber}.${node.san}` : node.san ?? '';
-
       out.push(
         <div
           key={node.id}
@@ -105,20 +85,12 @@ export default function MoveTree({
             dir="ltr"
             onClick={() => onSelect(node.id)}
           >
-            <span className="tree-san">{label}</span>
-            {quality && quality !== 'good' && (
-              <span
-                className="tree-dot"
-                style={{ background: DOT_COLOR[quality] }}
-                title={quality === 'blunder' ? 'טעות' : 'לא מדויק'}
-              />
-            )}
+            <span className="tree-san">{labelText}</span>
             {hasKids && !isOpen && <span className="tree-count">{node.children.length}</span>}
           </button>
         </div>,
       );
-
-      if (hasKids && isOpen) out.push(...renderRows(node.children, depth + 1));
+      if (hasKids && isOpen) out.push(...rows(node.children, depth + 1));
     }
     return out;
   }
@@ -126,7 +98,7 @@ export default function MoveTree({
   return (
     <div className="movetree-card">
       <div className="movetree-head">
-        <span className="movetree-title">עץ הרפרטואר</span>
+        <span className="movetree-title">כל הליינים</span>
         <button
           type="button"
           className="movetree-action"
@@ -135,7 +107,7 @@ export default function MoveTree({
           {allExpanded ? 'כווץ הכל' : 'הרחב הכל'}
         </button>
       </div>
-      <div className="movetree-body">{renderRows(root.children, 0)}</div>
+      <div className="movetree-body">{rows(root.children, 0)}</div>
     </div>
   );
 }

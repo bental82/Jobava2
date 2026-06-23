@@ -1,0 +1,1842 @@
+{
+  "Nc3": {
+    "key": "Nc3",
+    "san": "Nc3",
+    "rationale": "מפתח את הפרש ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "6920b12c",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nc3 d5": {
+    "key": "Nc3 d5",
+    "san": "d5",
+    "rationale": "מאתגר מיד את מרכז הלבן ותובע חלק מהמרכז.",
+    "model": "curated-kb",
+    "inputHash": "03d49f46",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nc3 d5 d4": {
+    "key": "Nc3 d5 d4",
+    "san": "d4",
+    "rationale": "תופס מרכז.",
+    "model": "curated-kb",
+    "inputHash": "cc8b2f7c",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nc3 d5 d4 Nf6": {
+    "key": "Nc3 d5 d4 Nf6",
+    "san": "Nf6",
+    "rationale": "מפתח, שולט ב-e4/d5 ולוחץ על מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "52239322",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nc3 d5 d4 Nf6 Bf4": {
+    "key": "Nc3 d5 d4 Nf6 Bf4",
+    "san": "Bf4",
+    "rationale": "מוציא את הרץ אל מחוץ לשרשרת הרגלים.",
+    "model": "curated-kb",
+    "inputHash": "cdc42ccf",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nc3 d5 d4 Nf6 Bf4 c5": {
+    "key": "Nc3 d5 d4 Nf6 Bf4 c5",
+    "san": "c5",
+    "rationale": "מכה במרכז הלבן ומשחרר את משחק השחור.",
+    "model": "curated-kb",
+    "inputHash": "01ec3151",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nc3 d5 d4 Nf6 Bf4 c5 e3": {
+    "key": "Nc3 d5 d4 Nf6 Bf4 c5 e3",
+    "san": "e3",
+    "rationale": "פותח את רץ f1 ומבצר את d4.",
+    "model": "curated-kb",
+    "inputHash": "2803b077",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nc3 d5 d4 Nf6 Bf4 c5 e3 cxd4": {
+    "key": "Nc3 d5 d4 Nf6 Bf4 c5 e3 cxd4",
+    "san": "cxd4",
+    "rationale": "חוטף במרכז ומשבש את מבנה הלבן.",
+    "model": "curated-kb",
+    "inputHash": "ffeeb7a1",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nc3 d5 d4 Nf6 Bf4 c6": {
+    "key": "Nc3 d5 d4 Nf6 Bf4 c6",
+    "san": "c6",
+    "rationale": "מכין ...d5 לאיתגור המרכז תוך שמירה על מבנה רגלים מוצק — לב הקארו־קאן.",
+    "model": "curated-kb",
+    "inputHash": "6033136d",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nc3 d5 d4 Nf6 Nf3": {
+    "key": "Nc3 d5 d4 Nf6 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nc3 d5 d4 Nf6 Nf3 Bf5": {
+    "key": "Nc3 d5 d4 Nf6 Nf3 Bf5",
+    "san": "Bf5",
+    "rationale": "מוציא את רץ c8 אל מחוץ לשרשרת עוד לפני ...e6 — רעיון מפתח בקארו.",
+    "model": "curated-kb",
+    "inputHash": "61a6f863",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nf3": {
+    "key": "Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nf3 d5": {
+    "key": "Nf3 d5",
+    "san": "d5",
+    "rationale": "מאתגר מיד את מרכז הלבן ותובע חלק מהמרכז.",
+    "model": "curated-kb",
+    "inputHash": "03d49f46",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nf3 d5 d4": {
+    "key": "Nf3 d5 d4",
+    "san": "d4",
+    "rationale": "תופס מרכז.",
+    "model": "curated-kb",
+    "inputHash": "cc8b2f7c",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nf3 d5 d4 Nf6": {
+    "key": "Nf3 d5 d4 Nf6",
+    "san": "Nf6",
+    "rationale": "מפתח, שולט ב-e4/d5 ולוחץ על מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "52239322",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nf3 d5 d4 Nf6 Bf4": {
+    "key": "Nf3 d5 d4 Nf6 Bf4",
+    "san": "Bf4",
+    "rationale": "מוציא את הרץ אל מחוץ לשרשרת הרגלים.",
+    "model": "curated-kb",
+    "inputHash": "cdc42ccf",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nf3 d5 d4 Nf6 Bf4 c5": {
+    "key": "Nf3 d5 d4 Nf6 Bf4 c5",
+    "san": "c5",
+    "rationale": "מכה במרכז הלבן ומשחרר את משחק השחור.",
+    "model": "curated-kb",
+    "inputHash": "01ec3151",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nf3 d5 d4 Nf6 Bf4 c5 e3": {
+    "key": "Nf3 d5 d4 Nf6 Bf4 c5 e3",
+    "san": "e3",
+    "rationale": "פותח את רץ f1 ומבצר את d4.",
+    "model": "curated-kb",
+    "inputHash": "2803b077",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nf3 d5 d4 Nf6 Bf4 c5 e3 Nc6": {
+    "key": "Nf3 d5 d4 Nf6 Bf4 c5 e3 Nc6",
+    "san": "Nc6",
+    "rationale": "מפתח את הפרש ולוחץ על d4.",
+    "model": "curated-kb",
+    "inputHash": "288deb1f",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nf3 d5 d4 Nf6 Nc3": {
+    "key": "Nf3 d5 d4 Nf6 Nc3",
+    "san": "Nc3",
+    "rationale": "מפתח את הפרש ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "6920b12c",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nf3 d5 d4 Nf6 Nc3 Bf5": {
+    "key": "Nf3 d5 d4 Nf6 Nc3 Bf5",
+    "san": "Bf5",
+    "rationale": "מוציא את רץ c8 אל מחוץ לשרשרת עוד לפני ...e6 — רעיון מפתח בקארו.",
+    "model": "curated-kb",
+    "inputHash": "61a6f863",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nf3 d5 d4 Nf6 e3": {
+    "key": "Nf3 d5 d4 Nf6 e3",
+    "san": "e3",
+    "rationale": "פותח את רץ f1 ומבצר את d4.",
+    "model": "curated-kb",
+    "inputHash": "2803b077",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "Nf3 d5 d4 Nf6 e3 c5": {
+    "key": "Nf3 d5 d4 Nf6 e3 c5",
+    "san": "c5",
+    "rationale": "מכה במרכז הלבן ומשחרר את משחק השחור.",
+    "model": "curated-kb",
+    "inputHash": "01ec3151",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "c4": {
+    "key": "c4",
+    "san": "c4",
+    "rationale": "מרחיב את המרכז ולוחץ על d5.",
+    "model": "curated-kb",
+    "inputHash": "4122e8bc",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "c4 c6": {
+    "key": "c4 c6",
+    "san": "c6",
+    "rationale": "מכין ...d5 לאיתגור המרכז תוך שמירה על מבנה רגלים מוצק — לב הקארו־קאן.",
+    "model": "curated-kb",
+    "inputHash": "6033136d",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4": {
+    "key": "d4",
+    "san": "d4",
+    "rationale": "תופס מרכז.",
+    "model": "curated-kb",
+    "inputHash": "cc8b2f7c",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5": {
+    "key": "d4 d5",
+    "san": "d5",
+    "rationale": "מאתגר מיד את מרכז הלבן ותובע חלק מהמרכז.",
+    "model": "curated-kb",
+    "inputHash": "03d49f46",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4": {
+    "key": "d4 d5 Bf4",
+    "san": "Bf4",
+    "rationale": "מוציא את הרץ אל מחוץ לשרשרת הרגלים.",
+    "model": "curated-kb",
+    "inputHash": "cdc42ccf",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6": {
+    "key": "d4 d5 Bf4 Nf6",
+    "san": "Nf6",
+    "rationale": "מפתח, שולט ב-e4/d5 ולוחץ על מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "52239322",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 Nc3": {
+    "key": "d4 d5 Bf4 Nf6 Nc3",
+    "san": "Nc3",
+    "rationale": "מפתח את הפרש ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "6920b12c",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 Nc3 c5": {
+    "key": "d4 d5 Bf4 Nf6 Nc3 c5",
+    "san": "c5",
+    "rationale": "מכה במרכז הלבן ומשחרר את משחק השחור.",
+    "model": "curated-kb",
+    "inputHash": "01ec3151",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 Nc3 c5 e3": {
+    "key": "d4 d5 Bf4 Nf6 Nc3 c5 e3",
+    "san": "e3",
+    "rationale": "פותח את רץ f1 ומבצר את d4.",
+    "model": "curated-kb",
+    "inputHash": "2803b077",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 Nc3 c5 e3 cxd4": {
+    "key": "d4 d5 Bf4 Nf6 Nc3 c5 e3 cxd4",
+    "san": "cxd4",
+    "rationale": "חוטף במרכז ומשבש את מבנה הלבן.",
+    "model": "curated-kb",
+    "inputHash": "ffeeb7a1",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 Nc3 c6": {
+    "key": "d4 d5 Bf4 Nf6 Nc3 c6",
+    "san": "c6",
+    "rationale": "מכין ...d5 לאיתגור המרכז תוך שמירה על מבנה רגלים מוצק — לב הקארו־קאן.",
+    "model": "curated-kb",
+    "inputHash": "6033136d",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 Nf3": {
+    "key": "d4 d5 Bf4 Nf6 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 Nf3 c5": {
+    "key": "d4 d5 Bf4 Nf6 Nf3 c5",
+    "san": "c5",
+    "rationale": "מכה במרכז הלבן ומשחרר את משחק השחור.",
+    "model": "curated-kb",
+    "inputHash": "01ec3151",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 Nf3 c5 e3": {
+    "key": "d4 d5 Bf4 Nf6 Nf3 c5 e3",
+    "san": "e3",
+    "rationale": "פותח את רץ f1 ומבצר את d4.",
+    "model": "curated-kb",
+    "inputHash": "2803b077",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 Nf3 c5 e3 Nc6": {
+    "key": "d4 d5 Bf4 Nf6 Nf3 c5 e3 Nc6",
+    "san": "Nc6",
+    "rationale": "מפתח את הפרש ולוחץ על d4.",
+    "model": "curated-kb",
+    "inputHash": "288deb1f",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 e3": {
+    "key": "d4 d5 Bf4 Nf6 e3",
+    "san": "e3",
+    "rationale": "פותח את רץ f1 ומבצר את d4.",
+    "model": "curated-kb",
+    "inputHash": "2803b077",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 e3 c5": {
+    "key": "d4 d5 Bf4 Nf6 e3 c5",
+    "san": "c5",
+    "rationale": "מכה במרכז הלבן ומשחרר את משחק השחור.",
+    "model": "curated-kb",
+    "inputHash": "01ec3151",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 e3 c5 Nc3": {
+    "key": "d4 d5 Bf4 Nf6 e3 c5 Nc3",
+    "san": "Nc3",
+    "rationale": "מפתח את הפרש ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "6920b12c",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 e3 c5 Nc3 cxd4": {
+    "key": "d4 d5 Bf4 Nf6 e3 c5 Nc3 cxd4",
+    "san": "cxd4",
+    "rationale": "חוטף במרכז ומשבש את מבנה הלבן.",
+    "model": "curated-kb",
+    "inputHash": "ffeeb7a1",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 e3 c5 Nf3": {
+    "key": "d4 d5 Bf4 Nf6 e3 c5 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 e3 c5 Nf3 Nc6": {
+    "key": "d4 d5 Bf4 Nf6 e3 c5 Nf3 Nc6",
+    "san": "Nc6",
+    "rationale": "מפתח את הפרש ולוחץ על d4.",
+    "model": "curated-kb",
+    "inputHash": "288deb1f",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 e3 e6": {
+    "key": "d4 d5 Bf4 Nf6 e3 e6",
+    "san": "e6",
+    "rationale": "תומך ב-d5 ופותח את רץ f8.",
+    "model": "curated-kb",
+    "inputHash": "4f7df3af",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 e3 e6 Bd3": {
+    "key": "d4 d5 Bf4 Nf6 e3 e6 Bd3",
+    "san": "Bd3",
+    "rationale": "ממקם את הרץ על האלכסון לעבר המלך.",
+    "model": "curated-kb",
+    "inputHash": "6164c2d5",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 e3 e6 Bd3 Bd6": {
+    "key": "d4 d5 Bf4 Nf6 e3 e6 Bd3 Bd6",
+    "san": "Bd6",
+    "rationale": "מפתח את הרץ לאלכסון פעיל.",
+    "model": "curated-kb",
+    "inputHash": "0ecd007e",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 e3 e6 Nf3": {
+    "key": "d4 d5 Bf4 Nf6 e3 e6 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 e3 e6 Nf3 Bd6": {
+    "key": "d4 d5 Bf4 Nf6 e3 e6 Nf3 Bd6",
+    "san": "Bd6",
+    "rationale": "מפתח את הרץ לאלכסון פעיל.",
+    "model": "curated-kb",
+    "inputHash": "0ecd007e",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 e3 e6 Nf3 Bd6 Bg3": {
+    "key": "d4 d5 Bf4 Nf6 e3 e6 Nf3 Bd6 Bg3",
+    "san": "Bg3",
+    "rationale": "נסיגת הרץ לשמירה עליו.",
+    "model": "curated-kb",
+    "inputHash": "f4a5d8da",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Bf4 Nf6 e3 e6 Nf3 Bd6 Bg3 O-O": {
+    "key": "d4 d5 Bf4 Nf6 e3 e6 Nf3 Bd6 Bg3 O-O",
+    "san": "O-O",
+    "rationale": "מבריח את המלך ומחבר את הצריחים.",
+    "model": "curated-kb",
+    "inputHash": "dc1259c3",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nc3": {
+    "key": "d4 d5 Nc3",
+    "san": "Nc3",
+    "rationale": "מפתח את הפרש ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "6920b12c",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nc3 Nf6": {
+    "key": "d4 d5 Nc3 Nf6",
+    "san": "Nf6",
+    "rationale": "מפתח, שולט ב-e4/d5 ולוחץ על מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "52239322",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nc3 Nf6 Bf4": {
+    "key": "d4 d5 Nc3 Nf6 Bf4",
+    "san": "Bf4",
+    "rationale": "מוציא את הרץ אל מחוץ לשרשרת הרגלים.",
+    "model": "curated-kb",
+    "inputHash": "cdc42ccf",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nc3 Nf6 Bf4 c5": {
+    "key": "d4 d5 Nc3 Nf6 Bf4 c5",
+    "san": "c5",
+    "rationale": "מכה במרכז הלבן ומשחרר את משחק השחור.",
+    "model": "curated-kb",
+    "inputHash": "01ec3151",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nc3 Nf6 Bf4 c5 e3": {
+    "key": "d4 d5 Nc3 Nf6 Bf4 c5 e3",
+    "san": "e3",
+    "rationale": "פותח את רץ f1 ומבצר את d4.",
+    "model": "curated-kb",
+    "inputHash": "2803b077",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nc3 Nf6 Bf4 c5 e3 cxd4": {
+    "key": "d4 d5 Nc3 Nf6 Bf4 c5 e3 cxd4",
+    "san": "cxd4",
+    "rationale": "חוטף במרכז ומשבש את מבנה הלבן.",
+    "model": "curated-kb",
+    "inputHash": "ffeeb7a1",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nc3 Nf6 Bf4 c6": {
+    "key": "d4 d5 Nc3 Nf6 Bf4 c6",
+    "san": "c6",
+    "rationale": "מכין ...d5 לאיתגור המרכז תוך שמירה על מבנה רגלים מוצק — לב הקארו־קאן.",
+    "model": "curated-kb",
+    "inputHash": "6033136d",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nc3 Nf6 Nf3": {
+    "key": "d4 d5 Nc3 Nf6 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nc3 Nf6 Nf3 Bf5": {
+    "key": "d4 d5 Nc3 Nf6 Nf3 Bf5",
+    "san": "Bf5",
+    "rationale": "מוציא את רץ c8 אל מחוץ לשרשרת עוד לפני ...e6 — רעיון מפתח בקארו.",
+    "model": "curated-kb",
+    "inputHash": "61a6f863",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nf3": {
+    "key": "d4 d5 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nf3 Nf6": {
+    "key": "d4 d5 Nf3 Nf6",
+    "san": "Nf6",
+    "rationale": "מפתח, שולט ב-e4/d5 ולוחץ על מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "52239322",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nf3 Nf6 Bf4": {
+    "key": "d4 d5 Nf3 Nf6 Bf4",
+    "san": "Bf4",
+    "rationale": "מוציא את הרץ אל מחוץ לשרשרת הרגלים.",
+    "model": "curated-kb",
+    "inputHash": "cdc42ccf",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nf3 Nf6 Bf4 c5": {
+    "key": "d4 d5 Nf3 Nf6 Bf4 c5",
+    "san": "c5",
+    "rationale": "מכה במרכז הלבן ומשחרר את משחק השחור.",
+    "model": "curated-kb",
+    "inputHash": "01ec3151",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nf3 Nf6 Bf4 c5 e3": {
+    "key": "d4 d5 Nf3 Nf6 Bf4 c5 e3",
+    "san": "e3",
+    "rationale": "פותח את רץ f1 ומבצר את d4.",
+    "model": "curated-kb",
+    "inputHash": "2803b077",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nf3 Nf6 Bf4 c5 e3 Nc6": {
+    "key": "d4 d5 Nf3 Nf6 Bf4 c5 e3 Nc6",
+    "san": "Nc6",
+    "rationale": "מפתח את הפרש ולוחץ על d4.",
+    "model": "curated-kb",
+    "inputHash": "288deb1f",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nf3 Nf6 Nc3": {
+    "key": "d4 d5 Nf3 Nf6 Nc3",
+    "san": "Nc3",
+    "rationale": "מפתח את הפרש ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "6920b12c",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nf3 Nf6 Nc3 Bf5": {
+    "key": "d4 d5 Nf3 Nf6 Nc3 Bf5",
+    "san": "Bf5",
+    "rationale": "מוציא את רץ c8 אל מחוץ לשרשרת עוד לפני ...e6 — רעיון מפתח בקארו.",
+    "model": "curated-kb",
+    "inputHash": "61a6f863",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nf3 Nf6 e3": {
+    "key": "d4 d5 Nf3 Nf6 e3",
+    "san": "e3",
+    "rationale": "פותח את רץ f1 ומבצר את d4.",
+    "model": "curated-kb",
+    "inputHash": "2803b077",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 Nf3 Nf6 e3 c5": {
+    "key": "d4 d5 Nf3 Nf6 e3 c5",
+    "san": "c5",
+    "rationale": "מכה במרכז הלבן ומשחרר את משחק השחור.",
+    "model": "curated-kb",
+    "inputHash": "01ec3151",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 c4": {
+    "key": "d4 d5 c4",
+    "san": "c4",
+    "rationale": "מרחיב את המרכז ולוחץ על d5.",
+    "model": "curated-kb",
+    "inputHash": "4122e8bc",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 c4 c6": {
+    "key": "d4 d5 c4 c6",
+    "san": "c6",
+    "rationale": "מכין ...d5 לאיתגור המרכז תוך שמירה על מבנה רגלים מוצק — לב הקארו־קאן.",
+    "model": "curated-kb",
+    "inputHash": "6033136d",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 c4 c6 Nc3": {
+    "key": "d4 d5 c4 c6 Nc3",
+    "san": "Nc3",
+    "rationale": "מפתח את הפרש ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "6920b12c",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 c4 c6 Nc3 Nf6": {
+    "key": "d4 d5 c4 c6 Nc3 Nf6",
+    "san": "Nf6",
+    "rationale": "מפתח, שולט ב-e4/d5 ולוחץ על מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "52239322",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 e3": {
+    "key": "d4 d5 e3",
+    "san": "e3",
+    "rationale": "פותח את רץ f1 ומבצר את d4.",
+    "model": "curated-kb",
+    "inputHash": "2803b077",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 e3 Nf6": {
+    "key": "d4 d5 e3 Nf6",
+    "san": "Nf6",
+    "rationale": "מפתח, שולט ב-e4/d5 ולוחץ על מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "52239322",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 e3 Nf6 Nf3": {
+    "key": "d4 d5 e3 Nf6 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "d4 d5 e3 Nf6 Nf3 c5": {
+    "key": "d4 d5 e3 Nf6 Nf3 c5",
+    "san": "c5",
+    "rationale": "מכה במרכז הלבן ומשחרר את משחק השחור.",
+    "model": "curated-kb",
+    "inputHash": "01ec3151",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e3": {
+    "key": "e3",
+    "san": "e3",
+    "rationale": "פותח את רץ f1 ומבצר את d4.",
+    "model": "curated-kb",
+    "inputHash": "2803b077",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e3 d5": {
+    "key": "e3 d5",
+    "san": "d5",
+    "rationale": "מאתגר מיד את מרכז הלבן ותובע חלק מהמרכז.",
+    "model": "curated-kb",
+    "inputHash": "03d49f46",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e3 d5 d4": {
+    "key": "e3 d5 d4",
+    "san": "d4",
+    "rationale": "תופס מרכז.",
+    "model": "curated-kb",
+    "inputHash": "cc8b2f7c",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e3 d5 d4 Nf6": {
+    "key": "e3 d5 d4 Nf6",
+    "san": "Nf6",
+    "rationale": "מפתח, שולט ב-e4/d5 ולוחץ על מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "52239322",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e3 d5 d4 Nf6 Nf3": {
+    "key": "e3 d5 d4 Nf6 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e3 d5 d4 Nf6 Nf3 c5": {
+    "key": "e3 d5 d4 Nf6 Nf3 c5",
+    "san": "c5",
+    "rationale": "מכה במרכז הלבן ומשחרר את משחק השחור.",
+    "model": "curated-kb",
+    "inputHash": "01ec3151",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e4": {
+    "key": "e4",
+    "san": "e4",
+    "rationale": "פותח את המרכז (פתיחת המלך).",
+    "model": "curated-kb",
+    "inputHash": "6aebd769",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6": {
+    "key": "e4 c6",
+    "san": "c6",
+    "rationale": "מכין ...d5 לאיתגור המרכז תוך שמירה על מבנה רגלים מוצק — לב הקארו־קאן.",
+    "model": "curated-kb",
+    "inputHash": "6033136d",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Bc4": {
+    "key": "e4 c6 Bc4",
+    "san": "Bc4",
+    "rationale": "מכוון את הרץ אל f7.",
+    "model": "curated-kb",
+    "inputHash": "ce594db5",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Bc4 d5": {
+    "key": "e4 c6 Bc4 d5",
+    "san": "d5",
+    "rationale": "מאתגר מיד את מרכז הלבן ותובע חלק מהמרכז.",
+    "model": "curated-kb",
+    "inputHash": "03d49f46",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Bc4 d5 exd5": {
+    "key": "e4 c6 Bc4 d5 exd5",
+    "san": "exd5",
+    "rationale": "מחליף במרכז (וריאציית ההחלפה).",
+    "model": "curated-kb",
+    "inputHash": "4b18a770",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Bc4 d5 exd5 cxd5": {
+    "key": "e4 c6 Bc4 d5 exd5 cxd5",
+    "san": "cxd5",
+    "rationale": "מחזיר על d5 ושומר על מבנה רגלים מאוזן.",
+    "model": "curated-kb",
+    "inputHash": "f1bcfe24",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Bc4 d5 exd5 cxd5 Bb3": {
+    "key": "e4 c6 Bc4 d5 exd5 cxd5 Bb3",
+    "san": "Bb3",
+    "rationale": "נסיגת הרץ לשמירת האלכסון אל f7.",
+    "model": "curated-kb",
+    "inputHash": "849428b1",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Bc4 d5 exd5 cxd5 Bb3 Nf6": {
+    "key": "e4 c6 Bc4 d5 exd5 cxd5 Bb3 Nf6",
+    "san": "Nf6",
+    "rationale": "מפתח, שולט ב-e4/d5 ולוחץ על מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "52239322",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Bc4 d5 exd5 cxd5 Bb5+": {
+    "key": "e4 c6 Bc4 d5 exd5 cxd5 Bb5+",
+    "san": "Bb5+",
+    "rationale": "נותן שח כדי לשבש את הפיתוח.",
+    "model": "curated-kb",
+    "inputHash": "a60c3ee0",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Bc4 d5 exd5 cxd5 Bb5+ Nc6": {
+    "key": "e4 c6 Bc4 d5 exd5 cxd5 Bb5+ Nc6",
+    "san": "Nc6",
+    "rationale": "מפתח את הפרש ולוחץ על d4.",
+    "model": "curated-kb",
+    "inputHash": "288deb1f",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3": {
+    "key": "e4 c6 Nc3",
+    "san": "Nc3",
+    "rationale": "מפתח את הפרש ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "6920b12c",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5": {
+    "key": "e4 c6 Nc3 d5",
+    "san": "d5",
+    "rationale": "מאתגר מיד את מרכז הלבן ותובע חלק מהמרכז.",
+    "model": "curated-kb",
+    "inputHash": "03d49f46",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 Nf3": {
+    "key": "e4 c6 Nc3 d5 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 Nf3 Bg4": {
+    "key": "e4 c6 Nc3 d5 Nf3 Bg4",
+    "san": "Bg4",
+    "rationale": "מסכל את הפרש f3 ומכין החלפה שמקלה על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "c3cec277",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 Nf3 Bg4 h3": {
+    "key": "e4 c6 Nc3 d5 Nf3 Bg4 h3",
+    "san": "h3",
+    "rationale": "מונע סיכת ...Bg4.",
+    "model": "curated-kb",
+    "inputHash": "7d83ddda",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 Nf3 Bg4 h3 Bxf3": {
+    "key": "e4 c6 Nc3 d5 Nf3 Bg4 h3 Bxf3",
+    "san": "Bxf3",
+    "rationale": "מחליף ומפרק את הלחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "753231c1",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 d4": {
+    "key": "e4 c6 Nc3 d5 d4",
+    "san": "d4",
+    "rationale": "תופס מרכז.",
+    "model": "curated-kb",
+    "inputHash": "cc8b2f7c",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 d4 dxe4": {
+    "key": "e4 c6 Nc3 d5 d4 dxe4",
+    "san": "dxe4",
+    "rationale": "מחליף במרכז ומפרק את מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "9ad779bd",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 d4 dxe4 Nxe4": {
+    "key": "e4 c6 Nc3 d5 d4 dxe4 Nxe4",
+    "san": "Nxe4",
+    "rationale": "חוטף בחזרה במרכז.",
+    "model": "curated-kb",
+    "inputHash": "d53cc1b4",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 d4 dxe4 Nxe4 Bf5": {
+    "key": "e4 c6 Nc3 d5 d4 dxe4 Nxe4 Bf5",
+    "san": "Bf5",
+    "rationale": "מוציא את רץ c8 אל מחוץ לשרשרת עוד לפני ...e6 — רעיון מפתח בקארו.",
+    "model": "curated-kb",
+    "inputHash": "61a6f863",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 d4 dxe4 Nxe4 Bf5 Bd3": {
+    "key": "e4 c6 Nc3 d5 d4 dxe4 Nxe4 Bf5 Bd3",
+    "san": "Bd3",
+    "rationale": "ממקם את הרץ על האלכסון לעבר המלך.",
+    "model": "curated-kb",
+    "inputHash": "6164c2d5",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 d4 dxe4 Nxe4 Bf5 Bd3 Qxd4": {
+    "key": "e4 c6 Nc3 d5 d4 dxe4 Nxe4 Bf5 Bd3 Qxd4",
+    "san": "Qxd4",
+    "rationale": "חוטף את הרגל המורעל וזוכה בחומר — ניצול טקטי מוכר בקארו.",
+    "model": "curated-kb",
+    "inputHash": "764a0c2e",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 exd5": {
+    "key": "e4 c6 Nc3 d5 exd5",
+    "san": "exd5",
+    "rationale": "מחליף במרכז (וריאציית ההחלפה).",
+    "model": "curated-kb",
+    "inputHash": "4b18a770",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 exd5 cxd5": {
+    "key": "e4 c6 Nc3 d5 exd5 cxd5",
+    "san": "cxd5",
+    "rationale": "מחזיר על d5 ושומר על מבנה רגלים מאוזן.",
+    "model": "curated-kb",
+    "inputHash": "f1bcfe24",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 exd5 cxd5 Nf3": {
+    "key": "e4 c6 Nc3 d5 exd5 cxd5 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 exd5 cxd5 Nf3 Nf6": {
+    "key": "e4 c6 Nc3 d5 exd5 cxd5 Nf3 Nf6",
+    "san": "Nf6",
+    "rationale": "מפתח, שולט ב-e4/d5 ולוחץ על מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "52239322",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 exd5 cxd5 Nf3 Nf6 d4": {
+    "key": "e4 c6 Nc3 d5 exd5 cxd5 Nf3 Nf6 d4",
+    "san": "d4",
+    "rationale": "תופס מרכז.",
+    "model": "curated-kb",
+    "inputHash": "cc8b2f7c",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 exd5 cxd5 Nf3 Nf6 d4 Nc6": {
+    "key": "e4 c6 Nc3 d5 exd5 cxd5 Nf3 Nf6 d4 Nc6",
+    "san": "Nc6",
+    "rationale": "מפתח את הפרש ולוחץ על d4.",
+    "model": "curated-kb",
+    "inputHash": "288deb1f",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 exd5 cxd5 Nf3 Nf6 d4 Nc6 Bb5": {
+    "key": "e4 c6 Nc3 d5 exd5 cxd5 Nf3 Nf6 d4 Nc6 Bb5",
+    "san": "Bb5",
+    "rationale": "מסכל את הפרש c6.",
+    "model": "curated-kb",
+    "inputHash": "433f4bff",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 exd5 cxd5 Nf3 Nf6 d4 Nc6 Bb5 Bg4": {
+    "key": "e4 c6 Nc3 d5 exd5 cxd5 Nf3 Nf6 d4 Nc6 Bb5 Bg4",
+    "san": "Bg4",
+    "rationale": "מסכל את הפרש f3 ומכין החלפה שמקלה על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "c3cec277",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 exd5 cxd5 d4": {
+    "key": "e4 c6 Nc3 d5 exd5 cxd5 d4",
+    "san": "d4",
+    "rationale": "תופס מרכז.",
+    "model": "curated-kb",
+    "inputHash": "cc8b2f7c",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 exd5 cxd5 d4 Nf6": {
+    "key": "e4 c6 Nc3 d5 exd5 cxd5 d4 Nf6",
+    "san": "Nf6",
+    "rationale": "מפתח, שולט ב-e4/d5 ולוחץ על מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "52239322",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 exd5 cxd5 d4 Nf6 Nf3": {
+    "key": "e4 c6 Nc3 d5 exd5 cxd5 d4 Nf6 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 exd5 cxd5 d4 Nf6 Nf3 Nc6": {
+    "key": "e4 c6 Nc3 d5 exd5 cxd5 d4 Nf6 Nf3 Nc6",
+    "san": "Nc6",
+    "rationale": "מפתח את הפרש ולוחץ על d4.",
+    "model": "curated-kb",
+    "inputHash": "288deb1f",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 exd5 cxd5 d4 Nf6 Nf3 Nc6 Bb5": {
+    "key": "e4 c6 Nc3 d5 exd5 cxd5 d4 Nf6 Nf3 Nc6 Bb5",
+    "san": "Bb5",
+    "rationale": "מסכל את הפרש c6.",
+    "model": "curated-kb",
+    "inputHash": "433f4bff",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nc3 d5 exd5 cxd5 d4 Nf6 Nf3 Nc6 Bb5 Bg4": {
+    "key": "e4 c6 Nc3 d5 exd5 cxd5 d4 Nf6 Nf3 Nc6 Bb5 Bg4",
+    "san": "Bg4",
+    "rationale": "מסכל את הפרש f3 ומכין החלפה שמקלה על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "c3cec277",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3": {
+    "key": "e4 c6 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5": {
+    "key": "e4 c6 Nf3 d5",
+    "san": "d5",
+    "rationale": "מאתגר מיד את מרכז הלבן ותובע חלק מהמרכז.",
+    "model": "curated-kb",
+    "inputHash": "03d49f46",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 Nc3": {
+    "key": "e4 c6 Nf3 d5 Nc3",
+    "san": "Nc3",
+    "rationale": "מפתח את הפרש ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "6920b12c",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 Nc3 Bg4": {
+    "key": "e4 c6 Nf3 d5 Nc3 Bg4",
+    "san": "Bg4",
+    "rationale": "מסכל את הפרש f3 ומכין החלפה שמקלה על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "c3cec277",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 Nc3 Bg4 h3": {
+    "key": "e4 c6 Nf3 d5 Nc3 Bg4 h3",
+    "san": "h3",
+    "rationale": "מונע סיכת ...Bg4.",
+    "model": "curated-kb",
+    "inputHash": "7d83ddda",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 Nc3 Bg4 h3 Bxf3": {
+    "key": "e4 c6 Nf3 d5 Nc3 Bg4 h3 Bxf3",
+    "san": "Bxf3",
+    "rationale": "מחליף ומפרק את הלחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "753231c1",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 d3": {
+    "key": "e4 c6 Nf3 d5 d3",
+    "san": "d3",
+    "rationale": "מבנה איטי ושמרני.",
+    "model": "curated-kb",
+    "inputHash": "f3b22b8f",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 d3 dxe4": {
+    "key": "e4 c6 Nf3 d5 d3 dxe4",
+    "san": "dxe4",
+    "rationale": "מחליף במרכז ומפרק את מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "9ad779bd",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 d3 dxe4 dxe4": {
+    "key": "e4 c6 Nf3 d5 d3 dxe4 dxe4",
+    "san": "dxe4",
+    "rationale": "חוטף בחזרה במרכז.",
+    "model": "curated-kb",
+    "inputHash": "d53cc1b4",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 d3 dxe4 dxe4 Qxd1+": {
+    "key": "e4 c6 Nf3 d5 d3 dxe4 dxe4 Qxd1+",
+    "san": "Qxd1+",
+    "rationale": "מחליף מלכות ונכנס לסיום נוח ושקול.",
+    "model": "curated-kb",
+    "inputHash": "3e2f1e61",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 d3 dxe4 dxe4 Qxd1+ Kxd1": {
+    "key": "e4 c6 Nf3 d5 d3 dxe4 dxe4 Qxd1+ Kxd1",
+    "san": "Kxd1",
+    "rationale": "חוטף בחזרה לאחר חילופי מלכות.",
+    "model": "curated-kb",
+    "inputHash": "9e8cee57",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 d3 dxe4 dxe4 Qxd1+ Kxd1 Nf6": {
+    "key": "e4 c6 Nf3 d5 d3 dxe4 dxe4 Qxd1+ Kxd1 Nf6",
+    "san": "Nf6",
+    "rationale": "מפתח, שולט ב-e4/d5 ולוחץ על מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "52239322",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 d4": {
+    "key": "e4 c6 Nf3 d5 d4",
+    "san": "d4",
+    "rationale": "תופס מרכז.",
+    "model": "curated-kb",
+    "inputHash": "cc8b2f7c",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 d4 dxe4": {
+    "key": "e4 c6 Nf3 d5 d4 dxe4",
+    "san": "dxe4",
+    "rationale": "מחליף במרכז ומפרק את מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "9ad779bd",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 e5": {
+    "key": "e4 c6 Nf3 d5 e5",
+    "san": "e5",
+    "rationale": "דוחף ותופס שטח (וריאציית הקידום).",
+    "model": "curated-kb",
+    "inputHash": "aa17e33a",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 e5 Bg4": {
+    "key": "e4 c6 Nf3 d5 e5 Bg4",
+    "san": "Bg4",
+    "rationale": "מסכל את הפרש f3 ומכין החלפה שמקלה על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "c3cec277",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 e5 Bg4 d4": {
+    "key": "e4 c6 Nf3 d5 e5 Bg4 d4",
+    "san": "d4",
+    "rationale": "תופס מרכז.",
+    "model": "curated-kb",
+    "inputHash": "cc8b2f7c",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 e5 Bg4 d4 e6": {
+    "key": "e4 c6 Nf3 d5 e5 Bg4 d4 e6",
+    "san": "e6",
+    "rationale": "תומך ב-d5 ופותח את רץ f8.",
+    "model": "curated-kb",
+    "inputHash": "4f7df3af",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 exd5": {
+    "key": "e4 c6 Nf3 d5 exd5",
+    "san": "exd5",
+    "rationale": "מחליף במרכז (וריאציית ההחלפה).",
+    "model": "curated-kb",
+    "inputHash": "4b18a770",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 exd5 cxd5": {
+    "key": "e4 c6 Nf3 d5 exd5 cxd5",
+    "san": "cxd5",
+    "rationale": "מחזיר על d5 ושומר על מבנה רגלים מאוזן.",
+    "model": "curated-kb",
+    "inputHash": "f1bcfe24",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 exd5 cxd5 Bb5+": {
+    "key": "e4 c6 Nf3 d5 exd5 cxd5 Bb5+",
+    "san": "Bb5+",
+    "rationale": "נותן שח כדי לשבש את הפיתוח.",
+    "model": "curated-kb",
+    "inputHash": "a60c3ee0",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 exd5 cxd5 Bb5+ Bd7": {
+    "key": "e4 c6 Nf3 d5 exd5 cxd5 Bb5+ Bd7",
+    "san": "Bd7",
+    "rationale": "מפתח את הרץ ומכין ...e6 ו-...Ngf6.",
+    "model": "curated-kb",
+    "inputHash": "77036fe7",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 exd5 cxd5 Nc3": {
+    "key": "e4 c6 Nf3 d5 exd5 cxd5 Nc3",
+    "san": "Nc3",
+    "rationale": "מפתח את הפרש ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "6920b12c",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 exd5 cxd5 Nc3 Nf6": {
+    "key": "e4 c6 Nf3 d5 exd5 cxd5 Nc3 Nf6",
+    "san": "Nf6",
+    "rationale": "מפתח, שולט ב-e4/d5 ולוחץ על מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "52239322",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 exd5 cxd5 Nc3 Nf6 d4": {
+    "key": "e4 c6 Nf3 d5 exd5 cxd5 Nc3 Nf6 d4",
+    "san": "d4",
+    "rationale": "תופס מרכז.",
+    "model": "curated-kb",
+    "inputHash": "cc8b2f7c",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 exd5 cxd5 Nc3 Nf6 d4 Nc6": {
+    "key": "e4 c6 Nf3 d5 exd5 cxd5 Nc3 Nf6 d4 Nc6",
+    "san": "Nc6",
+    "rationale": "מפתח את הפרש ולוחץ על d4.",
+    "model": "curated-kb",
+    "inputHash": "288deb1f",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 exd5 cxd5 Nc3 Nf6 d4 Nc6 Bb5": {
+    "key": "e4 c6 Nf3 d5 exd5 cxd5 Nc3 Nf6 d4 Nc6 Bb5",
+    "san": "Bb5",
+    "rationale": "מסכל את הפרש c6.",
+    "model": "curated-kb",
+    "inputHash": "433f4bff",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 exd5 cxd5 Nc3 Nf6 d4 Nc6 Bb5 Bg4": {
+    "key": "e4 c6 Nf3 d5 exd5 cxd5 Nc3 Nf6 d4 Nc6 Bb5 Bg4",
+    "san": "Bg4",
+    "rationale": "מסכל את הפרש f3 ומכין החלפה שמקלה על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "c3cec277",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 exd5 cxd5 d4": {
+    "key": "e4 c6 Nf3 d5 exd5 cxd5 d4",
+    "san": "d4",
+    "rationale": "תופס מרכז.",
+    "model": "curated-kb",
+    "inputHash": "cc8b2f7c",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6": {
+    "key": "e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6",
+    "san": "Nc6",
+    "rationale": "מפתח את הפרש ולוחץ על d4.",
+    "model": "curated-kb",
+    "inputHash": "288deb1f",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6 Bb5": {
+    "key": "e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6 Bb5",
+    "san": "Bb5",
+    "rationale": "מסכל את הפרש c6.",
+    "model": "curated-kb",
+    "inputHash": "433f4bff",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6 Bb5 Bg4": {
+    "key": "e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6 Bb5 Bg4",
+    "san": "Bg4",
+    "rationale": "מסכל את הפרש f3 ומכין החלפה שמקלה על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "c3cec277",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6 Nc3": {
+    "key": "e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6 Nc3",
+    "san": "Nc3",
+    "rationale": "מפתח את הפרש ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "6920b12c",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6 Nc3 Bg4": {
+    "key": "e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6 Nc3 Bg4",
+    "san": "Bg4",
+    "rationale": "מסכל את הפרש f3 ומכין החלפה שמקלה על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "c3cec277",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Qf3": {
+    "key": "e4 c6 Qf3",
+    "san": "Qf3",
+    "rationale": "יציאת מלכה שמכוונת על המרכז ו-f7.",
+    "model": "curated-kb",
+    "inputHash": "6481dbc8",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Qf3 d5": {
+    "key": "e4 c6 Qf3 d5",
+    "san": "d5",
+    "rationale": "מאתגר מיד את מרכז הלבן ותובע חלק מהמרכז.",
+    "model": "curated-kb",
+    "inputHash": "03d49f46",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Qf3 d5 exd5": {
+    "key": "e4 c6 Qf3 d5 exd5",
+    "san": "exd5",
+    "rationale": "מחליף במרכז (וריאציית ההחלפה).",
+    "model": "curated-kb",
+    "inputHash": "4b18a770",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Qf3 d5 exd5 cxd5": {
+    "key": "e4 c6 Qf3 d5 exd5 cxd5",
+    "san": "cxd5",
+    "rationale": "מחזיר על d5 ושומר על מבנה רגלים מאוזן.",
+    "model": "curated-kb",
+    "inputHash": "f1bcfe24",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Qh5": {
+    "key": "e4 c6 Qh5",
+    "san": "Qh5",
+    "rationale": "יציאת מלכה מוקדמת שמכוונת על e5/f7.",
+    "model": "curated-kb",
+    "inputHash": "c5e0c097",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Qh5 Nf6": {
+    "key": "e4 c6 Qh5 Nf6",
+    "san": "Nf6",
+    "rationale": "מפתח, שולט ב-e4/d5 ולוחץ על מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "52239322",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Qh5 Nf6 Qf3": {
+    "key": "e4 c6 Qh5 Nf6 Qf3",
+    "san": "Qf3",
+    "rationale": "יציאת מלכה שמכוונת על המרכז ו-f7.",
+    "model": "curated-kb",
+    "inputHash": "6481dbc8",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 Qh5 Nf6 Qf3 e5": {
+    "key": "e4 c6 Qh5 Nf6 Qf3 e5",
+    "san": "e5",
+    "rationale": "שובר במרכז ומשחרר את עמדת השחור.",
+    "model": "curated-kb",
+    "inputHash": "060e312f",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d3": {
+    "key": "e4 c6 d3",
+    "san": "d3",
+    "rationale": "מבנה איטי ושמרני.",
+    "model": "curated-kb",
+    "inputHash": "f3b22b8f",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d3 d5": {
+    "key": "e4 c6 d3 d5",
+    "san": "d5",
+    "rationale": "מאתגר מיד את מרכז הלבן ותובע חלק מהמרכז.",
+    "model": "curated-kb",
+    "inputHash": "03d49f46",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d3 d5 Nf3": {
+    "key": "e4 c6 d3 d5 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d3 d5 Nf3 dxe4": {
+    "key": "e4 c6 d3 d5 Nf3 dxe4",
+    "san": "dxe4",
+    "rationale": "מחליף במרכז ומפרק את מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "9ad779bd",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d3 d5 Nf3 dxe4 dxe4": {
+    "key": "e4 c6 d3 d5 Nf3 dxe4 dxe4",
+    "san": "dxe4",
+    "rationale": "חוטף בחזרה במרכז.",
+    "model": "curated-kb",
+    "inputHash": "d53cc1b4",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d3 d5 Nf3 dxe4 dxe4 Qxd1+": {
+    "key": "e4 c6 d3 d5 Nf3 dxe4 dxe4 Qxd1+",
+    "san": "Qxd1+",
+    "rationale": "מחליף מלכות ונכנס לסיום נוח ושקול.",
+    "model": "curated-kb",
+    "inputHash": "3e2f1e61",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d3 d5 Nf3 dxe4 dxe4 Qxd1+ Kxd1": {
+    "key": "e4 c6 d3 d5 Nf3 dxe4 dxe4 Qxd1+ Kxd1",
+    "san": "Kxd1",
+    "rationale": "חוטף בחזרה לאחר חילופי מלכות.",
+    "model": "curated-kb",
+    "inputHash": "9e8cee57",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d3 d5 Nf3 dxe4 dxe4 Qxd1+ Kxd1 Nf6": {
+    "key": "e4 c6 d3 d5 Nf3 dxe4 dxe4 Qxd1+ Kxd1 Nf6",
+    "san": "Nf6",
+    "rationale": "מפתח, שולט ב-e4/d5 ולוחץ על מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "52239322",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4": {
+    "key": "e4 c6 d4",
+    "san": "d4",
+    "rationale": "תופס מרכז.",
+    "model": "curated-kb",
+    "inputHash": "cc8b2f7c",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5": {
+    "key": "e4 c6 d4 d5",
+    "san": "d5",
+    "rationale": "מאתגר מיד את מרכז הלבן ותובע חלק מהמרכז.",
+    "model": "curated-kb",
+    "inputHash": "03d49f46",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 Nc3": {
+    "key": "e4 c6 d4 d5 Nc3",
+    "san": "Nc3",
+    "rationale": "מפתח את הפרש ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "6920b12c",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 Nc3 dxe4": {
+    "key": "e4 c6 d4 d5 Nc3 dxe4",
+    "san": "dxe4",
+    "rationale": "מחליף במרכז ומפרק את מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "9ad779bd",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 Nc3 dxe4 Nxe4": {
+    "key": "e4 c6 d4 d5 Nc3 dxe4 Nxe4",
+    "san": "Nxe4",
+    "rationale": "חוטף בחזרה במרכז.",
+    "model": "curated-kb",
+    "inputHash": "d53cc1b4",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5": {
+    "key": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5",
+    "san": "Bf5",
+    "rationale": "מוציא את רץ c8 אל מחוץ לשרשרת עוד לפני ...e6 — רעיון מפתח בקארו.",
+    "model": "curated-kb",
+    "inputHash": "61a6f863",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5 Bd3": {
+    "key": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5 Bd3",
+    "san": "Bd3",
+    "rationale": "ממקם את הרץ על האלכסון לעבר המלך.",
+    "model": "curated-kb",
+    "inputHash": "6164c2d5",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5 Bd3 Qxd4": {
+    "key": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5 Bd3 Qxd4",
+    "san": "Qxd4",
+    "rationale": "חוטף את הרגל המורעל וזוכה בחומר — ניצול טקטי מוכר בקארו.",
+    "model": "curated-kb",
+    "inputHash": "764a0c2e",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 Nf3": {
+    "key": "e4 c6 d4 d5 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 Nf3 dxe4": {
+    "key": "e4 c6 d4 d5 Nf3 dxe4",
+    "san": "dxe4",
+    "rationale": "מחליף במרכז ומפרק את מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "9ad779bd",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 e5": {
+    "key": "e4 c6 d4 d5 e5",
+    "san": "e5",
+    "rationale": "דוחף ותופס שטח (וריאציית הקידום).",
+    "model": "curated-kb",
+    "inputHash": "aa17e33a",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 e5 Bf5": {
+    "key": "e4 c6 d4 d5 e5 Bf5",
+    "san": "Bf5",
+    "rationale": "מוציא את רץ c8 אל מחוץ לשרשרת עוד לפני ...e6 — רעיון מפתח בקארו.",
+    "model": "curated-kb",
+    "inputHash": "61a6f863",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 e5 Bf5 Bd3": {
+    "key": "e4 c6 d4 d5 e5 Bf5 Bd3",
+    "san": "Bd3",
+    "rationale": "ממקם את הרץ על האלכסון לעבר המלך.",
+    "model": "curated-kb",
+    "inputHash": "6164c2d5",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 e5 Bf5 Bd3 Bxd3": {
+    "key": "e4 c6 d4 d5 e5 Bf5 Bd3 Bxd3",
+    "san": "Bxd3",
+    "rationale": "מחליף את הרץ הפעיל של הלבן ומקל על העמדה.",
+    "model": "curated-kb",
+    "inputHash": "27039e04",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 e5 Bf5 Bd3 Bxd3 Qxd3": {
+    "key": "e4 c6 d4 d5 e5 Bf5 Bd3 Bxd3 Qxd3",
+    "san": "Qxd3",
+    "rationale": "חוטף בחזרה ושומר על מבנה.",
+    "model": "curated-kb",
+    "inputHash": "69a7061c",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 e5 Bf5 Bd3 Bxd3 Qxd3 e6": {
+    "key": "e4 c6 d4 d5 e5 Bf5 Bd3 Bxd3 Qxd3 e6",
+    "san": "e6",
+    "rationale": "תומך ב-d5 ופותח את רץ f8.",
+    "model": "curated-kb",
+    "inputHash": "4f7df3af",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 e5 Bf5 Bd3 Bxd3 Qxd3 e6 Nf3": {
+    "key": "e4 c6 d4 d5 e5 Bf5 Bd3 Bxd3 Qxd3 e6 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 e5 Bf5 Bd3 Bxd3 Qxd3 e6 Nf3 Nd7": {
+    "key": "e4 c6 d4 d5 e5 Bf5 Bd3 Bxd3 Qxd3 e6 Nf3 Nd7",
+    "san": "Nd7",
+    "rationale": "מפתח בגמישות ותומך ב-...Ngf6 ו-...e5.",
+    "model": "curated-kb",
+    "inputHash": "7d7943a5",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 e5 Bf5 Nf3": {
+    "key": "e4 c6 d4 d5 e5 Bf5 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 e5 Bf5 Nf3 e6": {
+    "key": "e4 c6 d4 d5 e5 Bf5 Nf3 e6",
+    "san": "e6",
+    "rationale": "תומך ב-d5 ופותח את רץ f8.",
+    "model": "curated-kb",
+    "inputHash": "4f7df3af",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 e5 Bf5 Nf3 e6 Bd3": {
+    "key": "e4 c6 d4 d5 e5 Bf5 Nf3 e6 Bd3",
+    "san": "Bd3",
+    "rationale": "ממקם את הרץ על האלכסון לעבר המלך.",
+    "model": "curated-kb",
+    "inputHash": "6164c2d5",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 e5 Bf5 Nf3 e6 Bd3 Bxd3": {
+    "key": "e4 c6 d4 d5 e5 Bf5 Nf3 e6 Bd3 Bxd3",
+    "san": "Bxd3",
+    "rationale": "מחליף את הרץ הפעיל של הלבן ומקל על העמדה.",
+    "model": "curated-kb",
+    "inputHash": "27039e04",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 e5 Bf5 Nf3 e6 Bd3 Bxd3 Qxd3": {
+    "key": "e4 c6 d4 d5 e5 Bf5 Nf3 e6 Bd3 Bxd3 Qxd3",
+    "san": "Qxd3",
+    "rationale": "חוטף בחזרה ושומר על מבנה.",
+    "model": "curated-kb",
+    "inputHash": "69a7061c",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 e5 Bf5 Nf3 e6 Bd3 Bxd3 Qxd3 Nd7": {
+    "key": "e4 c6 d4 d5 e5 Bf5 Nf3 e6 Bd3 Bxd3 Qxd3 Nd7",
+    "san": "Nd7",
+    "rationale": "מפתח בגמישות ותומך ב-...Ngf6 ו-...e5.",
+    "model": "curated-kb",
+    "inputHash": "7d7943a5",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 exd5": {
+    "key": "e4 c6 d4 d5 exd5",
+    "san": "exd5",
+    "rationale": "מחליף במרכז (וריאציית ההחלפה).",
+    "model": "curated-kb",
+    "inputHash": "4b18a770",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 exd5 cxd5": {
+    "key": "e4 c6 d4 d5 exd5 cxd5",
+    "san": "cxd5",
+    "rationale": "מחזיר על d5 ושומר על מבנה רגלים מאוזן.",
+    "model": "curated-kb",
+    "inputHash": "f1bcfe24",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 exd5 cxd5 Nc3": {
+    "key": "e4 c6 d4 d5 exd5 cxd5 Nc3",
+    "san": "Nc3",
+    "rationale": "מפתח את הפרש ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "6920b12c",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 exd5 cxd5 Nc3 Nf6": {
+    "key": "e4 c6 d4 d5 exd5 cxd5 Nc3 Nf6",
+    "san": "Nf6",
+    "rationale": "מפתח, שולט ב-e4/d5 ולוחץ על מרכז הלבן.",
+    "model": "curated-kb",
+    "inputHash": "52239322",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 exd5 cxd5 Nc3 Nf6 Nf3": {
+    "key": "e4 c6 d4 d5 exd5 cxd5 Nc3 Nf6 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 exd5 cxd5 Nc3 Nf6 Nf3 Nc6": {
+    "key": "e4 c6 d4 d5 exd5 cxd5 Nc3 Nf6 Nf3 Nc6",
+    "san": "Nc6",
+    "rationale": "מפתח את הפרש ולוחץ על d4.",
+    "model": "curated-kb",
+    "inputHash": "288deb1f",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 exd5 cxd5 Nc3 Nf6 Nf3 Nc6 Bb5": {
+    "key": "e4 c6 d4 d5 exd5 cxd5 Nc3 Nf6 Nf3 Nc6 Bb5",
+    "san": "Bb5",
+    "rationale": "מסכל את הפרש c6.",
+    "model": "curated-kb",
+    "inputHash": "433f4bff",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 exd5 cxd5 Nc3 Nf6 Nf3 Nc6 Bb5 Bg4": {
+    "key": "e4 c6 d4 d5 exd5 cxd5 Nc3 Nf6 Nf3 Nc6 Bb5 Bg4",
+    "san": "Bg4",
+    "rationale": "מסכל את הפרש f3 ומכין החלפה שמקלה על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "c3cec277",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 exd5 cxd5 Nf3": {
+    "key": "e4 c6 d4 d5 exd5 cxd5 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 exd5 cxd5 Nf3 Nc6": {
+    "key": "e4 c6 d4 d5 exd5 cxd5 Nf3 Nc6",
+    "san": "Nc6",
+    "rationale": "מפתח את הפרש ולוחץ על d4.",
+    "model": "curated-kb",
+    "inputHash": "288deb1f",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 exd5 cxd5 Nf3 Nc6 Bb5": {
+    "key": "e4 c6 d4 d5 exd5 cxd5 Nf3 Nc6 Bb5",
+    "san": "Bb5",
+    "rationale": "מסכל את הפרש c6.",
+    "model": "curated-kb",
+    "inputHash": "433f4bff",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 exd5 cxd5 Nf3 Nc6 Bb5 Bg4": {
+    "key": "e4 c6 d4 d5 exd5 cxd5 Nf3 Nc6 Bb5 Bg4",
+    "san": "Bg4",
+    "rationale": "מסכל את הפרש f3 ומכין החלפה שמקלה על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "c3cec277",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 exd5 cxd5 Nf3 Nc6 Nc3": {
+    "key": "e4 c6 d4 d5 exd5 cxd5 Nf3 Nc6 Nc3",
+    "san": "Nc3",
+    "rationale": "מפתח את הפרש ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "6920b12c",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 d4 d5 exd5 cxd5 Nf3 Nc6 Nc3 Bg4": {
+    "key": "e4 c6 d4 d5 exd5 cxd5 Nf3 Nc6 Nc3 Bg4",
+    "san": "Bg4",
+    "rationale": "מסכל את הפרש f3 ומכין החלפה שמקלה על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "c3cec277",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 e5": {
+    "key": "e4 c6 e5",
+    "san": "e5",
+    "rationale": "דוחף ותופס שטח (וריאציית הקידום).",
+    "model": "curated-kb",
+    "inputHash": "aa17e33a",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 e5 d5": {
+    "key": "e4 c6 e5 d5",
+    "san": "d5",
+    "rationale": "מאתגר מיד את מרכז הלבן ותובע חלק מהמרכז.",
+    "model": "curated-kb",
+    "inputHash": "03d49f46",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 e5 d5 Nf3": {
+    "key": "e4 c6 e5 d5 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e4 c6 e5 d5 Nf3 Bg4": {
+    "key": "e4 c6 e5 d5 Nf3 Bg4",
+    "san": "Bg4",
+    "rationale": "מסכל את הפרש f3 ומכין החלפה שמקלה על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "c3cec277",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e4 c6 e5 d5 Nf3 Bg4 d4": {
+    "key": "e4 c6 e5 d5 Nf3 Bg4 d4",
+    "san": "d4",
+    "rationale": "תופס מרכז.",
+    "model": "curated-kb",
+    "inputHash": "cc8b2f7c",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e4 c6 e5 d5 Nf3 Bg4 d4 e6": {
+    "key": "e4 c6 e5 d5 Nf3 Bg4 d4 e6",
+    "san": "e6",
+    "rationale": "תומך ב-d5 ופותח את רץ f8.",
+    "model": "curated-kb",
+    "inputHash": "4f7df3af",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e4 c6 e5 d5 d4": {
+    "key": "e4 c6 e5 d5 d4",
+    "san": "d4",
+    "rationale": "תופס מרכז.",
+    "model": "curated-kb",
+    "inputHash": "cc8b2f7c",
+    "generatedAt": "2026-06-23T07:48:09.651Z"
+  },
+  "e4 c6 e5 d5 d4 Bf5": {
+    "key": "e4 c6 e5 d5 d4 Bf5",
+    "san": "Bf5",
+    "rationale": "מוציא את רץ c8 אל מחוץ לשרשרת עוד לפני ...e6 — רעיון מפתח בקארו.",
+    "model": "curated-kb",
+    "inputHash": "61a6f863",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e4 c6 e5 d5 d4 Bf5 Bd3": {
+    "key": "e4 c6 e5 d5 d4 Bf5 Bd3",
+    "san": "Bd3",
+    "rationale": "ממקם את הרץ על האלכסון לעבר המלך.",
+    "model": "curated-kb",
+    "inputHash": "6164c2d5",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e4 c6 e5 d5 d4 Bf5 Bd3 Bxd3": {
+    "key": "e4 c6 e5 d5 d4 Bf5 Bd3 Bxd3",
+    "san": "Bxd3",
+    "rationale": "מחליף את הרץ הפעיל של הלבן ומקל על העמדה.",
+    "model": "curated-kb",
+    "inputHash": "27039e04",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e4 c6 e5 d5 d4 Bf5 Bd3 Bxd3 Qxd3": {
+    "key": "e4 c6 e5 d5 d4 Bf5 Bd3 Bxd3 Qxd3",
+    "san": "Qxd3",
+    "rationale": "חוטף בחזרה ושומר על מבנה.",
+    "model": "curated-kb",
+    "inputHash": "69a7061c",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e4 c6 e5 d5 d4 Bf5 Bd3 Bxd3 Qxd3 e6": {
+    "key": "e4 c6 e5 d5 d4 Bf5 Bd3 Bxd3 Qxd3 e6",
+    "san": "e6",
+    "rationale": "תומך ב-d5 ופותח את רץ f8.",
+    "model": "curated-kb",
+    "inputHash": "4f7df3af",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e4 c6 e5 d5 d4 Bf5 Bd3 Bxd3 Qxd3 e6 Nf3": {
+    "key": "e4 c6 e5 d5 d4 Bf5 Bd3 Bxd3 Qxd3 e6 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e4 c6 e5 d5 d4 Bf5 Bd3 Bxd3 Qxd3 e6 Nf3 Nd7": {
+    "key": "e4 c6 e5 d5 d4 Bf5 Bd3 Bxd3 Qxd3 e6 Nf3 Nd7",
+    "san": "Nd7",
+    "rationale": "מפתח בגמישות ותומך ב-...Ngf6 ו-...e5.",
+    "model": "curated-kb",
+    "inputHash": "7d7943a5",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e4 c6 e5 d5 d4 Bf5 Nf3": {
+    "key": "e4 c6 e5 d5 d4 Bf5 Nf3",
+    "san": "Nf3",
+    "rationale": "מפתח את הפרש ותומך במרכז.",
+    "model": "curated-kb",
+    "inputHash": "9ca9104b",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e4 c6 e5 d5 d4 Bf5 Nf3 e6": {
+    "key": "e4 c6 e5 d5 d4 Bf5 Nf3 e6",
+    "san": "e6",
+    "rationale": "תומך ב-d5 ופותח את רץ f8.",
+    "model": "curated-kb",
+    "inputHash": "4f7df3af",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e4 c6 e5 d5 d4 Bf5 Nf3 e6 Bd3": {
+    "key": "e4 c6 e5 d5 d4 Bf5 Nf3 e6 Bd3",
+    "san": "Bd3",
+    "rationale": "ממקם את הרץ על האלכסון לעבר המלך.",
+    "model": "curated-kb",
+    "inputHash": "6164c2d5",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e4 c6 e5 d5 d4 Bf5 Nf3 e6 Bd3 Bxd3": {
+    "key": "e4 c6 e5 d5 d4 Bf5 Nf3 e6 Bd3 Bxd3",
+    "san": "Bxd3",
+    "rationale": "מחליף את הרץ הפעיל של הלבן ומקל על העמדה.",
+    "model": "curated-kb",
+    "inputHash": "27039e04",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e4 c6 e5 d5 d4 Bf5 Nf3 e6 Bd3 Bxd3 Qxd3": {
+    "key": "e4 c6 e5 d5 d4 Bf5 Nf3 e6 Bd3 Bxd3 Qxd3",
+    "san": "Qxd3",
+    "rationale": "חוטף בחזרה ושומר על מבנה.",
+    "model": "curated-kb",
+    "inputHash": "69a7061c",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "e4 c6 e5 d5 d4 Bf5 Nf3 e6 Bd3 Bxd3 Qxd3 Nd7": {
+    "key": "e4 c6 e5 d5 d4 Bf5 Nf3 e6 Bd3 Bxd3 Qxd3 Nd7",
+    "san": "Nd7",
+    "rationale": "מפתח בגמישות ותומך ב-...Ngf6 ו-...e5.",
+    "model": "curated-kb",
+    "inputHash": "7d7943a5",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "g3": {
+    "key": "g3",
+    "san": "g3",
+    "rationale": "מכין פיאנקטו של הרץ ל-g2.",
+    "model": "curated-kb",
+    "inputHash": "0472c6f1",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  },
+  "g3 d5": {
+    "key": "g3 d5",
+    "san": "d5",
+    "rationale": "מאתגר מיד את מרכז הלבן ותובע חלק מהמרכז.",
+    "model": "curated-kb",
+    "inputHash": "03d49f46",
+    "generatedAt": "2026-06-23T07:48:09.652Z"
+  }
+}

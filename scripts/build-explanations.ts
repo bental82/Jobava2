@@ -1,94 +1,56 @@
-// Offline explanation generator (NO external API).
+// Offline explanation generator (NO external API, NO engine).
 //
-// Walks the whole PGN tree, runs single-threaded Stockfish locally for grounding
-// (eval + whether the move was the engine's top pick), then composes a Hebrew
-// rationale per node from the curated Jobava knowledge base. Writes the result
-// to data/explanations.json — the same cache the app reads.
+// Walks each repertoire tree and writes ONE concise Hebrew sentence per move
+// (from scripts/knowledge.ts) describing what the move tries to do in the
+// opening. Deterministic, instant, safe to re-run.
 //
-// Use this when you don't have / don't want to spend an ANTHROPIC_API_KEY:
 //   npm run build-explanations
-// It is deterministic and safe to re-run (e.g. after editing the PGN).
+//
+// Writes data/explanations.json (white) and data/black-explanations.json.
 
 import { readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { parseRepertoire } from '../src/lib/pgn';
-import { walk, lineToId, type TreeNode } from '../src/lib/tree';
-import { explanationInputHash, type ExplanationMap } from '../src/lib/explanations';
-import { buildEngineNote } from '../src/lib/prompt';
-import { createNodeEngine } from '../src/lib/engineNode';
-import type { EngineAnalysis } from '../src/lib/engine';
-import { composeRationale, computeQuality, type NodeFacts } from './knowledge';
+import { walk, type TreeNode } from '../src/lib/tree';
+import type { ExplanationMap } from '../src/lib/explanations';
+import { explainMove, type RepId } from './knowledge';
 
-const SF_DEPTH = parseInt(process.env.SF_DEPTH ?? '13', 10);
-const OUT_PATH = join(process.cwd(), 'data', 'explanations.json');
+const DATA = join(process.cwd(), 'data');
 
-function cp(a: EngineAnalysis | null): number | null {
-  const l = a?.lines[0];
-  if (!l) return null;
-  if (l.mateIn !== null) return l.mateIn >= 0 ? 10000 : -10000;
-  return l.scoreCp;
+const REPS: { id: RepId; pgn: string; out: string }[] = [
+  { id: 'white', pgn: 'repertoire.pgn', out: 'explanations.json' },
+  { id: 'black', pgn: 'black-repertoire.pgn', out: 'black-explanations.json' },
+];
+
+/** Small dependency-free FNV-1a hash so re-generation is stable per content. */
+function hash(s: string): string {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
+  }
+  return (h >>> 0).toString(16).padStart(8, '0');
 }
 
-async function main() {
-  const { root } = parseRepertoire(readFileSync(join(process.cwd(), 'data', 'repertoire.pgn'), 'utf8'));
-  const parentOf = new Map<string, string>();
-  walk(root, (n) => { for (const c of n.children) parentOf.set(c.id, n.id); });
-
+for (const rep of REPS) {
+  const { root } = parseRepertoire(readFileSync(join(DATA, rep.pgn), 'utf8'));
+  const out: ExplanationMap = {};
   const nodes: TreeNode[] = [];
   walk(root, (n) => nodes.push(n));
-
-  console.log(`Stockfish grounding (depth ${SF_DEPTH}) for ${nodes.length} positions…`);
-  const eng = await createNodeEngine({ depth: SF_DEPTH, multiPv: 3 });
-  const aById = new Map<string, EngineAnalysis | null>();
-  let i = 0;
-  for (const n of nodes) {
-    aById.set(n.id, await eng.analyze(n.fen));
-    if (++i % 40 === 0 || i === nodes.length) console.log(`  ${i}/${nodes.length}`);
-  }
-  eng.quit();
-
-  const out: ExplanationMap = {};
   for (const n of nodes) {
     if (n.san === null) continue;
-    const pid = parentOf.get(n.id);
-    const aHere = aById.get(n.id) ?? null;
-    const aParent = pid !== undefined ? aById.get(pid) ?? null : null;
-    let rank: number | null = null;
-    if (aParent && aParent.lines.length) {
-      const r = aParent.lines.findIndex((l) => l.move === n.san);
-      rank = r === -1 ? -1 : r + 1;
-    }
-    const path = lineToId(root, n.id).map((x) => x.san!);
-    const facts: NodeFacts = {
-      index: 0,
-      id: n.id,
-      san: n.san,
-      path: path.join(' '),
-      prevMove: path.length >= 2 ? path[path.length - 2] : null,
-      playedBy: n.playedBy!,
-      ply: path.length,
-      isLeaf: n.children.length === 0,
-      evalHereCp: cp(aHere),
-      rankAtParent: rank,
-      bestParentMove: aParent?.lines[0]?.move ?? null,
-      bestParentCp: cp(aParent),
-    };
-    const engineNote = buildEngineNote({ san: n.san, analysisHere: aHere, analysisParent: aParent });
+    const rationale = explainMove(rep.id, n);
     out[n.id] = {
       key: n.id,
       san: n.san,
-      rationale: composeRationale(facts),
-      quality: computeQuality(facts),
-      model: 'curated-kb (jobava) + stockfish-grounding',
-      inputHash: explanationInputHash({ key: n.id, fen: n.fen, comment: n.comment, nags: n.nags, engineSummary: engineNote }),
+      rationale,
+      model: 'curated-kb',
+      inputHash: hash(rationale),
       generatedAt: new Date().toISOString(),
     };
   }
-
   const sorted: ExplanationMap = {};
   for (const k of Object.keys(out).sort()) sorted[k] = out[k];
-  writeFileSync(OUT_PATH, JSON.stringify(sorted, null, 2) + '\n', 'utf8');
-  console.log(`Wrote ${Object.keys(out).length} explanations to ${OUT_PATH}`);
+  writeFileSync(join(DATA, rep.out), JSON.stringify(sorted, null, 2) + '\n', 'utf8');
+  console.log(`${rep.id}: wrote ${Object.keys(out).length} explanations to data/${rep.out}`);
 }
-
-main().catch((e) => { console.error(e); process.exit(1); });

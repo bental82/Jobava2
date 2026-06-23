@@ -2,2341 +2,2081 @@
   "d4": {
     "key": "d4",
     "san": "d4",
-    "rationale": "1.d4 פותח את המרכז ותופס שטח. זהו הבסיס לשיטת ז׳ובבה־לונדון, שבה הלבן ישלב במהירות Nc3 ו-Bf4 לפיתוח טבעי וללחץ, בלי להיכנס לתיאוריה כבדה. הערכת המנוע לאחר המהלך: +0.18 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "8a5b7ec5",
-    "generatedAt": "2026-06-16T19:33:56.245Z"
+    "rationale": "תופס מרכז ושטח — הבסיס של שיטת ז׳ובבה.",
+    "model": "curated-kb",
+    "inputHash": "8bcbb2b8",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 Na6": {
     "key": "d4 Na6",
     "san": "Na6",
-    "rationale": "פיתוח לא שגרתי לשוליים. הלבן תופס מרכז (e4) ומפתח בנוחות עם יתרון. הערכת המנוע לאחר המהלך: +1.55 (יתרון ברור ללבן). ניסיון לא מדויק שמשחק לידי הלבן.",
-    "quality": "dubious",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "d15a8c77",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "פיתוח שולי לא שגרתי.",
+    "model": "curated-kb",
+    "inputHash": "14595fef",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Na6 Nc3": {
     "key": "d4 Na6 Nc3",
     "san": "Nc3",
-    "rationale": "מהלך הזיהוי של ז׳ובבה־לונדון: הפרש מתפתח ל-c3 ולוחץ על המשבצות d5 ו-e4 מבלי לחסום את רגל ה-c. כך נשמרת האופציה של Nb5 ושל לחץ מהיר, בשונה מהלונדון הקלאסי עם c3. הערכת המנוע לאחר המהלך: +0.62 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "ce1fdf0c",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מפתח את הפרש ולוחץ על d5 ו-e4 בלי לחסום את רגל ה-c.",
+    "model": "curated-kb",
+    "inputHash": "3ec55683",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Na6 Nc3 d6": {
     "key": "d4 Na6 Nc3 d6",
     "san": "d6",
-    "rationale": "מהלך מאופק שמכין ...e5 או סטאפ היפר־מודרני. הלבן תופס מרכז ב-e4 ומשחק על המרחב. הערכת המנוע לאחר המהלך: +1.49 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "c3d98b4e",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מהלך מאופק לקראת ...e5 או מבנה היפר־מודרני.",
+    "model": "curated-kb",
+    "inputHash": "d2a58fd4",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Na6 Nc3 d6 Bf4": {
     "key": "d4 Na6 Nc3 d6 Bf4",
     "san": "Bf4",
-    "rationale": "הרץ השחור־משבצות יוצא אל מחוץ לשרשרת הרגלים עוד לפני e3 — לב השיטה. מ-f4 הוא לוחץ על c7 ועל הכנף המלכותית של השחור ומכין רעיונות כמו Nb5. הערכת המנוע לאחר המהלך: +0.64 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "9393c79c",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מוציא את הרץ אל מחוץ לשרשרת הרגלים ולוחץ על c7 — לב השיטה.",
+    "model": "curated-kb",
+    "inputHash": "6623380e",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Na6 Nc3 d6 e4": {
     "key": "d4 Na6 Nc3 d6 e4",
     "san": "e4",
-    "rationale": "תופס מרכז מלא. נגד סטאפ היפר־מודרני (...g6/...d6) הלבן בונה מרכז גדול ומכין e5 לדחיקת הפרש ולפתיחת יוזמה. הערכת המנוע לאחר המהלך: +1.06 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "c80a9d8b",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "תופס מרכז מלא נגד מבנים היפר־מודרניים.",
+    "model": "curated-kb",
+    "inputHash": "e2a10a6c",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nc6": {
     "key": "d4 Nc6",
     "san": "Nc6",
-    "rationale": "פיתוח פעיל, אך הוא מחליש את ההגנה על c7 ומזמין את Nb5 עם איומי Nxc7+ ו-Nd6 — בדיוק המבנה שהלבן מקדם בברכה. הערכת המנוע לאחר המהלך: +1.32 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "21e7cddc",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "פיתוח פעיל שמחליש את c7 ומזמין Nb5.",
+    "model": "curated-kb",
+    "inputHash": "faae6ba5",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nc6 Nf3": {
     "key": "d4 Nc6 Nf3",
     "san": "Nf3",
-    "rationale": "פיתוח טבעי שתומך ב-d4 וב-e5, מכין הצרחה קצרה ומשלים את הסטאפ המוצק של הלבן. הערכת המנוע לאחר המהלך: +0.15 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "01600d2b",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מפתח את הפרש ותומך ב-d4 וב-e5.",
+    "model": "curated-kb",
+    "inputHash": "ef4be796",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nc6 Nf3 Nf6": {
     "key": "d4 Nc6 Nf3 Nf6",
     "san": "Nf6",
-    "rationale": "מפתח את הפרש ושולט ב-e4 וב-d5. הלבן יענה לרוב ב-Bf4 ובפיתוח רגוע. הערכת המנוע לאחר המהלך: +1.17 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "55f05447",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מפתח ושולט ב-e4 וב-d5.",
+    "model": "curated-kb",
+    "inputHash": "c72d505c",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nc6 Nf3 Nf6 c4": {
     "key": "d4 Nc6 Nf3 Nf6 c4",
     "san": "c4",
-    "rationale": "מרחיב את המרכז ועובר למבנה רחב יותר נגד סטאפים שקטים של השחור (...c6/...Nc6). הערכת המנוע לאחר המהלך: +0.56 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "026a08a6",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מרחיב את המרכז נגד מבנים שקטים של השחור.",
+    "model": "curated-kb",
+    "inputHash": "ca2b7a8d",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nc6 Nf3 d5": {
     "key": "d4 Nc6 Nf3 d5",
     "san": "d5",
-    "rationale": "תופס מרכז קלאסי ומבסס נוכחות ב-d5/e4. הלבן ימשיך בתוכנית הז׳ובבה: Nc3, Bf4 ולחץ. הערכת המנוע לאחר המהלך: +0.82 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "ed2c79c0",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "תופס מרכז קלאסי.",
+    "model": "curated-kb",
+    "inputHash": "7fa7a6f5",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nc6 Nf3 d5 Bf4": {
     "key": "d4 Nc6 Nf3 d5 Bf4",
     "san": "Bf4",
-    "rationale": "הרץ השחור־משבצות יוצא אל מחוץ לשרשרת הרגלים עוד לפני e3 — לב השיטה. מ-f4 הוא לוחץ על c7 ועל הכנף המלכותית של השחור ומכין רעיונות כמו Nb5. הערכת המנוע לאחר המהלך: +0.00 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "dcb7e07c",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מוציא את הרץ אל מחוץ לשרשרת הרגלים ולוחץ על c7 — לב השיטה.",
+    "model": "curated-kb",
+    "inputHash": "6623380e",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6": {
     "key": "d4 Nf6",
     "san": "Nf6",
-    "rationale": "מפתח את הפרש ושולט ב-e4 וב-d5. הלבן יענה לרוב ב-Bf4 ובפיתוח רגוע. הערכת המנוע לאחר המהלך: +0.65 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "e1143c8c",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "מפתח ושולט ב-e4 וב-d5.",
+    "model": "curated-kb",
+    "inputHash": "c72d505c",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3": {
     "key": "d4 Nf6 Nc3",
     "san": "Nc3",
-    "rationale": "מהלך הזיהוי של ז׳ובבה־לונדון: הפרש מתפתח ל-c3 ולוחץ על המשבצות d5 ו-e4 מבלי לחסום את רגל ה-c. כך נשמרת האופציה של Nb5 ושל לחץ מהיר, בשונה מהלונדון הקלאסי עם c3. הערכת המנוע לאחר המהלך: -0.37 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "c4d7a001",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "מפתח את הפרש ולוחץ על d5 ו-e4 בלי לחסום את רגל ה-c.",
+    "model": "curated-kb",
+    "inputHash": "3ec55683",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5": {
     "key": "d4 Nf6 Nc3 d5",
     "san": "d5",
-    "rationale": "תופס מרכז קלאסי ומבסס נוכחות ב-d5/e4. הלבן ימשיך בתוכנית הז׳ובבה: Nc3, Bf4 ולחץ. הערכת המנוע לאחר המהלך: +0.15 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "a9ea0308",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "תופס מרכז קלאסי.",
+    "model": "curated-kb",
+    "inputHash": "7fa7a6f5",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4": {
     "key": "d4 Nf6 Nc3 d5 Bf4",
     "san": "Bf4",
-    "rationale": "הרץ השחור־משבצות יוצא אל מחוץ לשרשרת הרגלים עוד לפני e3 — לב השיטה. מ-f4 הוא לוחץ על c7 ועל הכנף המלכותית של השחור ומכין רעיונות כמו Nb5. הערכת המנוע לאחר המהלך: -0.45 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "91ed1407",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "מוציא את הרץ אל מחוץ לשרשרת הרגלים ולוחץ על c7 — לב השיטה.",
+    "model": "curated-kb",
+    "inputHash": "6623380e",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Bf5": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Bf5",
     "san": "Bf5",
-    "rationale": "מפתח את ״הרץ הבעייתי״ אל מחוץ לשרשרת לפני ...e6. הלבן מגיב בתוכנית f3-g4-h4 כדי לרדוף אחרי הרץ ולתפוס שטח. הערכת המנוע לאחר המהלך: +0.51 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "6a1efba6",
-    "generatedAt": "2026-06-16T19:33:56.254Z"
+    "rationale": "מוציא את הרץ הבעייתי אל מחוץ לשרשרת.",
+    "model": "curated-kb",
+    "inputHash": "072a3041",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Bf5 f3": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Bf5 f3",
     "san": "f3",
-    "rationale": "מבצר את המרכז ומכין g4. נגד ...Bf5 הרעיון הוא g4 ו-h4 כדי לרדוף אחרי הרץ ולתפוס שטח רב בכנף. הערכת המנוע לאחר המהלך: -0.37 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "39d2f684",
-    "generatedAt": "2026-06-16T19:33:56.254Z"
+    "rationale": "מבצר את המרכז כהכנה לדחיפת g4.",
+    "model": "curated-kb",
+    "inputHash": "8fae9a71",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Bf5 f3 Nc6": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Bf5 f3 Nc6",
     "san": "Nc6",
-    "rationale": "פיתוח פעיל, אך הוא מחליש את ההגנה על c7 ומזמין את Nb5 עם איומי Nxc7+ ו-Nd6 — בדיוק המבנה שהלבן מקדם בברכה. הערכת המנוע לאחר המהלך: +0.48 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "c5df30ac",
-    "generatedAt": "2026-06-16T19:33:56.254Z"
+    "rationale": "פיתוח פעיל שמחליש את c7 ומזמין Nb5.",
+    "model": "curated-kb",
+    "inputHash": "faae6ba5",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Bf5 f3 Nc6 g4": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Bf5 f3 Nc6 g4",
     "san": "g4",
-    "rationale": "דחיפת רגל תוקפנית בכנף המלכותית: מרחיבה שטח, מאיימת לתפוס את רץ השחור (בדרך כלל ב-f5/g6) ופותחת קווי התקפה. אופייני נגד ...Bf5 ובעמדות בהן השחור איטי. הערכת המנוע לאחר המהלך: +0.10 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "50f2810a",
-    "generatedAt": "2026-06-16T19:33:56.254Z"
+    "rationale": "תופס שטח בכנף המלכותית ורודף אחרי רץ השחור.",
+    "model": "curated-kb",
+    "inputHash": "5bad35f3",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Bf5 f3 Nc6 g4 Bg6": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Bf5 f3 Nc6 g4 Bg6",
     "san": "Bg6",
-    "rationale": "נסיגת הרץ אחרי g4. הלבן ממשיך h4-h5 כדי לרדוף אחרי הרץ ולפתוח את הכנף המלכותית. הערכת המנוע לאחר המהלך: +0.50 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "158bed3c",
-    "generatedAt": "2026-06-16T19:33:56.254Z"
+    "rationale": "נסיגת הרץ מפני דחיפת g4.",
+    "model": "curated-kb",
+    "inputHash": "fd0b26cb",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Bf5 f3 Nc6 g4 Bg6 h4": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Bf5 f3 Nc6 g4 Bg6 h4",
     "san": "h4",
-    "rationale": "ממשיך את דחיפת הכנף: תומך ב-g5, מרחיב את שרשרת ההתקפה ולעיתים לוכד את רץ השחור שנסוג ל-g6. הערכת המנוע לאחר המהלך: +0.21 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "4ea1ef06",
-    "generatedAt": "2026-06-16T19:33:56.254Z"
+    "rationale": "מרחיב את התקפת הכנף ולעיתים לוכד את הרץ.",
+    "model": "curated-kb",
+    "inputHash": "a6ce5ad5",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Bf5 f3 e6": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Bf5 f3 e6",
     "san": "e6",
-    "rationale": "תומך ב-d5 ופותח את רץ f8, אך חוסם זמנית את רץ c8 (״הרץ הרע״). הלבן ימשיך e3 ופיתוח טבעי. הערכת המנוע לאחר המהלך: -0.01 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "fb17dd34",
-    "generatedAt": "2026-06-16T19:33:56.254Z"
+    "rationale": "תומך ב-d5 אך חוסם זמנית את רץ c8.",
+    "model": "curated-kb",
+    "inputHash": "3b220210",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Bf5 f3 e6 g4": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Bf5 f3 e6 g4",
     "san": "g4",
-    "rationale": "דחיפת רגל תוקפנית בכנף המלכותית: מרחיבה שטח, מאיימת לתפוס את רץ השחור (בדרך כלל ב-f5/g6) ופותחת קווי התקפה. אופייני נגד ...Bf5 ובעמדות בהן השחור איטי. הערכת המנוע לאחר המהלך: -0.15 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "580491bd",
-    "generatedAt": "2026-06-16T19:33:56.254Z"
+    "rationale": "תופס שטח בכנף המלכותית ורודף אחרי רץ השחור.",
+    "model": "curated-kb",
+    "inputHash": "5bad35f3",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Bf5 f3 e6 g4 Bg6": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Bf5 f3 e6 g4 Bg6",
     "san": "Bg6",
-    "rationale": "נסיגת הרץ אחרי g4. הלבן ממשיך h4-h5 כדי לרדוף אחרי הרץ ולפתוח את הכנף המלכותית. הערכת המנוע לאחר המהלך: +0.36 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "db2b55fe",
-    "generatedAt": "2026-06-16T19:33:56.254Z"
+    "rationale": "נסיגת הרץ מפני דחיפת g4.",
+    "model": "curated-kb",
+    "inputHash": "fd0b26cb",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Bf5 f3 e6 g4 Bg6 h4": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Bf5 f3 e6 g4 Bg6 h4",
     "san": "h4",
-    "rationale": "ממשיך את דחיפת הכנף: תומך ב-g5, מרחיב את שרשרת ההתקפה ולעיתים לוכד את רץ השחור שנסוג ל-g6. הערכת המנוע לאחר המהלך: -0.35 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "9cb25bbd",
-    "generatedAt": "2026-06-16T19:33:56.254Z"
+    "rationale": "מרחיב את התקפת הכנף ולעיתים לוכד את הרץ.",
+    "model": "curated-kb",
+    "inputHash": "a6ce5ad5",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Nc6": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Nc6",
     "san": "Nc6",
-    "rationale": "פיתוח פעיל, אך הוא מחליש את ההגנה על c7 ומזמין את Nb5 עם איומי Nxc7+ ו-Nd6 — בדיוק המבנה שהלבן מקדם בברכה. הערכת המנוע לאחר המהלך: +0.83 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "6fe9ac0f",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "פיתוח פעיל שמחליש את c7 ומזמין Nb5.",
+    "model": "curated-kb",
+    "inputHash": "faae6ba5",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5",
     "san": "Nb5",
-    "rationale": "הפרש קופץ ל-b5 ומנצל את חולשת המשבצת c7. נוצרים איומים של Nxc7+ (מזלג על המלך והצריח) ושל פלישה ל-d6 — מהלך מעשי ואגרסיבי האופייני לז׳ובבה. הערכת המנוע לאחר המהלך: -0.66 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "4530a001",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "מנצל את חולשת c7 ומאיים לפלוש ל-c7 או ל-d6.",
+    "model": "curated-kb",
+    "inputHash": "d3178c4d",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 Rb8": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 Rb8",
     "san": "Rb8",
-    "rationale": "מנסה להגן בעקיפין על c7 / לפנות את הצריח, אך מאוחר מדי: הלבן כבר חוטף עם Bxc7 או Nxc7+. הערכת המנוע לאחר המהלך: +4.26 (יתרון גדול ללבן). זהו מהלך שגוי שהלבן מנצל מיד לזכייה בחומר.",
-    "quality": "blunder",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "499addf9",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "מנסה להגן על c7 — אך מאוחר מדי.",
+    "model": "curated-kb",
+    "inputHash": "dce95be1",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 Rb8 Bxc7": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 Rb8 Bxc7",
     "san": "Bxc7",
-    "rationale": "חוטף את הרגל c7 הבלתי מוגן ומרוויח חומר, בניצול החולשה ש-...Nc6/...Rb8 הותירו על c7. הערכת המנוע לאחר המהלך: +4.01 (יתרון גדול ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "67eefee4",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "חוטף רגל לא־מוגן ומרוויח חומר.",
+    "model": "curated-kb",
+    "inputHash": "51dfde21",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5",
     "san": "e5",
-    "rationale": "ניסיון לשבור במרכז. לרוב לאחר dxe5 נפתחים קווים וטורים לטובת הכלים המפותחים של הלבן. הערכת המנוע לאחר המהלך: +0.98 (יתרון ברור ללבן). ניסיון לא מדויק שמשחק לידי הלבן.",
-    "quality": "dubious",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "669df3e3",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "ניסיון לשבור במרכז.",
+    "model": "curated-kb",
+    "inputHash": "f63215b3",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5 dxe5": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5 dxe5",
     "san": "dxe5",
-    "rationale": "פותח את המרכז ומנצל את ...e5. אחרי ההחלפות הרץ ב-f4 והפרש ב-b5 פעילים מאוד, והשחור נתקל לעיתים בקשיים טקטיים סביב c7 ו-d5. הערכת המנוע לאחר המהלך: -0.05 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "3c7f5bd5",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "פותח את המרכז ומשאיר את הכלים הלבנים פעילים.",
+    "model": "curated-kb",
+    "inputHash": "f5e49856",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5 dxe5 Ne4": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5 dxe5 Ne4",
     "san": "Ne4",
-    "rationale": "פרש פעיל במרכז שמזמין החלפות ומנסה להקל על השחור. הלבן יגיב בדרך כלל ב-a3/f3 או בפיתוח שמנצל את היציבות במרכז. הערכת המנוע לאחר המהלך: +2.48 (יתרון גדול ללבן). ניסיון לא מדויק שמשחק לידי הלבן.",
-    "quality": "dubious",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "e2e8e49e",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "פרש פעיל במרכז שמנסה להחליף ולהקל.",
+    "model": "curated-kb",
+    "inputHash": "ff86f944",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5 dxe5 Ne4 Qxd5": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5 dxe5 Ne4 Qxd5",
     "san": "Qxd5",
-    "rationale": "ניצול טקטי: המלכה חוטפת את הרגל d5 בתקיפה. לאחר חילופי מלכות יבוא Nxc7+ במזלג, והלבן זוכה בחומר. הערכת המנוע לאחר המהלך: +2.05 (יתרון גדול ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "fcaf8ee4",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "חוטף את הרגל בתקיפה ומכין מזלג מנצח.",
+    "model": "curated-kb",
+    "inputHash": "20e46c82",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5 dxe5 Ne4 Qxd5 Qxd5": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5 dxe5 Ne4 Qxd5 Qxd5",
     "san": "Qxd5",
-    "rationale": "חוטף בחזרה את הרגל, אך נכנס ל-Nxc7+ המזלג; הלבן זוכה בחומר. הערכת המנוע לאחר המהלך: +2.83 (יתרון גדול ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "5fb8a94c",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "חוטף בחזרה אך נכנס למזלג Nxc7+.",
+    "model": "curated-kb",
+    "inputHash": "51e20d19",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5 dxe5 Ne4 Qxd5 Qxd5 Nxc7+": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5 dxe5 Ne4 Qxd5 Qxd5 Nxc7+",
     "san": "Nxc7+",
-    "rationale": "המזלג המכריע: הפרש נותן שח וחוטף את הצריח ב-a8 — שיא הרעיון שמאחורי Nb5. הערכת המנוע לאחר המהלך: +3.19 (יתרון גדול ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "37c3a7cb",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "מזלג מכריע על המלך והצריח — שיא הרעיון של Nb5.",
+    "model": "curated-kb",
+    "inputHash": "defd82c9",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5 dxe5 Nh5": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5 dxe5 Nh5",
     "san": "Nh5",
-    "rationale": "תוקף את רץ f4, אך הפרש נדחק לשוליים. הלבן משחק e3/Bg5 ושומר על יתרון. הערכת המנוע לאחר המהלך: +1.09 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "eff33134",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "תוקף את הרץ f4 אך נדחק לשוליים.",
+    "model": "curated-kb",
+    "inputHash": "82149a0d",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5 dxe5 Nh5 e3": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5 dxe5 Nh5 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: +0.49 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "abdd332f",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5 dxe5 Nxe5": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5 dxe5 Nxe5",
     "san": "Nxe5",
-    "rationale": "חוטף את הרגל ב-e5, אך כאן זו טעות: Bxe5 חוטף את הפרש בזכות הפרש ב-b5 וחוסר ההגנה — הלבן זוכה בכלי. הערכת המנוע לאחר המהלך: +6.03 (יתרון מכריע ללבן). זהו מהלך שגוי שהלבן מנצל מיד לזכייה בחומר.",
-    "quality": "blunder",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "b1be185c",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "חוטף רגל — אך כאן זו טעות שמפסידה כלי.",
+    "model": "curated-kb",
+    "inputHash": "a1c2707e",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5 dxe5 Nxe5 Bxe5": {
     "key": "d4 Nf6 Nc3 d5 Bf4 Nc6 Nb5 e5 dxe5 Nxe5 Bxe5",
     "san": "Bxe5",
-    "rationale": "הרץ חוטף את הפרש וזוכה בכלי שלם: אחרי ...Nxe5?? אין לשחור פיצוי בשל הפרש ב-b5 והלחץ על c7. הערכת המנוע לאחר המהלך: +5.71 (יתרון מכריע ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "71a870b0",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "חוטף במרכז ושומר על יתרון כלים ומבנה.",
+    "model": "curated-kb",
+    "inputHash": "46a47a05",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 a6": {
     "key": "d4 Nf6 Nc3 d5 Bf4 a6",
     "san": "a6",
-    "rationale": "מונע מראש את Nb5 וקובע מעט שטח בכנף, אך זהו מהלך איטי שמאפשר ללבן g4 או פיתוח רגוע עם יתרון מרחבי. הערכת המנוע לאחר המהלך: +0.59 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "7c313ae2",
-    "generatedAt": "2026-06-16T19:33:56.255Z"
+    "rationale": "מונע Nb5 אך זהו מהלך איטי.",
+    "model": "curated-kb",
+    "inputHash": "b647a8be",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 a6 e3": {
     "key": "d4 Nf6 Nc3 d5 Bf4 a6 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: +0.08 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "d6a7cca7",
-    "generatedAt": "2026-06-16T19:33:56.255Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 a6 e3 Nc6": {
     "key": "d4 Nf6 Nc3 d5 Bf4 a6 e3 Nc6",
     "san": "Nc6",
-    "rationale": "פיתוח פעיל, אך הוא מחליש את ההגנה על c7 ומזמין את Nb5 עם איומי Nxc7+ ו-Nd6 — בדיוק המבנה שהלבן מקדם בברכה. הערכת המנוע לאחר המהלך: +0.90 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "cefe59b0",
-    "generatedAt": "2026-06-16T19:33:56.255Z"
+    "rationale": "פיתוח פעיל שמחליש את c7 ומזמין Nb5.",
+    "model": "curated-kb",
+    "inputHash": "faae6ba5",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 a6 e3 Nc6 Nf3": {
     "key": "d4 Nf6 Nc3 d5 Bf4 a6 e3 Nc6 Nf3",
     "san": "Nf3",
-    "rationale": "פיתוח טבעי שתומך ב-d4 וב-e5, מכין הצרחה קצרה ומשלים את הסטאפ המוצק של הלבן. הערכת המנוע לאחר המהלך: +0.35 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "1407db66",
-    "generatedAt": "2026-06-16T19:33:56.255Z"
+    "rationale": "מפתח את הפרש ותומך ב-d4 וב-e5.",
+    "model": "curated-kb",
+    "inputHash": "ef4be796",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 a6 e3 Nc6 Nf3 Bf5": {
     "key": "d4 Nf6 Nc3 d5 Bf4 a6 e3 Nc6 Nf3 Bf5",
     "san": "Bf5",
-    "rationale": "מפתח את ״הרץ הבעייתי״ אל מחוץ לשרשרת לפני ...e6. הלבן מגיב בתוכנית f3-g4-h4 כדי לרדוף אחרי הרץ ולתפוס שטח. הערכת המנוע לאחר המהלך: +0.69 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "9c141831",
-    "generatedAt": "2026-06-16T19:33:56.255Z"
+    "rationale": "מוציא את הרץ הבעייתי אל מחוץ לשרשרת.",
+    "model": "curated-kb",
+    "inputHash": "072a3041",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 a6 e3 Nc6 Nf3 Bf5 Bd3": {
     "key": "d4 Nf6 Nc3 d5 Bf4 a6 e3 Nc6 Nf3 Bf5 Bd3",
     "san": "Bd3",
-    "rationale": "ממקם את הרץ על האלכסון b1-h7, מכין הצרחה, ולעיתים החלפה של רץ ה-f5 של השחור כדי לשלוט במשבצות הלבנות. הערכת המנוע לאחר המהלך: -0.02 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "d8512db7",
-    "generatedAt": "2026-06-16T19:33:56.255Z"
+    "rationale": "ממקם את הרץ על האלכסון b1-h7 ושולט במשבצות הלבנות.",
+    "model": "curated-kb",
+    "inputHash": "d02a9772",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 a6 e3 e6": {
     "key": "d4 Nf6 Nc3 d5 Bf4 a6 e3 e6",
     "san": "e6",
-    "rationale": "תומך ב-d5 ופותח את רץ f8, אך חוסם זמנית את רץ c8 (״הרץ הרע״). הלבן ימשיך e3 ופיתוח טבעי. הערכת המנוע לאחר המהלך: +0.48 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "77bfc02c",
-    "generatedAt": "2026-06-16T19:33:56.255Z"
+    "rationale": "תומך ב-d5 אך חוסם זמנית את רץ c8.",
+    "model": "curated-kb",
+    "inputHash": "3b220210",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 a6 e3 e6 g4": {
     "key": "d4 Nf6 Nc3 d5 Bf4 a6 e3 e6 g4",
     "san": "g4",
-    "rationale": "דחיפת רגל תוקפנית בכנף המלכותית: מרחיבה שטח, מאיימת לתפוס את רץ השחור (בדרך כלל ב-f5/g6) ופותחת קווי התקפה. אופייני נגד ...Bf5 ובעמדות בהן השחור איטי. הערכת המנוע לאחר המהלך: -0.30 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "e34d7829",
-    "generatedAt": "2026-06-16T19:33:56.255Z"
+    "rationale": "תופס שטח בכנף המלכותית ורודף אחרי רץ השחור.",
+    "model": "curated-kb",
+    "inputHash": "5bad35f3",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 c6": {
     "key": "d4 Nf6 Nc3 d5 Bf4 c6",
     "san": "c6",
-    "rationale": "מבנה סלאבי מוצק שתומך ב-d5. הלבן ממשיך e3 ופיתוח, עם משחק נוח וקל יותר. הערכת המנוע לאחר המהלך: +0.79 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "8cda295c",
-    "generatedAt": "2026-06-16T19:33:56.255Z"
+    "rationale": "מבנה סלאבי מוצק שתומך ב-d5.",
+    "model": "curated-kb",
+    "inputHash": "aef44002",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 c6 e3": {
     "key": "d4 Nf6 Nc3 d5 Bf4 c6 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: +0.22 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "a8ed7fb3",
-    "generatedAt": "2026-06-16T19:33:56.255Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 e6": {
     "key": "d4 Nf6 Nc3 d5 Bf4 e6",
     "san": "e6",
-    "rationale": "תומך ב-d5 ופותח את רץ f8, אך חוסם זמנית את רץ c8 (״הרץ הרע״). הלבן ימשיך e3 ופיתוח טבעי. הערכת המנוע לאחר המהלך: +0.26 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "d507abfc",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "תומך ב-d5 אך חוסם זמנית את רץ c8.",
+    "model": "curated-kb",
+    "inputHash": "3b220210",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 e6 e3": {
     "key": "d4 Nf6 Nc3 d5 Bf4 e6 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: -0.31 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "987f7269",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 e6 e3 Bb4": {
     "key": "d4 Nf6 Nc3 d5 Bf4 e6 e3 Bb4",
     "san": "Bb4",
-    "rationale": "סיכה על הפרש c3 ולחץ על המרכז. הלבן יענה a3 (לשאול את הרץ) או Ne2 (לתמוך ב-c3 ולשמור על גמישות g4). הערכת המנוע לאחר המהלך: +0.26 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "d4be3010",
-    "generatedAt": "2026-06-16T19:33:56.254Z"
+    "rationale": "מסכל את הפרש c3 ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "8ec40f15",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 e6 e3 Bb4 Ne2": {
     "key": "d4 Nf6 Nc3 d5 Bf4 e6 e3 Bb4 Ne2",
     "san": "Ne2",
-    "rationale": "דווקא ל-e2 ולא ל-f3: כך נשמר רגל ה-f לדחיפת g4 בעתיד, הפרש תומך ב-Nc3, ואם השחור יחליף ב-...Bxc3 הלבן יחזיר בפרש וישמור על מבנה טוב. מהלך גמיש האופייני נגד ...Bb4. הערכת המנוע לאחר המהלך: -0.41 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "a78c67ce",
-    "generatedAt": "2026-06-16T19:33:56.254Z"
+    "rationale": "שומר את רגל ה-f לדחיפת g4 בעתיד ותומך בפרש c3.",
+    "model": "curated-kb",
+    "inputHash": "e6b60d23",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 e6 e3 Bb4 Ne2 Ne4": {
     "key": "d4 Nf6 Nc3 d5 Bf4 e6 e3 Bb4 Ne2 Ne4",
     "san": "Ne4",
-    "rationale": "פרש פעיל במרכז שמזמין החלפות ומנסה להקל על השחור. הלבן יגיב בדרך כלל ב-a3/f3 או בפיתוח שמנצל את היציבות במרכז. הערכת המנוע לאחר המהלך: +1.27 (יתרון ברור ללבן). ניסיון לא מדויק שמשחק לידי הלבן.",
-    "quality": "dubious",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "51996ad9",
-    "generatedAt": "2026-06-16T19:33:56.254Z"
+    "rationale": "פרש פעיל במרכז שמנסה להחליף ולהקל.",
+    "model": "curated-kb",
+    "inputHash": "ff86f944",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 e6 e3 Bb4 Ne2 Ne4 a3": {
     "key": "d4 Nf6 Nc3 d5 Bf4 e6 e3 Bb4 Ne2 Ne4 a3",
     "san": "a3",
-    "rationale": "שואל את הרץ ב-b4: אם ...Bxc3 הלבן פותח קו, משפר מבנה ושומר על זוג הרצים, ואם הרץ נסוג הלבן הרוויח טמפו ומרחב. הערכת המנוע לאחר המהלך: +0.47 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "662b948e",
-    "generatedAt": "2026-06-16T19:33:56.254Z"
+    "rationale": "שואל את הרץ ב-b4 — או זוג רצים או טמפו ומרחב.",
+    "model": "curated-kb",
+    "inputHash": "9ed5804b",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 e6 e3 Bd6": {
     "key": "d4 Nf6 Nc3 d5 Bf4 e6 e3 Bd6",
     "san": "Bd6",
-    "rationale": "מציע להחליף את רץ f4 החשוב של הלבן. הלבן ישקול Bxd6 (שמעניק לשחור מבנה כפול) או נסיגה כדי לשמור על הרץ, לפי העמדה. הערכת המנוע לאחר המהלך: +0.18 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "09deb3bf",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "מציע להחליף את רץ f4 החשוב של הלבן.",
+    "model": "curated-kb",
+    "inputHash": "0de7aebb",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 e6 e3 Bd6 Nf3": {
     "key": "d4 Nf6 Nc3 d5 Bf4 e6 e3 Bd6 Nf3",
     "san": "Nf3",
-    "rationale": "פיתוח טבעי שתומך ב-d4 וב-e5, מכין הצרחה קצרה ומשלים את הסטאפ המוצק של הלבן. הערכת המנוע לאחר המהלך: -0.33 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "7f3cdb49",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "מפתח את הפרש ותומך ב-d4 וב-e5.",
+    "model": "curated-kb",
+    "inputHash": "ef4be796",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 e6 e3 a6": {
     "key": "d4 Nf6 Nc3 d5 Bf4 e6 e3 a6",
     "san": "a6",
-    "rationale": "מונע מראש את Nb5 וקובע מעט שטח בכנף, אך זהו מהלך איטי שמאפשר ללבן g4 או פיתוח רגוע עם יתרון מרחבי. הערכת המנוע לאחר המהלך: +0.44 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "41aab690",
-    "generatedAt": "2026-06-16T19:33:56.254Z"
+    "rationale": "מונע Nb5 אך זהו מהלך איטי.",
+    "model": "curated-kb",
+    "inputHash": "b647a8be",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 d5 Bf4 e6 e3 a6 g4": {
     "key": "d4 Nf6 Nc3 d5 Bf4 e6 e3 a6 g4",
     "san": "g4",
-    "rationale": "דחיפת רגל תוקפנית בכנף המלכותית: מרחיבה שטח, מאיימת לתפוס את רץ השחור (בדרך כלל ב-f5/g6) ופותחת קווי התקפה. אופייני נגד ...Bf5 ובעמדות בהן השחור איטי. הערכת המנוע לאחר המהלך: -0.36 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "cd47fb23",
-    "generatedAt": "2026-06-16T19:33:56.254Z"
+    "rationale": "תופס שטח בכנף המלכותית ורודף אחרי רץ השחור.",
+    "model": "curated-kb",
+    "inputHash": "5bad35f3",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 e6": {
     "key": "d4 Nf6 Nc3 e6",
     "san": "e6",
-    "rationale": "תומך ב-d5 ופותח את רץ f8, אך חוסם זמנית את רץ c8 (״הרץ הרע״). הלבן ימשיך e3 ופיתוח טבעי. הערכת המנוע לאחר המהלך: +0.57 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "0e207f10",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "תומך ב-d5 אך חוסם זמנית את רץ c8.",
+    "model": "curated-kb",
+    "inputHash": "3b220210",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 e6 e4": {
     "key": "d4 Nf6 Nc3 e6 e4",
     "san": "e4",
-    "rationale": "תופס מרכז מלא. נגד סטאפ היפר־מודרני (...g6/...d6) הלבן בונה מרכז גדול ומכין e5 לדחיקת הפרש ולפתיחת יוזמה. הערכת המנוע לאחר המהלך: +0.40 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "ed3d73d6",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "תופס מרכז מלא נגד מבנים היפר־מודרניים.",
+    "model": "curated-kb",
+    "inputHash": "e2a10a6c",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 g6": {
     "key": "d4 Nf6 Nc3 g6",
     "san": "g6",
-    "rationale": "מבנה קינג׳ס־אינדיאני: הרץ יפותח ל-g7 וילחץ על המרכז מרחוק. הלבן תופס מרכז גדול ב-e4 ומכין e5. הערכת המנוע לאחר המהלך: +1.14 (יתרון ברור ללבן). ניסיון לא מדויק שמשחק לידי הלבן.",
-    "quality": "dubious",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "23d3ccda",
-    "generatedAt": "2026-06-16T19:33:56.255Z"
+    "rationale": "מבנה קינג׳ס־אינדיאני עם פיאנקטו.",
+    "model": "curated-kb",
+    "inputHash": "8d2fe7d4",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 g6 e4": {
     "key": "d4 Nf6 Nc3 g6 e4",
     "san": "e4",
-    "rationale": "תופס מרכז מלא. נגד סטאפ היפר־מודרני (...g6/...d6) הלבן בונה מרכז גדול ומכין e5 לדחיקת הפרש ולפתיחת יוזמה. הערכת המנוע לאחר המהלך: +0.59 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "dfdc2f2a",
-    "generatedAt": "2026-06-16T19:33:56.255Z"
+    "rationale": "תופס מרכז מלא נגד מבנים היפר־מודרניים.",
+    "model": "curated-kb",
+    "inputHash": "e2a10a6c",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 g6 e4 Bg7": {
     "key": "d4 Nf6 Nc3 g6 e4 Bg7",
     "san": "Bg7",
-    "rationale": "משלים את הפיאנקטו ולוחץ על האלכסון הארוך. הלבן ממשיך בבניית מרכז עם e4-e5. הערכת המנוע לאחר המהלך: +2.11 (יתרון גדול ללבן). ניסיון לא מדויק שמשחק לידי הלבן.",
-    "quality": "dubious",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "12c527a1",
-    "generatedAt": "2026-06-16T19:33:56.255Z"
+    "rationale": "משלים את הפיאנקטו ולוחץ על האלכסון הארוך.",
+    "model": "curated-kb",
+    "inputHash": "400300d6",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 g6 e4 Bg7 e5": {
     "key": "d4 Nf6 Nc3 g6 e4 Bg7 e5",
     "san": "e5",
-    "rationale": "דוחף את הפרש מ-f6, תופס שטח וסוגר את רץ c8 של השחור — הלבן זוכה ביוזמה מרחבית. הערכת המנוע לאחר המהלך: +1.62 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "4a88ea36",
-    "generatedAt": "2026-06-16T19:33:56.255Z"
+    "rationale": "דוחף את הפרש מ-f6 ותופס שטח.",
+    "model": "curated-kb",
+    "inputHash": "f89d4312",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 g6 e4 d6": {
     "key": "d4 Nf6 Nc3 g6 e4 d6",
     "san": "d6",
-    "rationale": "מהלך מאופק שמכין ...e5 או סטאפ היפר־מודרני. הלבן תופס מרכז ב-e4 ומשחק על המרחב. הערכת המנוע לאחר המהלך: +1.18 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "cc1ec556",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מהלך מאופק לקראת ...e5 או מבנה היפר־מודרני.",
+    "model": "curated-kb",
+    "inputHash": "d2a58fd4",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 Nf6 Nc3 g6 e4 d6 Bf4": {
     "key": "d4 Nf6 Nc3 g6 e4 d6 Bf4",
     "san": "Bf4",
-    "rationale": "הרץ השחור־משבצות יוצא אל מחוץ לשרשרת הרגלים עוד לפני e3 — לב השיטה. מ-f4 הוא לוחץ על c7 ועל הכנף המלכותית של השחור ומכין רעיונות כמו Nb5. הערכת המנוע לאחר המהלך: +0.55 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "605e370a",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מוציא את הרץ אל מחוץ לשרשרת הרגלים ולוחץ על c7 — לב השיטה.",
+    "model": "curated-kb",
+    "inputHash": "6623380e",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 b6": {
     "key": "d4 b6",
     "san": "b6",
-    "rationale": "מכין פיאנקטו של הרץ ל-b7. הלבן תופס מרכז ב-e4 ומשחק על השטח. הערכת המנוע לאחר המהלך: +1.40 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "ca271459",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מכין פיאנקטו של הרץ ל-b7.",
+    "model": "curated-kb",
+    "inputHash": "047e2967",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 b6 e4": {
     "key": "d4 b6 e4",
     "san": "e4",
-    "rationale": "תופס מרכז מלא. נגד סטאפ היפר־מודרני (...g6/...d6) הלבן בונה מרכז גדול ומכין e5 לדחיקת הפרש ולפתיחת יוזמה. הערכת המנוע לאחר המהלך: +0.80 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "affbb6ea",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "תופס מרכז מלא נגד מבנים היפר־מודרניים.",
+    "model": "curated-kb",
+    "inputHash": "e2a10a6c",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 c5": {
     "key": "d4 c5",
     "san": "c5",
-    "rationale": "מאתגר מיד את d4. הלבן יכול d5 לתפוס שטח, או לפתח תוך ניצול היתרון בפיתוח. הערכת המנוע לאחר המהלך: +0.99 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "052cad46",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מאתגר מיד את הרגל d4.",
+    "model": "curated-kb",
+    "inputHash": "83ef1d35",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 c5 d5": {
     "key": "d4 c5 d5",
     "san": "d5",
-    "rationale": "תופס שטח ודוחה את הפרש; נגד ...c5 הלבן מקבל מבנה בנוני־הודי הפוך עם טמפו ושליטה מרכזית. הערכת המנוע לאחר המהלך: +0.68 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "5cb3ca64",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "תופס שטח ודוחה את הפרש.",
+    "model": "curated-kb",
+    "inputHash": "894cde2a",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 c6": {
     "key": "d4 c6",
     "san": "c6",
-    "rationale": "מבנה סלאבי מוצק שתומך ב-d5. הלבן ממשיך e3 ופיתוח, עם משחק נוח וקל יותר. הערכת המנוע לאחר המהלך: +1.06 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "f9cba6d0",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מבנה סלאבי מוצק שתומך ב-d5.",
+    "model": "curated-kb",
+    "inputHash": "aef44002",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 c6 c4": {
     "key": "d4 c6 c4",
     "san": "c4",
-    "rationale": "מרחיב את המרכז ועובר למבנה רחב יותר נגד סטאפים שקטים של השחור (...c6/...Nc6). הערכת המנוע לאחר המהלך: +0.30 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "6c93d4f8",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מרחיב את המרכז נגד מבנים שקטים של השחור.",
+    "model": "curated-kb",
+    "inputHash": "ca2b7a8d",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 c6 c4 d5": {
     "key": "d4 c6 c4 d5",
     "san": "d5",
-    "rationale": "תופס מרכז קלאסי ומבסס נוכחות ב-d5/e4. הלבן ימשיך בתוכנית הז׳ובבה: Nc3, Bf4 ולחץ. הערכת המנוע לאחר המהלך: +0.82 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "bc1977d6",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "תופס מרכז קלאסי.",
+    "model": "curated-kb",
+    "inputHash": "7fa7a6f5",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 c6 c4 d5 Nf3": {
     "key": "d4 c6 c4 d5 Nf3",
     "san": "Nf3",
-    "rationale": "פיתוח טבעי שתומך ב-d4 וב-e5, מכין הצרחה קצרה ומשלים את הסטאפ המוצק של הלבן. הערכת המנוע לאחר המהלך: +0.28 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "12d158cd",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מפתח את הפרש ותומך ב-d4 וב-e5.",
+    "model": "curated-kb",
+    "inputHash": "ef4be796",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5": {
     "key": "d4 d5",
     "san": "d5",
-    "rationale": "תופס מרכז קלאסי ומבסס נוכחות ב-d5/e4. הלבן ימשיך בתוכנית הז׳ובבה: Nc3, Bf4 ולחץ. הערכת המנוע לאחר המהלך: +0.77 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "97661257",
-    "generatedAt": "2026-06-16T19:33:56.246Z"
+    "rationale": "תופס מרכז קלאסי.",
+    "model": "curated-kb",
+    "inputHash": "7fa7a6f5",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3": {
     "key": "d4 d5 Nc3",
     "san": "Nc3",
-    "rationale": "מהלך הזיהוי של ז׳ובבה־לונדון: הפרש מתפתח ל-c3 ולוחץ על המשבצות d5 ו-e4 מבלי לחסום את רגל ה-c. כך נשמרת האופציה של Nb5 ושל לחץ מהיר, בשונה מהלונדון הקלאסי עם c3. הערכת המנוע לאחר המהלך: -0.63 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "ce7bd49e",
-    "generatedAt": "2026-06-16T19:33:56.246Z"
+    "rationale": "מפתח את הפרש ולוחץ על d5 ו-e4 בלי לחסום את רגל ה-c.",
+    "model": "curated-kb",
+    "inputHash": "3ec55683",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Bf5": {
     "key": "d4 d5 Nc3 Bf5",
     "san": "Bf5",
-    "rationale": "מפתח את ״הרץ הבעייתי״ אל מחוץ לשרשרת לפני ...e6. הלבן מגיב בתוכנית f3-g4-h4 כדי לרדוף אחרי הרץ ולתפוס שטח. הערכת המנוע לאחר המהלך: +0.45 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "98bad550",
-    "generatedAt": "2026-06-16T19:33:56.250Z"
+    "rationale": "מוציא את הרץ הבעייתי אל מחוץ לשרשרת.",
+    "model": "curated-kb",
+    "inputHash": "072a3041",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Bf5 f3": {
     "key": "d4 d5 Nc3 Bf5 f3",
     "san": "f3",
-    "rationale": "מבצר את המרכז ומכין g4. נגד ...Bf5 הרעיון הוא g4 ו-h4 כדי לרדוף אחרי הרץ ולתפוס שטח רב בכנף. הערכת המנוע לאחר המהלך: +0.01 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "c43ca5fa",
-    "generatedAt": "2026-06-16T19:33:56.250Z"
+    "rationale": "מבצר את המרכז כהכנה לדחיפת g4.",
+    "model": "curated-kb",
+    "inputHash": "8fae9a71",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6": {
     "key": "d4 d5 Nc3 Nc6",
     "san": "Nc6",
-    "rationale": "פיתוח פעיל, אך הוא מחליש את ההגנה על c7 ומזמין את Nb5 עם איומי Nxc7+ ו-Nd6 — בדיוק המבנה שהלבן מקדם בברכה. הערכת המנוע לאחר המהלך: +0.58 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "8b056b2c",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "פיתוח פעיל שמחליש את c7 ומזמין Nb5.",
+    "model": "curated-kb",
+    "inputHash": "faae6ba5",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nc6 Bf4": {
     "key": "d4 d5 Nc3 Nc6 Bf4",
     "san": "Bf4",
-    "rationale": "הרץ השחור־משבצות יוצא אל מחוץ לשרשרת הרגלים עוד לפני e3 — לב השיטה. מ-f4 הוא לוחץ על c7 ועל הכנף המלכותית של השחור ומכין רעיונות כמו Nb5. הערכת המנוע לאחר המהלך: -0.13 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "6812562d",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "מוציא את הרץ אל מחוץ לשרשרת הרגלים ולוחץ על c7 — לב השיטה.",
+    "model": "curated-kb",
+    "inputHash": "6623380e",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 Bf5": {
     "key": "d4 d5 Nc3 Nc6 Bf4 Bf5",
     "san": "Bf5",
-    "rationale": "מפתח את ״הרץ הבעייתי״ אל מחוץ לשרשרת לפני ...e6. הלבן מגיב בתוכנית f3-g4-h4 כדי לרדוף אחרי הרץ ולתפוס שטח. הערכת המנוע לאחר המהלך: +0.32 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "df73587e",
-    "generatedAt": "2026-06-16T19:33:56.250Z"
+    "rationale": "מוציא את הרץ הבעייתי אל מחוץ לשרשרת.",
+    "model": "curated-kb",
+    "inputHash": "072a3041",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 Bf5 e3": {
     "key": "d4 d5 Nc3 Nc6 Bf4 Bf5 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: +0.06 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "c807cdb4",
-    "generatedAt": "2026-06-16T19:33:56.250Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 Nf6": {
     "key": "d4 d5 Nc3 Nc6 Bf4 Nf6",
     "san": "Nf6",
-    "rationale": "מפתח את הפרש ושולט ב-e4 וב-d5. הלבן יענה לרוב ב-Bf4 ובפיתוח רגוע. הערכת המנוע לאחר המהלך: +0.73 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "1ced1db0",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "מפתח ושולט ב-e4 וב-d5.",
+    "model": "curated-kb",
+    "inputHash": "c72d505c",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5": {
     "key": "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5",
     "san": "Nb5",
-    "rationale": "הפרש קופץ ל-b5 ומנצל את חולשת המשבצת c7. נוצרים איומים של Nxc7+ (מזלג על המלך והצריח) ושל פלישה ל-d6 — מהלך מעשי ואגרסיבי האופייני לז׳ובבה. הערכת המנוע לאחר המהלך: -0.11 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "efcf7101",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "מנצל את חולשת c7 ומאיים לפלוש ל-c7 או ל-d6.",
+    "model": "curated-kb",
+    "inputHash": "d3178c4d",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 Rb8": {
     "key": "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 Rb8",
     "san": "Rb8",
-    "rationale": "מנסה להגן בעקיפין על c7 / לפנות את הצריח, אך מאוחר מדי: הלבן כבר חוטף עם Bxc7 או Nxc7+. הערכת המנוע לאחר המהלך: +4.24 (יתרון גדול ללבן). זהו מהלך שגוי שהלבן מנצל מיד לזכייה בחומר.",
-    "quality": "blunder",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "a761a941",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "מנסה להגן על c7 — אך מאוחר מדי.",
+    "model": "curated-kb",
+    "inputHash": "dce95be1",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 Rb8 Bxc7": {
     "key": "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 Rb8 Bxc7",
     "san": "Bxc7",
-    "rationale": "חוטף את הרגל c7 הבלתי מוגן ומרוויח חומר, בניצול החולשה ש-...Nc6/...Rb8 הותירו על c7. הערכת המנוע לאחר המהלך: +4.10 (יתרון גדול ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "f802f66e",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "חוטף רגל לא־מוגן ומרוויח חומר.",
+    "model": "curated-kb",
+    "inputHash": "51dfde21",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5": {
     "key": "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5",
     "san": "e5",
-    "rationale": "ניסיון לשבור במרכז. לרוב לאחר dxe5 נפתחים קווים וטורים לטובת הכלים המפותחים של הלבן. הערכת המנוע לאחר המהלך: +0.83 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "f917c2c3",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "ניסיון לשבור במרכז.",
+    "model": "curated-kb",
+    "inputHash": "f63215b3",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5 dxe5": {
     "key": "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5 dxe5",
     "san": "dxe5",
-    "rationale": "פותח את המרכז ומנצל את ...e5. אחרי ההחלפות הרץ ב-f4 והפרש ב-b5 פעילים מאוד, והשחור נתקל לעיתים בקשיים טקטיים סביב c7 ו-d5. הערכת המנוע לאחר המהלך: +0.72 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "683306c9",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "פותח את המרכז ומשאיר את הכלים הלבנים פעילים.",
+    "model": "curated-kb",
+    "inputHash": "f5e49856",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5 dxe5 Ne4": {
     "key": "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5 dxe5 Ne4",
     "san": "Ne4",
-    "rationale": "פרש פעיל במרכז שמזמין החלפות ומנסה להקל על השחור. הלבן יגיב בדרך כלל ב-a3/f3 או בפיתוח שמנצל את היציבות במרכז. הערכת המנוע לאחר המהלך: +2.25 (יתרון גדול ללבן). ניסיון לא מדויק שמשחק לידי הלבן.",
-    "quality": "dubious",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "90425f51",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "פרש פעיל במרכז שמנסה להחליף ולהקל.",
+    "model": "curated-kb",
+    "inputHash": "ff86f944",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5 dxe5 Ne4 Qxd5": {
     "key": "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5 dxe5 Ne4 Qxd5",
     "san": "Qxd5",
-    "rationale": "ניצול טקטי: המלכה חוטפת את הרגל d5 בתקיפה. לאחר חילופי מלכות יבוא Nxc7+ במזלג, והלבן זוכה בחומר. הערכת המנוע לאחר המהלך: +1.88 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "059f4628",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "חוטף את הרגל בתקיפה ומכין מזלג מנצח.",
+    "model": "curated-kb",
+    "inputHash": "20e46c82",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5 dxe5 Ne4 Qxd5 Qxd5": {
     "key": "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5 dxe5 Ne4 Qxd5 Qxd5",
     "san": "Qxd5",
-    "rationale": "חוטף בחזרה את הרגל, אך נכנס ל-Nxc7+ המזלג; הלבן זוכה בחומר. הערכת המנוע לאחר המהלך: +2.83 (יתרון גדול ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "5ead8364",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "חוטף בחזרה אך נכנס למזלג Nxc7+.",
+    "model": "curated-kb",
+    "inputHash": "51e20d19",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5 dxe5 Ne4 Qxd5 Qxd5 Nxc7+": {
     "key": "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5 dxe5 Ne4 Qxd5 Qxd5 Nxc7+",
     "san": "Nxc7+",
-    "rationale": "המזלג המכריע: הפרש נותן שח וחוטף את הצריח ב-a8 — שיא הרעיון שמאחורי Nb5. הערכת המנוע לאחר המהלך: +2.71 (יתרון גדול ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "1ddefd8a",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "מזלג מכריע על המלך והצריח — שיא הרעיון של Nb5.",
+    "model": "curated-kb",
+    "inputHash": "defd82c9",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5 dxe5 Nh5": {
     "key": "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5 dxe5 Nh5",
     "san": "Nh5",
-    "rationale": "תוקף את רץ f4, אך הפרש נדחק לשוליים. הלבן משחק e3/Bg5 ושומר על יתרון. הערכת המנוע לאחר המהלך: +1.04 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "c310eca1",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "תוקף את הרץ f4 אך נדחק לשוליים.",
+    "model": "curated-kb",
+    "inputHash": "82149a0d",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5 dxe5 Nh5 e3": {
     "key": "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5 dxe5 Nh5 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: +0.60 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "58f10380",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5 dxe5 Nxe5": {
     "key": "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5 dxe5 Nxe5",
     "san": "Nxe5",
-    "rationale": "חוטף את הרגל ב-e5, אך כאן זו טעות: Bxe5 חוטף את הפרש בזכות הפרש ב-b5 וחוסר ההגנה — הלבן זוכה בכלי. הערכת המנוע לאחר המהלך: +5.44 (יתרון מכריע ללבן). זהו מהלך שגוי שהלבן מנצל מיד לזכייה בחומר.",
-    "quality": "blunder",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "c375d876",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "חוטף רגל — אך כאן זו טעות שמפסידה כלי.",
+    "model": "curated-kb",
+    "inputHash": "a1c2707e",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5 dxe5 Nxe5 Bxe5": {
     "key": "d4 d5 Nc3 Nc6 Bf4 Nf6 Nb5 e5 dxe5 Nxe5 Bxe5",
     "san": "Bxe5",
-    "rationale": "הרץ חוטף את הפרש וזוכה בכלי שלם: אחרי ...Nxe5?? אין לשחור פיצוי בשל הפרש ב-b5 והלחץ על c7. הערכת המנוע לאחר המהלך: +5.62 (יתרון מכריע ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "e43e94cc",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "חוטף במרכז ושומר על יתרון כלים ומבנה.",
+    "model": "curated-kb",
+    "inputHash": "46a47a05",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 e6": {
     "key": "d4 d5 Nc3 Nc6 Bf4 e6",
     "san": "e6",
-    "rationale": "תומך ב-d5 ופותח את רץ f8, אך חוסם זמנית את רץ c8 (״הרץ הרע״). הלבן ימשיך e3 ופיתוח טבעי. הערכת המנוע לאחר המהלך: +0.66 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "a7ae88dd",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "תומך ב-d5 אך חוסם זמנית את רץ c8.",
+    "model": "curated-kb",
+    "inputHash": "3b220210",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 e6 Nb5": {
     "key": "d4 d5 Nc3 Nc6 Bf4 e6 Nb5",
     "san": "Nb5",
-    "rationale": "הפרש קופץ ל-b5 ומנצל את חולשת המשבצת c7. נוצרים איומים של Nxc7+ (מזלג על המלך והצריח) ושל פלישה ל-d6 — מהלך מעשי ואגרסיבי האופייני לז׳ובבה. הערכת המנוע לאחר המהלך: -0.84 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "35d17c92",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "מנצל את חולשת c7 ומאיים לפלוש ל-c7 או ל-d6.",
+    "model": "curated-kb",
+    "inputHash": "d3178c4d",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 e6 Nb5 Bd6": {
     "key": "d4 d5 Nc3 Nc6 Bf4 e6 Nb5 Bd6",
     "san": "Bd6",
-    "rationale": "מציע להחליף את רץ f4 החשוב של הלבן. הלבן ישקול Bxd6 (שמעניק לשחור מבנה כפול) או נסיגה כדי לשמור על הרץ, לפי העמדה. הערכת המנוע לאחר המהלך: -0.15 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "2f4e5a8d",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "מציע להחליף את רץ f4 החשוב של הלבן.",
+    "model": "curated-kb",
+    "inputHash": "0de7aebb",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 e6 Nb5 Bd6 Nxd6+": {
     "key": "d4 d5 Nc3 Nc6 Bf4 e6 Nb5 Bd6 Nxd6+",
     "san": "Nxd6+",
-    "rationale": "מחליף את רץ d6 — הרץ הטוב של השחור — ומכריח ...cxd6, שמותיר לשחור מבנה רגלים כפול וכבד על קו ה-d. הערכת המנוע לאחר המהלך: -0.49 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "c306d8df",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "מחליף את הרץ הטוב של השחור ומשאיר לו רגליים כפולות.",
+    "model": "curated-kb",
+    "inputHash": "f262c547",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 e6 Nb5 Bd6 Nxd6+ cxd6": {
     "key": "d4 d5 Nc3 Nc6 Bf4 e6 Nb5 Bd6 Nxd6+ cxd6",
     "san": "cxd6",
-    "rationale": "מחזיר על d6, אך נשאר עם רגליים כפולות וכבדות על קו ה-d — בדיוק היתרון המבני שהלבן חיפש. הערכת המנוע לאחר המהלך: -0.32 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "5f81d507",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "מחזיר על d6 אך נשאר עם רגליים כפולות.",
+    "model": "curated-kb",
+    "inputHash": "81973ab9",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nc6 Bf4 e6 Nb5 Bd6 Nxd6+ cxd6 Nf3": {
     "key": "d4 d5 Nc3 Nc6 Bf4 e6 Nb5 Bd6 Nxd6+ cxd6 Nf3",
     "san": "Nf3",
-    "rationale": "פיתוח טבעי שתומך ב-d4 וב-e5, מכין הצרחה קצרה ומשלים את הסטאפ המוצק של הלבן. הערכת המנוע לאחר המהלך: -0.69 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "2d3dd220",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "מפתח את הפרש ותומך ב-d4 וב-e5.",
+    "model": "curated-kb",
+    "inputHash": "ef4be796",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 Nf6": {
     "key": "d4 d5 Nc3 Nf6",
     "san": "Nf6",
-    "rationale": "מפתח את הפרש ושולט ב-e4 וב-d5. הלבן יענה לרוב ב-Bf4 ובפיתוח רגוע. הערכת המנוע לאחר המהלך: +0.53 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "84ac0720",
-    "generatedAt": "2026-06-16T19:33:56.246Z"
+    "rationale": "מפתח ושולט ב-e4 וב-d5.",
+    "model": "curated-kb",
+    "inputHash": "c72d505c",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4": {
     "key": "d4 d5 Nc3 Nf6 Bf4",
     "san": "Bf4",
-    "rationale": "הרץ השחור־משבצות יוצא אל מחוץ לשרשרת הרגלים עוד לפני e3 — לב השיטה. מ-f4 הוא לוחץ על c7 ועל הכנף המלכותית של השחור ומכין רעיונות כמו Nb5. הערכת המנוע לאחר המהלך: -0.32 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "9f2bde3f",
-    "generatedAt": "2026-06-16T19:33:56.246Z"
+    "rationale": "מוציא את הרץ אל מחוץ לשרשרת הרגלים ולוחץ על c7 — לב השיטה.",
+    "model": "curated-kb",
+    "inputHash": "6623380e",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Bf5": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Bf5",
     "san": "Bf5",
-    "rationale": "מפתח את ״הרץ הבעייתי״ אל מחוץ לשרשרת לפני ...e6. הלבן מגיב בתוכנית f3-g4-h4 כדי לרדוף אחרי הרץ ולתפוס שטח. הערכת המנוע לאחר המהלך: +0.49 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "49e95067",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "מוציא את הרץ הבעייתי אל מחוץ לשרשרת.",
+    "model": "curated-kb",
+    "inputHash": "072a3041",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Bf5 f3": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Bf5 f3",
     "san": "f3",
-    "rationale": "מבצר את המרכז ומכין g4. נגד ...Bf5 הרעיון הוא g4 ו-h4 כדי לרדוף אחרי הרץ ולתפוס שטח רב בכנף. הערכת המנוע לאחר המהלך: -0.50 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "64447395",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "מבצר את המרכז כהכנה לדחיפת g4.",
+    "model": "curated-kb",
+    "inputHash": "8fae9a71",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Bf5 f3 Nc6": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Bf5 f3 Nc6",
     "san": "Nc6",
-    "rationale": "פיתוח פעיל, אך הוא מחליש את ההגנה על c7 ומזמין את Nb5 עם איומי Nxc7+ ו-Nd6 — בדיוק המבנה שהלבן מקדם בברכה. הערכת המנוע לאחר המהלך: +0.34 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "e4b952ad",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "פיתוח פעיל שמחליש את c7 ומזמין Nb5.",
+    "model": "curated-kb",
+    "inputHash": "faae6ba5",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Bf5 f3 Nc6 g4": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Bf5 f3 Nc6 g4",
     "san": "g4",
-    "rationale": "דחיפת רגל תוקפנית בכנף המלכותית: מרחיבה שטח, מאיימת לתפוס את רץ השחור (בדרך כלל ב-f5/g6) ופותחת קווי התקפה. אופייני נגד ...Bf5 ובעמדות בהן השחור איטי. הערכת המנוע לאחר המהלך: +0.35 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "30211de5",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "תופס שטח בכנף המלכותית ורודף אחרי רץ השחור.",
+    "model": "curated-kb",
+    "inputHash": "5bad35f3",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Bf5 f3 Nc6 g4 Bg6": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Bf5 f3 Nc6 g4 Bg6",
     "san": "Bg6",
-    "rationale": "נסיגת הרץ אחרי g4. הלבן ממשיך h4-h5 כדי לרדוף אחרי הרץ ולפתוח את הכנף המלכותית. הערכת המנוע לאחר המהלך: +0.54 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "f075474c",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "נסיגת הרץ מפני דחיפת g4.",
+    "model": "curated-kb",
+    "inputHash": "fd0b26cb",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Bf5 f3 Nc6 g4 Bg6 h4": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Bf5 f3 Nc6 g4 Bg6 h4",
     "san": "h4",
-    "rationale": "ממשיך את דחיפת הכנף: תומך ב-g5, מרחיב את שרשרת ההתקפה ולעיתים לוכד את רץ השחור שנסוג ל-g6. הערכת המנוע לאחר המהלך: +0.22 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "046f5cdd",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "מרחיב את התקפת הכנף ולעיתים לוכד את הרץ.",
+    "model": "curated-kb",
+    "inputHash": "a6ce5ad5",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Bf5 f3 e6": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Bf5 f3 e6",
     "san": "e6",
-    "rationale": "תומך ב-d5 ופותח את רץ f8, אך חוסם זמנית את רץ c8 (״הרץ הרע״). הלבן ימשיך e3 ופיתוח טבעי. הערכת המנוע לאחר המהלך: -0.14 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "21c415ce",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "תומך ב-d5 אך חוסם זמנית את רץ c8.",
+    "model": "curated-kb",
+    "inputHash": "3b220210",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Bf5 f3 e6 g4": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Bf5 f3 e6 g4",
     "san": "g4",
-    "rationale": "דחיפת רגל תוקפנית בכנף המלכותית: מרחיבה שטח, מאיימת לתפוס את רץ השחור (בדרך כלל ב-f5/g6) ופותחת קווי התקפה. אופייני נגד ...Bf5 ובעמדות בהן השחור איטי. הערכת המנוע לאחר המהלך: -0.06 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "7ffd1ce1",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "תופס שטח בכנף המלכותית ורודף אחרי רץ השחור.",
+    "model": "curated-kb",
+    "inputHash": "5bad35f3",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Bf5 f3 e6 g4 Bg6": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Bf5 f3 e6 g4 Bg6",
     "san": "Bg6",
-    "rationale": "נסיגת הרץ אחרי g4. הלבן ממשיך h4-h5 כדי לרדוף אחרי הרץ ולפתוח את הכנף המלכותית. הערכת המנוע לאחר המהלך: +0.44 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "a46b75b5",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "נסיגת הרץ מפני דחיפת g4.",
+    "model": "curated-kb",
+    "inputHash": "fd0b26cb",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Bf5 f3 e6 g4 Bg6 h4": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Bf5 f3 e6 g4 Bg6 h4",
     "san": "h4",
-    "rationale": "ממשיך את דחיפת הכנף: תומך ב-g5, מרחיב את שרשרת ההתקפה ולעיתים לוכד את רץ השחור שנסוג ל-g6. הערכת המנוע לאחר המהלך: -0.23 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "bc5e303c",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "מרחיב את התקפת הכנף ולעיתים לוכד את הרץ.",
+    "model": "curated-kb",
+    "inputHash": "a6ce5ad5",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Nc6": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Nc6",
     "san": "Nc6",
-    "rationale": "פיתוח פעיל, אך הוא מחליש את ההגנה על c7 ומזמין את Nb5 עם איומי Nxc7+ ו-Nd6 — בדיוק המבנה שהלבן מקדם בברכה. הערכת המנוע לאחר המהלך: +0.72 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "f785985d",
-    "generatedAt": "2026-06-16T19:33:56.246Z"
+    "rationale": "פיתוח פעיל שמחליש את c7 ומזמין Nb5.",
+    "model": "curated-kb",
+    "inputHash": "faae6ba5",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5",
     "san": "Nb5",
-    "rationale": "הפרש קופץ ל-b5 ומנצל את חולשת המשבצת c7. נוצרים איומים של Nxc7+ (מזלג על המלך והצריח) ושל פלישה ל-d6 — מהלך מעשי ואגרסיבי האופייני לז׳ובבה. הערכת המנוע לאחר המהלך: -0.06 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "03a67ff9",
-    "generatedAt": "2026-06-16T19:33:56.246Z"
+    "rationale": "מנצל את חולשת c7 ומאיים לפלוש ל-c7 או ל-d6.",
+    "model": "curated-kb",
+    "inputHash": "d3178c4d",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 Rb8": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 Rb8",
     "san": "Rb8",
-    "rationale": "מנסה להגן בעקיפין על c7 / לפנות את הצריח, אך מאוחר מדי: הלבן כבר חוטף עם Bxc7 או Nxc7+. הערכת המנוע לאחר המהלך: +4.28 (יתרון גדול ללבן). זהו מהלך שגוי שהלבן מנצל מיד לזכייה בחומר.",
-    "quality": "blunder",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "9c667299",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "מנסה להגן על c7 — אך מאוחר מדי.",
+    "model": "curated-kb",
+    "inputHash": "dce95be1",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 Rb8 Bxc7": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 Rb8 Bxc7",
     "san": "Bxc7",
-    "rationale": "חוטף את הרגל c7 הבלתי מוגן ומרוויח חומר, בניצול החולשה ש-...Nc6/...Rb8 הותירו על c7. הערכת המנוע לאחר המהלך: +3.71 (יתרון גדול ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "9ad89524",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "חוטף רגל לא־מוגן ומרוויח חומר.",
+    "model": "curated-kb",
+    "inputHash": "51dfde21",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5",
     "san": "e5",
-    "rationale": "ניסיון לשבור במרכז. לרוב לאחר dxe5 נפתחים קווים וטורים לטובת הכלים המפותחים של הלבן. הערכת המנוע לאחר המהלך: +0.35 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "fa58ea28",
-    "generatedAt": "2026-06-16T19:33:56.246Z"
+    "rationale": "ניסיון לשבור במרכז.",
+    "model": "curated-kb",
+    "inputHash": "f63215b3",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5 dxe5": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5 dxe5",
     "san": "dxe5",
-    "rationale": "פותח את המרכז ומנצל את ...e5. אחרי ההחלפות הרץ ב-f4 והפרש ב-b5 פעילים מאוד, והשחור נתקל לעיתים בקשיים טקטיים סביב c7 ו-d5. הערכת המנוע לאחר המהלך: +0.03 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "fc4fcfd1",
-    "generatedAt": "2026-06-16T19:33:56.246Z"
+    "rationale": "פותח את המרכז ומשאיר את הכלים הלבנים פעילים.",
+    "model": "curated-kb",
+    "inputHash": "f5e49856",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5 dxe5 Ne4": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5 dxe5 Ne4",
     "san": "Ne4",
-    "rationale": "פרש פעיל במרכז שמזמין החלפות ומנסה להקל על השחור. הלבן יגיב בדרך כלל ב-a3/f3 או בפיתוח שמנצל את היציבות במרכז. הערכת המנוע לאחר המהלך: +2.08 (יתרון גדול ללבן). ניסיון לא מדויק שמשחק לידי הלבן.",
-    "quality": "dubious",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "24c920d6",
-    "generatedAt": "2026-06-16T19:33:56.246Z"
+    "rationale": "פרש פעיל במרכז שמנסה להחליף ולהקל.",
+    "model": "curated-kb",
+    "inputHash": "ff86f944",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5 dxe5 Ne4 Qxd5": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5 dxe5 Ne4 Qxd5",
     "san": "Qxd5",
-    "rationale": "ניצול טקטי: המלכה חוטפת את הרגל d5 בתקיפה. לאחר חילופי מלכות יבוא Nxc7+ במזלג, והלבן זוכה בחומר. הערכת המנוע לאחר המהלך: +2.01 (יתרון גדול ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "5d9bdd34",
-    "generatedAt": "2026-06-16T19:33:56.246Z"
+    "rationale": "חוטף את הרגל בתקיפה ומכין מזלג מנצח.",
+    "model": "curated-kb",
+    "inputHash": "20e46c82",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5 dxe5 Ne4 Qxd5 Qxd5": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5 dxe5 Ne4 Qxd5 Qxd5",
     "san": "Qxd5",
-    "rationale": "חוטף בחזרה את הרגל, אך נכנס ל-Nxc7+ המזלג; הלבן זוכה בחומר. הערכת המנוע לאחר המהלך: +3.15 (יתרון גדול ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "43976ff6",
-    "generatedAt": "2026-06-16T19:33:56.246Z"
+    "rationale": "חוטף בחזרה אך נכנס למזלג Nxc7+.",
+    "model": "curated-kb",
+    "inputHash": "51e20d19",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5 dxe5 Ne4 Qxd5 Qxd5 Nxc7+": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5 dxe5 Ne4 Qxd5 Qxd5 Nxc7+",
     "san": "Nxc7+",
-    "rationale": "המזלג המכריע: הפרש נותן שח וחוטף את הצריח ב-a8 — שיא הרעיון שמאחורי Nb5. הערכת המנוע לאחר המהלך: +2.54 (יתרון גדול ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "be452b09",
-    "generatedAt": "2026-06-16T19:33:56.246Z"
+    "rationale": "מזלג מכריע על המלך והצריח — שיא הרעיון של Nb5.",
+    "model": "curated-kb",
+    "inputHash": "defd82c9",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5 dxe5 Nh5": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5 dxe5 Nh5",
     "san": "Nh5",
-    "rationale": "תוקף את רץ f4, אך הפרש נדחק לשוליים. הלבן משחק e3/Bg5 ושומר על יתרון. הערכת המנוע לאחר המהלך: +0.80 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "ce12b83e",
-    "generatedAt": "2026-06-16T19:33:56.246Z"
+    "rationale": "תוקף את הרץ f4 אך נדחק לשוליים.",
+    "model": "curated-kb",
+    "inputHash": "82149a0d",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5 dxe5 Nh5 e3": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5 dxe5 Nh5 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: +0.30 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "6e434af7",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5 dxe5 Nxe5": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5 dxe5 Nxe5",
     "san": "Nxe5",
-    "rationale": "חוטף את הרגל ב-e5, אך כאן זו טעות: Bxe5 חוטף את הפרש בזכות הפרש ב-b5 וחוסר ההגנה — הלבן זוכה בכלי. הערכת המנוע לאחר המהלך: +5.91 (יתרון מכריע ללבן). זהו מהלך שגוי שהלבן מנצל מיד לזכייה בחומר.",
-    "quality": "blunder",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "b7528cc0",
-    "generatedAt": "2026-06-16T19:33:56.246Z"
+    "rationale": "חוטף רגל — אך כאן זו טעות שמפסידה כלי.",
+    "model": "curated-kb",
+    "inputHash": "a1c2707e",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5 dxe5 Nxe5 Bxe5": {
     "key": "d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 e5 dxe5 Nxe5 Bxe5",
     "san": "Bxe5",
-    "rationale": "הרץ חוטף את הפרש וזוכה בכלי שלם: אחרי ...Nxe5?? אין לשחור פיצוי בשל הפרש ב-b5 והלחץ על c7. הערכת המנוע לאחר המהלך: +5.55 (יתרון מכריע ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "36fa5eca",
-    "generatedAt": "2026-06-16T19:33:56.246Z"
+    "rationale": "חוטף במרכז ושומר על יתרון כלים ומבנה.",
+    "model": "curated-kb",
+    "inputHash": "46a47a05",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 a6": {
     "key": "d4 d5 Nc3 Nf6 Bf4 a6",
     "san": "a6",
-    "rationale": "מונע מראש את Nb5 וקובע מעט שטח בכנף, אך זהו מהלך איטי שמאפשר ללבן g4 או פיתוח רגוע עם יתרון מרחבי. הערכת המנוע לאחר המהלך: +0.57 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "1eff4f6c",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "מונע Nb5 אך זהו מהלך איטי.",
+    "model": "curated-kb",
+    "inputHash": "b647a8be",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 a6 e3": {
     "key": "d4 d5 Nc3 Nf6 Bf4 a6 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: +0.11 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "26aa2da5",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 a6 e3 Nc6": {
     "key": "d4 d5 Nc3 Nf6 Bf4 a6 e3 Nc6",
     "san": "Nc6",
-    "rationale": "פיתוח פעיל, אך הוא מחליש את ההגנה על c7 ומזמין את Nb5 עם איומי Nxc7+ ו-Nd6 — בדיוק המבנה שהלבן מקדם בברכה. הערכת המנוע לאחר המהלך: +0.93 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "b0066ad3",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "פיתוח פעיל שמחליש את c7 ומזמין Nb5.",
+    "model": "curated-kb",
+    "inputHash": "faae6ba5",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 a6 e3 Nc6 Nf3": {
     "key": "d4 d5 Nc3 Nf6 Bf4 a6 e3 Nc6 Nf3",
     "san": "Nf3",
-    "rationale": "פיתוח טבעי שתומך ב-d4 וב-e5, מכין הצרחה קצרה ומשלים את הסטאפ המוצק של הלבן. הערכת המנוע לאחר המהלך: +0.04 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "363d5312",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "מפתח את הפרש ותומך ב-d4 וב-e5.",
+    "model": "curated-kb",
+    "inputHash": "ef4be796",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 a6 e3 Nc6 Nf3 Bf5": {
     "key": "d4 d5 Nc3 Nf6 Bf4 a6 e3 Nc6 Nf3 Bf5",
     "san": "Bf5",
-    "rationale": "מפתח את ״הרץ הבעייתי״ אל מחוץ לשרשרת לפני ...e6. הלבן מגיב בתוכנית f3-g4-h4 כדי לרדוף אחרי הרץ ולתפוס שטח. הערכת המנוע לאחר המהלך: +0.67 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "b361cdd7",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "מוציא את הרץ הבעייתי אל מחוץ לשרשרת.",
+    "model": "curated-kb",
+    "inputHash": "072a3041",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 a6 e3 Nc6 Nf3 Bf5 Bd3": {
     "key": "d4 d5 Nc3 Nf6 Bf4 a6 e3 Nc6 Nf3 Bf5 Bd3",
     "san": "Bd3",
-    "rationale": "ממקם את הרץ על האלכסון b1-h7, מכין הצרחה, ולעיתים החלפה של רץ ה-f5 של השחור כדי לשלוט במשבצות הלבנות. הערכת המנוע לאחר המהלך: -0.06 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "2ca2136f",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "ממקם את הרץ על האלכסון b1-h7 ושולט במשבצות הלבנות.",
+    "model": "curated-kb",
+    "inputHash": "d02a9772",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 a6 e3 e6": {
     "key": "d4 d5 Nc3 Nf6 Bf4 a6 e3 e6",
     "san": "e6",
-    "rationale": "תומך ב-d5 ופותח את רץ f8, אך חוסם זמנית את רץ c8 (״הרץ הרע״). הלבן ימשיך e3 ופיתוח טבעי. הערכת המנוע לאחר המהלך: +0.38 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "e6e79b09",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "תומך ב-d5 אך חוסם זמנית את רץ c8.",
+    "model": "curated-kb",
+    "inputHash": "3b220210",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 a6 e3 e6 g4": {
     "key": "d4 d5 Nc3 Nf6 Bf4 a6 e3 e6 g4",
     "san": "g4",
-    "rationale": "דחיפת רגל תוקפנית בכנף המלכותית: מרחיבה שטח, מאיימת לתפוס את רץ השחור (בדרך כלל ב-f5/g6) ופותחת קווי התקפה. אופייני נגד ...Bf5 ובעמדות בהן השחור איטי. הערכת המנוע לאחר המהלך: -0.34 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "36c0d569",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "תופס שטח בכנף המלכותית ורודף אחרי רץ השחור.",
+    "model": "curated-kb",
+    "inputHash": "5bad35f3",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 c6": {
     "key": "d4 d5 Nc3 Nf6 Bf4 c6",
     "san": "c6",
-    "rationale": "מבנה סלאבי מוצק שתומך ב-d5. הלבן ממשיך e3 ופיתוח, עם משחק נוח וקל יותר. הערכת המנוע לאחר המהלך: +0.52 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "242f62b5",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "מבנה סלאבי מוצק שתומך ב-d5.",
+    "model": "curated-kb",
+    "inputHash": "aef44002",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 c6 e3": {
     "key": "d4 d5 Nc3 Nf6 Bf4 c6 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: +0.26 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "bbdcc29b",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 e6": {
     "key": "d4 d5 Nc3 Nf6 Bf4 e6",
     "san": "e6",
-    "rationale": "תומך ב-d5 ופותח את רץ f8, אך חוסם זמנית את רץ c8 (״הרץ הרע״). הלבן ימשיך e3 ופיתוח טבעי. הערכת המנוע לאחר המהלך: +0.25 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "21f445ff",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "תומך ב-d5 אך חוסם זמנית את רץ c8.",
+    "model": "curated-kb",
+    "inputHash": "3b220210",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 e6 e3": {
     "key": "d4 d5 Nc3 Nf6 Bf4 e6 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: -0.40 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "cd3ced65",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 e6 e3 Bb4": {
     "key": "d4 d5 Nc3 Nf6 Bf4 e6 e3 Bb4",
     "san": "Bb4",
-    "rationale": "סיכה על הפרש c3 ולחץ על המרכז. הלבן יענה a3 (לשאול את הרץ) או Ne2 (לתמוך ב-c3 ולשמור על גמישות g4). הערכת המנוע לאחר המהלך: +0.30 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "eb6b5ce5",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "מסכל את הפרש c3 ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "8ec40f15",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 e6 e3 Bb4 Ne2": {
     "key": "d4 d5 Nc3 Nf6 Bf4 e6 e3 Bb4 Ne2",
     "san": "Ne2",
-    "rationale": "דווקא ל-e2 ולא ל-f3: כך נשמר רגל ה-f לדחיפת g4 בעתיד, הפרש תומך ב-Nc3, ואם השחור יחליף ב-...Bxc3 הלבן יחזיר בפרש וישמור על מבנה טוב. מהלך גמיש האופייני נגד ...Bb4. הערכת המנוע לאחר המהלך: -0.35 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "9e4ad79b",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "שומר את רגל ה-f לדחיפת g4 בעתיד ותומך בפרש c3.",
+    "model": "curated-kb",
+    "inputHash": "e6b60d23",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 e6 e3 Bb4 Ne2 Ne4": {
     "key": "d4 d5 Nc3 Nf6 Bf4 e6 e3 Bb4 Ne2 Ne4",
     "san": "Ne4",
-    "rationale": "פרש פעיל במרכז שמזמין החלפות ומנסה להקל על השחור. הלבן יגיב בדרך כלל ב-a3/f3 או בפיתוח שמנצל את היציבות במרכז. הערכת המנוע לאחר המהלך: +1.07 (יתרון ברור ללבן). ניסיון לא מדויק שמשחק לידי הלבן.",
-    "quality": "dubious",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "b417324b",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "פרש פעיל במרכז שמנסה להחליף ולהקל.",
+    "model": "curated-kb",
+    "inputHash": "ff86f944",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 e6 e3 Bb4 Ne2 Ne4 a3": {
     "key": "d4 d5 Nc3 Nf6 Bf4 e6 e3 Bb4 Ne2 Ne4 a3",
     "san": "a3",
-    "rationale": "שואל את הרץ ב-b4: אם ...Bxc3 הלבן פותח קו, משפר מבנה ושומר על זוג הרצים, ואם הרץ נסוג הלבן הרוויח טמפו ומרחב. הערכת המנוע לאחר המהלך: +0.47 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "4928c902",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "שואל את הרץ ב-b4 — או זוג רצים או טמפו ומרחב.",
+    "model": "curated-kb",
+    "inputHash": "9ed5804b",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 e6 e3 Bd6": {
     "key": "d4 d5 Nc3 Nf6 Bf4 e6 e3 Bd6",
     "san": "Bd6",
-    "rationale": "מציע להחליף את רץ f4 החשוב של הלבן. הלבן ישקול Bxd6 (שמעניק לשחור מבנה כפול) או נסיגה כדי לשמור על הרץ, לפי העמדה. הערכת המנוע לאחר המהלך: +0.54 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "7df4d5db",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "מציע להחליף את רץ f4 החשוב של הלבן.",
+    "model": "curated-kb",
+    "inputHash": "0de7aebb",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 e6 e3 Bd6 Nf3": {
     "key": "d4 d5 Nc3 Nf6 Bf4 e6 e3 Bd6 Nf3",
     "san": "Nf3",
-    "rationale": "פיתוח טבעי שתומך ב-d4 וב-e5, מכין הצרחה קצרה ומשלים את הסטאפ המוצק של הלבן. הערכת המנוע לאחר המהלך: -0.31 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "fe0aee23",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "מפתח את הפרש ותומך ב-d4 וב-e5.",
+    "model": "curated-kb",
+    "inputHash": "ef4be796",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 e6 e3 a6": {
     "key": "d4 d5 Nc3 Nf6 Bf4 e6 e3 a6",
     "san": "a6",
-    "rationale": "מונע מראש את Nb5 וקובע מעט שטח בכנף, אך זהו מהלך איטי שמאפשר ללבן g4 או פיתוח רגוע עם יתרון מרחבי. הערכת המנוע לאחר המהלך: +0.48 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "4a726ad8",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "מונע Nb5 אך זהו מהלך איטי.",
+    "model": "curated-kb",
+    "inputHash": "b647a8be",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 Nf6 Bf4 e6 e3 a6 g4": {
     "key": "d4 d5 Nc3 Nf6 Bf4 e6 e3 a6 g4",
     "san": "g4",
-    "rationale": "דחיפת רגל תוקפנית בכנף המלכותית: מרחיבה שטח, מאיימת לתפוס את רץ השחור (בדרך כלל ב-f5/g6) ופותחת קווי התקפה. אופייני נגד ...Bf5 ובעמדות בהן השחור איטי. הערכת המנוע לאחר המהלך: -0.45 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "52b31ce1",
-    "generatedAt": "2026-06-16T19:33:56.247Z"
+    "rationale": "תופס שטח בכנף המלכותית ורודף אחרי רץ השחור.",
+    "model": "curated-kb",
+    "inputHash": "5bad35f3",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 c6": {
     "key": "d4 d5 Nc3 c6",
     "san": "c6",
-    "rationale": "מבנה סלאבי מוצק שתומך ב-d5. הלבן ממשיך e3 ופיתוח, עם משחק נוח וקל יותר. הערכת המנוע לאחר המהלך: +0.98 (יתרון ברור ללבן). ניסיון לא מדויק שמשחק לידי הלבן.",
-    "quality": "dubious",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "5880af6e",
-    "generatedAt": "2026-06-16T19:33:56.250Z"
+    "rationale": "מבנה סלאבי מוצק שתומך ב-d5.",
+    "model": "curated-kb",
+    "inputHash": "aef44002",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 c6 Bf4": {
     "key": "d4 d5 Nc3 c6 Bf4",
     "san": "Bf4",
-    "rationale": "הרץ השחור־משבצות יוצא אל מחוץ לשרשרת הרגלים עוד לפני e3 — לב השיטה. מ-f4 הוא לוחץ על c7 ועל הכנף המלכותית של השחור ומכין רעיונות כמו Nb5. הערכת המנוע לאחר המהלך: +0.29 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "52e4db6a",
-    "generatedAt": "2026-06-16T19:33:56.250Z"
+    "rationale": "מוציא את הרץ אל מחוץ לשרשרת הרגלים ולוחץ על c7 — לב השיטה.",
+    "model": "curated-kb",
+    "inputHash": "6623380e",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 c6 Bf4 Nf6": {
     "key": "d4 d5 Nc3 c6 Bf4 Nf6",
     "san": "Nf6",
-    "rationale": "מפתח את הפרש ושולט ב-e4 וב-d5. הלבן יענה לרוב ב-Bf4 ובפיתוח רגוע. הערכת המנוע לאחר המהלך: +0.68 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "63397b14",
-    "generatedAt": "2026-06-16T19:33:56.250Z"
+    "rationale": "מפתח ושולט ב-e4 וב-d5.",
+    "model": "curated-kb",
+    "inputHash": "c72d505c",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 c6 Bf4 Nf6 e3": {
     "key": "d4 d5 Nc3 c6 Bf4 Nf6 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: +0.13 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "fda5017b",
-    "generatedAt": "2026-06-16T19:33:56.250Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 c6 Bf4 e6": {
     "key": "d4 d5 Nc3 c6 Bf4 e6",
     "san": "e6",
-    "rationale": "תומך ב-d5 ופותח את רץ f8, אך חוסם זמנית את רץ c8 (״הרץ הרע״). הלבן ימשיך e3 ופיתוח טבעי. הערכת המנוע לאחר המהלך: +0.82 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "772c34c3",
-    "generatedAt": "2026-06-16T19:33:56.250Z"
+    "rationale": "תומך ב-d5 אך חוסם זמנית את רץ c8.",
+    "model": "curated-kb",
+    "inputHash": "3b220210",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 c6 Bf4 e6 e3": {
     "key": "d4 d5 Nc3 c6 Bf4 e6 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: +0.47 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "12232bed",
-    "generatedAt": "2026-06-16T19:33:56.250Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 e5": {
     "key": "d4 d5 Nc3 e5",
     "san": "e5",
-    "rationale": "ניסיון לשבור במרכז. לרוב לאחר dxe5 נפתחים קווים וטורים לטובת הכלים המפותחים של הלבן. הערכת המנוע לאחר המהלך: +1.05 (יתרון ברור ללבן). ניסיון לא מדויק שמשחק לידי הלבן.",
-    "quality": "dubious",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "8d290ad8",
-    "generatedAt": "2026-06-16T19:33:56.250Z"
+    "rationale": "ניסיון לשבור במרכז.",
+    "model": "curated-kb",
+    "inputHash": "f63215b3",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 e5 dxe5": {
     "key": "d4 d5 Nc3 e5 dxe5",
     "san": "dxe5",
-    "rationale": "פותח את המרכז ומנצל את ...e5. אחרי ההחלפות הרץ ב-f4 והפרש ב-b5 פעילים מאוד, והשחור נתקל לעיתים בקשיים טקטיים סביב c7 ו-d5. הערכת המנוע לאחר המהלך: +0.70 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "38bd7aff",
-    "generatedAt": "2026-06-16T19:33:56.250Z"
+    "rationale": "פותח את המרכז ומשאיר את הכלים הלבנים פעילים.",
+    "model": "curated-kb",
+    "inputHash": "f5e49856",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d5 Nc3 e6": {
     "key": "d4 d5 Nc3 e6",
     "san": "e6",
-    "rationale": "תומך ב-d5 ופותח את רץ f8, אך חוסם זמנית את רץ c8 (״הרץ הרע״). הלבן ימשיך e3 ופיתוח טבעי. הערכת המנוע לאחר המהלך: +0.47 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "282ee5d8",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "תומך ב-d5 אך חוסם זמנית את רץ c8.",
+    "model": "curated-kb",
+    "inputHash": "3b220210",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4": {
     "key": "d4 d5 Nc3 e6 Bf4",
     "san": "Bf4",
-    "rationale": "הרץ השחור־משבצות יוצא אל מחוץ לשרשרת הרגלים עוד לפני e3 — לב השיטה. מ-f4 הוא לוחץ על c7 ועל הכנף המלכותית של השחור ומכין רעיונות כמו Nb5. הערכת המנוע לאחר המהלך: -0.48 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "749a0961",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "מוציא את הרץ אל מחוץ לשרשרת הרגלים ולוחץ על c7 — לב השיטה.",
+    "model": "curated-kb",
+    "inputHash": "6623380e",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Bb4": {
     "key": "d4 d5 Nc3 e6 Bf4 Bb4",
     "san": "Bb4",
-    "rationale": "סיכה על הפרש c3 ולחץ על המרכז. הלבן יענה a3 (לשאול את הרץ) או Ne2 (לתמוך ב-c3 ולשמור על גמישות g4). הערכת המנוע לאחר המהלך: +0.10 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "76ff75f1",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "מסכל את הפרש c3 ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "8ec40f15",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Bb4 e3": {
     "key": "d4 d5 Nc3 e6 Bf4 Bb4 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: -0.18 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "64692a12",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Bb4 e3 Nf6": {
     "key": "d4 d5 Nc3 e6 Bf4 Bb4 e3 Nf6",
     "san": "Nf6",
-    "rationale": "מפתח את הפרש ושולט ב-e4 וב-d5. הלבן יענה לרוב ב-Bf4 ובפיתוח רגוע. הערכת המנוע לאחר המהלך: +0.22 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "ed1d1214",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "מפתח ושולט ב-e4 וב-d5.",
+    "model": "curated-kb",
+    "inputHash": "c72d505c",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Bb4 e3 Nf6 Ne2": {
     "key": "d4 d5 Nc3 e6 Bf4 Bb4 e3 Nf6 Ne2",
     "san": "Ne2",
-    "rationale": "דווקא ל-e2 ולא ל-f3: כך נשמר רגל ה-f לדחיפת g4 בעתיד, הפרש תומך ב-Nc3, ואם השחור יחליף ב-...Bxc3 הלבן יחזיר בפרש וישמור על מבנה טוב. מהלך גמיש האופייני נגד ...Bb4. הערכת המנוע לאחר המהלך: -0.37 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "83e44431",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "שומר את רגל ה-f לדחיפת g4 בעתיד ותומך בפרש c3.",
+    "model": "curated-kb",
+    "inputHash": "e6b60d23",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Bb4 e3 Nf6 Ne2 Ne4": {
     "key": "d4 d5 Nc3 e6 Bf4 Bb4 e3 Nf6 Ne2 Ne4",
     "san": "Ne4",
-    "rationale": "פרש פעיל במרכז שמזמין החלפות ומנסה להקל על השחור. הלבן יגיב בדרך כלל ב-a3/f3 או בפיתוח שמנצל את היציבות במרכז. הערכת המנוע לאחר המהלך: +0.79 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "822753c3",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "פרש פעיל במרכז שמנסה להחליף ולהקל.",
+    "model": "curated-kb",
+    "inputHash": "ff86f944",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Bb4 e3 Nf6 Ne2 Ne4 a3": {
     "key": "d4 d5 Nc3 e6 Bf4 Bb4 e3 Nf6 Ne2 Ne4 a3",
     "san": "a3",
-    "rationale": "שואל את הרץ ב-b4: אם ...Bxc3 הלבן פותח קו, משפר מבנה ושומר על זוג הרצים, ואם הרץ נסוג הלבן הרוויח טמפו ומרחב. הערכת המנוע לאחר המהלך: +0.73 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "49b56a57",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "שואל את הרץ ב-b4 — או זוג רצים או טמפו ומרחב.",
+    "model": "curated-kb",
+    "inputHash": "9ed5804b",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Bd6": {
     "key": "d4 d5 Nc3 e6 Bf4 Bd6",
     "san": "Bd6",
-    "rationale": "מציע להחליף את רץ f4 החשוב של הלבן. הלבן ישקול Bxd6 (שמעניק לשחור מבנה כפול) או נסיגה כדי לשמור על הרץ, לפי העמדה. הערכת המנוע לאחר המהלך: +0.24 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "8221fddc",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "מציע להחליף את רץ f4 החשוב של הלבן.",
+    "model": "curated-kb",
+    "inputHash": "0de7aebb",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Bd6 e3": {
     "key": "d4 d5 Nc3 e6 Bf4 Bd6 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: -0.51 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "20096207",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Bd6 e3 Nf6": {
     "key": "d4 d5 Nc3 e6 Bf4 Bd6 e3 Nf6",
     "san": "Nf6",
-    "rationale": "מפתח את הפרש ושולט ב-e4 וב-d5. הלבן יענה לרוב ב-Bf4 ובפיתוח רגוע. הערכת המנוע לאחר המהלך: +0.17 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "4f7b9c34",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "מפתח ושולט ב-e4 וב-d5.",
+    "model": "curated-kb",
+    "inputHash": "c72d505c",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Bd6 e3 Nf6 Nf3": {
     "key": "d4 d5 Nc3 e6 Bf4 Bd6 e3 Nf6 Nf3",
     "san": "Nf3",
-    "rationale": "פיתוח טבעי שתומך ב-d4 וב-e5, מכין הצרחה קצרה ומשלים את הסטאפ המוצק של הלבן. הערכת המנוע לאחר המהלך: -0.33 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "57f263d9",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "מפתח את הפרש ותומך ב-d4 וב-e5.",
+    "model": "curated-kb",
+    "inputHash": "ef4be796",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Nc6": {
     "key": "d4 d5 Nc3 e6 Bf4 Nc6",
     "san": "Nc6",
-    "rationale": "פיתוח פעיל, אך הוא מחליש את ההגנה על c7 ומזמין את Nb5 עם איומי Nxc7+ ו-Nd6 — בדיוק המבנה שהלבן מקדם בברכה. הערכת המנוע לאחר המהלך: +0.47 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "2884b466",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "פיתוח פעיל שמחליש את c7 ומזמין Nb5.",
+    "model": "curated-kb",
+    "inputHash": "faae6ba5",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Nc6 Nb5": {
     "key": "d4 d5 Nc3 e6 Bf4 Nc6 Nb5",
     "san": "Nb5",
-    "rationale": "הפרש קופץ ל-b5 ומנצל את חולשת המשבצת c7. נוצרים איומים של Nxc7+ (מזלג על המלך והצריח) ושל פלישה ל-d6 — מהלך מעשי ואגרסיבי האופייני לז׳ובבה. הערכת המנוע לאחר המהלך: -0.81 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "7ce2a067",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "מנצל את חולשת c7 ומאיים לפלוש ל-c7 או ל-d6.",
+    "model": "curated-kb",
+    "inputHash": "d3178c4d",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Nc6 Nb5 Bd6": {
     "key": "d4 d5 Nc3 e6 Bf4 Nc6 Nb5 Bd6",
     "san": "Bd6",
-    "rationale": "מציע להחליף את רץ f4 החשוב של הלבן. הלבן ישקול Bxd6 (שמעניק לשחור מבנה כפול) או נסיגה כדי לשמור על הרץ, לפי העמדה. הערכת המנוע לאחר המהלך: -0.26 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "2aa4124f",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "מציע להחליף את רץ f4 החשוב של הלבן.",
+    "model": "curated-kb",
+    "inputHash": "0de7aebb",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Nc6 Nb5 Bd6 Nxd6+": {
     "key": "d4 d5 Nc3 e6 Bf4 Nc6 Nb5 Bd6 Nxd6+",
     "san": "Nxd6+",
-    "rationale": "מחליף את רץ d6 — הרץ הטוב של השחור — ומכריח ...cxd6, שמותיר לשחור מבנה רגלים כפול וכבד על קו ה-d. הערכת המנוע לאחר המהלך: -0.40 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "dc45582c",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "מחליף את הרץ הטוב של השחור ומשאיר לו רגליים כפולות.",
+    "model": "curated-kb",
+    "inputHash": "f262c547",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Nc6 Nb5 Bd6 Nxd6+ cxd6": {
     "key": "d4 d5 Nc3 e6 Bf4 Nc6 Nb5 Bd6 Nxd6+ cxd6",
     "san": "cxd6",
-    "rationale": "מחזיר על d6, אך נשאר עם רגליים כפולות וכבדות על קו ה-d — בדיוק היתרון המבני שהלבן חיפש. הערכת המנוע לאחר המהלך: -0.03 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "d8b3d125",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "מחזיר על d6 אך נשאר עם רגליים כפולות.",
+    "model": "curated-kb",
+    "inputHash": "81973ab9",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Nc6 Nb5 Bd6 Nxd6+ cxd6 Nf3": {
     "key": "d4 d5 Nc3 e6 Bf4 Nc6 Nb5 Bd6 Nxd6+ cxd6 Nf3",
     "san": "Nf3",
-    "rationale": "פיתוח טבעי שתומך ב-d4 וב-e5, מכין הצרחה קצרה ומשלים את הסטאפ המוצק של הלבן. הערכת המנוע לאחר המהלך: -0.48 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "d1597e99",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "מפתח את הפרש ותומך ב-d4 וב-e5.",
+    "model": "curated-kb",
+    "inputHash": "ef4be796",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Nf6": {
     "key": "d4 d5 Nc3 e6 Bf4 Nf6",
     "san": "Nf6",
-    "rationale": "מפתח את הפרש ושולט ב-e4 וב-d5. הלבן יענה לרוב ב-Bf4 ובפיתוח רגוע. הערכת המנוע לאחר המהלך: +0.36 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "37a3f849",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "מפתח ושולט ב-e4 וב-d5.",
+    "model": "curated-kb",
+    "inputHash": "c72d505c",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Nf6 e3": {
     "key": "d4 d5 Nc3 e6 Bf4 Nf6 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: -0.15 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "7668631f",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Nf6 e3 Bb4": {
     "key": "d4 d5 Nc3 e6 Bf4 Nf6 e3 Bb4",
     "san": "Bb4",
-    "rationale": "סיכה על הפרש c3 ולחץ על המרכז. הלבן יענה a3 (לשאול את הרץ) או Ne2 (לתמוך ב-c3 ולשמור על גמישות g4). הערכת המנוע לאחר המהלך: +0.28 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "74710606",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "מסכל את הפרש c3 ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "8ec40f15",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Nf6 e3 Bb4 Ne2": {
     "key": "d4 d5 Nc3 e6 Bf4 Nf6 e3 Bb4 Ne2",
     "san": "Ne2",
-    "rationale": "דווקא ל-e2 ולא ל-f3: כך נשמר רגל ה-f לדחיפת g4 בעתיד, הפרש תומך ב-Nc3, ואם השחור יחליף ב-...Bxc3 הלבן יחזיר בפרש וישמור על מבנה טוב. מהלך גמיש האופייני נגד ...Bb4. הערכת המנוע לאחר המהלך: -0.18 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "828c1c38",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "שומר את רגל ה-f לדחיפת g4 בעתיד ותומך בפרש c3.",
+    "model": "curated-kb",
+    "inputHash": "e6b60d23",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Nf6 e3 Bb4 Ne2 Ne4": {
     "key": "d4 d5 Nc3 e6 Bf4 Nf6 e3 Bb4 Ne2 Ne4",
     "san": "Ne4",
-    "rationale": "פרש פעיל במרכז שמזמין החלפות ומנסה להקל על השחור. הלבן יגיב בדרך כלל ב-a3/f3 או בפיתוח שמנצל את היציבות במרכז. הערכת המנוע לאחר המהלך: +1.16 (יתרון ברור ללבן). ניסיון לא מדויק שמשחק לידי הלבן.",
-    "quality": "dubious",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "8603449d",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "פרש פעיל במרכז שמנסה להחליף ולהקל.",
+    "model": "curated-kb",
+    "inputHash": "ff86f944",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Nf6 e3 Bb4 Ne2 Ne4 a3": {
     "key": "d4 d5 Nc3 e6 Bf4 Nf6 e3 Bb4 Ne2 Ne4 a3",
     "san": "a3",
-    "rationale": "שואל את הרץ ב-b4: אם ...Bxc3 הלבן פותח קו, משפר מבנה ושומר על זוג הרצים, ואם הרץ נסוג הלבן הרוויח טמפו ומרחב. הערכת המנוע לאחר המהלך: +0.53 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "f4078c8d",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "שואל את הרץ ב-b4 — או זוג רצים או טמפו ומרחב.",
+    "model": "curated-kb",
+    "inputHash": "9ed5804b",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Nf6 e3 Bd6": {
     "key": "d4 d5 Nc3 e6 Bf4 Nf6 e3 Bd6",
     "san": "Bd6",
-    "rationale": "מציע להחליף את רץ f4 החשוב של הלבן. הלבן ישקול Bxd6 (שמעניק לשחור מבנה כפול) או נסיגה כדי לשמור על הרץ, לפי העמדה. הערכת המנוע לאחר המהלך: +0.39 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "fac37790",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "מציע להחליף את רץ f4 החשוב של הלבן.",
+    "model": "curated-kb",
+    "inputHash": "0de7aebb",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Nf6 e3 Bd6 Nf3": {
     "key": "d4 d5 Nc3 e6 Bf4 Nf6 e3 Bd6 Nf3",
     "san": "Nf3",
-    "rationale": "פיתוח טבעי שתומך ב-d4 וב-e5, מכין הצרחה קצרה ומשלים את הסטאפ המוצק של הלבן. הערכת המנוע לאחר המהלך: -0.29 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "3b532648",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "מפתח את הפרש ותומך ב-d4 וב-e5.",
+    "model": "curated-kb",
+    "inputHash": "ef4be796",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Nf6 e3 a6": {
     "key": "d4 d5 Nc3 e6 Bf4 Nf6 e3 a6",
     "san": "a6",
-    "rationale": "מונע מראש את Nb5 וקובע מעט שטח בכנף, אך זהו מהלך איטי שמאפשר ללבן g4 או פיתוח רגוע עם יתרון מרחבי. הערכת המנוע לאחר המהלך: +0.33 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "23b1d1b6",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "מונע Nb5 אך זהו מהלך איטי.",
+    "model": "curated-kb",
+    "inputHash": "b647a8be",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 Nf6 e3 a6 g4": {
     "key": "d4 d5 Nc3 e6 Bf4 Nf6 e3 a6 g4",
     "san": "g4",
-    "rationale": "דחיפת רגל תוקפנית בכנף המלכותית: מרחיבה שטח, מאיימת לתפוס את רץ השחור (בדרך כלל ב-f5/g6) ופותחת קווי התקפה. אופייני נגד ...Bf5 ובעמדות בהן השחור איטי. הערכת המנוע לאחר המהלך: -0.19 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "1b044d66",
-    "generatedAt": "2026-06-16T19:33:56.248Z"
+    "rationale": "תופס שטח בכנף המלכותית ורודף אחרי רץ השחור.",
+    "model": "curated-kb",
+    "inputHash": "5bad35f3",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 a6": {
     "key": "d4 d5 Nc3 e6 Bf4 a6",
     "san": "a6",
-    "rationale": "מונע מראש את Nb5 וקובע מעט שטח בכנף, אך זהו מהלך איטי שמאפשר ללבן g4 או פיתוח רגוע עם יתרון מרחבי. הערכת המנוע לאחר המהלך: +0.47 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "25ed30ba",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "מונע Nb5 אך זהו מהלך איטי.",
+    "model": "curated-kb",
+    "inputHash": "b647a8be",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 a6 e3": {
     "key": "d4 d5 Nc3 e6 Bf4 a6 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: -0.17 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "d1f42f84",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 a6 e3 Nf6": {
     "key": "d4 d5 Nc3 e6 Bf4 a6 e3 Nf6",
     "san": "Nf6",
-    "rationale": "מפתח את הפרש ושולט ב-e4 וב-d5. הלבן יענה לרוב ב-Bf4 ובפיתוח רגוע. הערכת המנוע לאחר המהלך: +0.56 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "f02a0576",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "מפתח ושולט ב-e4 וב-d5.",
+    "model": "curated-kb",
+    "inputHash": "c72d505c",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 a6 e3 Nf6 g4": {
     "key": "d4 d5 Nc3 e6 Bf4 a6 e3 Nf6 g4",
     "san": "g4",
-    "rationale": "דחיפת רגל תוקפנית בכנף המלכותית: מרחיבה שטח, מאיימת לתפוס את רץ השחור (בדרך כלל ב-f5/g6) ופותחת קווי התקפה. אופייני נגד ...Bf5 ובעמדות בהן השחור איטי. הערכת המנוע לאחר המהלך: -0.62 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "dd6e06f2",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "תופס שטח בכנף המלכותית ורודף אחרי רץ השחור.",
+    "model": "curated-kb",
+    "inputHash": "5bad35f3",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 c5": {
     "key": "d4 d5 Nc3 e6 Bf4 c5",
     "san": "c5",
-    "rationale": "מאתגר מיד את d4. הלבן יכול d5 לתפוס שטח, או לפתח תוך ניצול היתרון בפיתוח. הערכת המנוע לאחר המהלך: +1.03 (יתרון ברור ללבן). ניסיון לא מדויק שמשחק לידי הלבן.",
-    "quality": "dubious",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "a9ae6b36",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "מאתגר מיד את הרגל d4.",
+    "model": "curated-kb",
+    "inputHash": "83ef1d35",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 c5 e3": {
     "key": "d4 d5 Nc3 e6 Bf4 c5 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: -0.34 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "1ffde43a",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 c6": {
     "key": "d4 d5 Nc3 e6 Bf4 c6",
     "san": "c6",
-    "rationale": "מבנה סלאבי מוצק שתומך ב-d5. הלבן ממשיך e3 ופיתוח, עם משחק נוח וקל יותר. הערכת המנוע לאחר המהלך: +0.96 (יתרון ברור ללבן). ניסיון לא מדויק שמשחק לידי הלבן.",
-    "quality": "dubious",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "b725ea54",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "מבנה סלאבי מוצק שתומך ב-d5.",
+    "model": "curated-kb",
+    "inputHash": "aef44002",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d5 Nc3 e6 Bf4 c6 e3": {
     "key": "d4 d5 Nc3 e6 Bf4 c6 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: +0.23 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "2a119503",
-    "generatedAt": "2026-06-16T19:33:56.249Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.610Z"
   },
   "d4 d6": {
     "key": "d4 d6",
     "san": "d6",
-    "rationale": "מהלך מאופק שמכין ...e5 או סטאפ היפר־מודרני. הלבן תופס מרכז ב-e4 ומשחק על המרחב. הערכת המנוע לאחר המהלך: +1.15 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "870200b9",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מהלך מאופק לקראת ...e5 או מבנה היפר־מודרני.",
+    "model": "curated-kb",
+    "inputHash": "d2a58fd4",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 d6 Nf3": {
     "key": "d4 d6 Nf3",
     "san": "Nf3",
-    "rationale": "פיתוח טבעי שתומך ב-d4 וב-e5, מכין הצרחה קצרה ומשלים את הסטאפ המוצק של הלבן. הערכת המנוע לאחר המהלך: +0.47 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "b329b3c4",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מפתח את הפרש ותומך ב-d4 וב-e5.",
+    "model": "curated-kb",
+    "inputHash": "ef4be796",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e5": {
     "key": "d4 e5",
     "san": "e5",
-    "rationale": "ניסיון לשבור במרכז. לרוב לאחר dxe5 נפתחים קווים וטורים לטובת הכלים המפותחים של הלבן. הערכת המנוע לאחר המהלך: +1.27 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "f0373654",
-    "generatedAt": "2026-06-16T19:33:56.250Z"
+    "rationale": "ניסיון לשבור במרכז.",
+    "model": "curated-kb",
+    "inputHash": "f63215b3",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e5 dxe5": {
     "key": "d4 e5 dxe5",
     "san": "dxe5",
-    "rationale": "פותח את המרכז ומנצל את ...e5. אחרי ההחלפות הרץ ב-f4 והפרש ב-b5 פעילים מאוד, והשחור נתקל לעיתים בקשיים טקטיים סביב c7 ו-d5. הערכת המנוע לאחר המהלך: +0.75 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "5d307300",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "פותח את המרכז ומשאיר את הכלים הלבנים פעילים.",
+    "model": "curated-kb",
+    "inputHash": "f5e49856",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e5 dxe5 Bc5": {
     "key": "d4 e5 dxe5 Bc5",
     "san": "Bc5",
-    "rationale": "בקו הגמביט 1...e5, מפתח בלחץ ומכוון נגד f2. הלבן מפתח עם Nf3 ו-Nc3 ושומר על הרגל העודף. הערכת המנוע לאחר המהלך: +1.70 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "ae33d48b",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "מפתח בלחץ ומכוון נגד f2.",
+    "model": "curated-kb",
+    "inputHash": "1aadbab5",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e5 dxe5 Bc5 Nf3": {
     "key": "d4 e5 dxe5 Bc5 Nf3",
     "san": "Nf3",
-    "rationale": "פיתוח טבעי שתומך ב-d4 וב-e5, מכין הצרחה קצרה ומשלים את הסטאפ המוצק של הלבן. הערכת המנוע לאחר המהלך: +1.08 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "4f4c6b73",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "מפתח את הפרש ותומך ב-d4 וב-e5.",
+    "model": "curated-kb",
+    "inputHash": "ef4be796",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e5 dxe5 Bc5 Nf3 d6": {
     "key": "d4 e5 dxe5 Bc5 Nf3 d6",
     "san": "d6",
-    "rationale": "מהלך מאופק שמכין ...e5 או סטאפ היפר־מודרני. הלבן תופס מרכז ב-e4 ומשחק על המרחב. הערכת המנוע לאחר המהלך: +1.86 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "51b7c971",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "מהלך מאופק לקראת ...e5 או מבנה היפר־מודרני.",
+    "model": "curated-kb",
+    "inputHash": "d2a58fd4",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e5 dxe5 Bc5 Nf3 d6 exd6": {
     "key": "d4 e5 dxe5 Bc5 Nf3 d6 exd6",
     "san": "exd6",
-    "rationale": "הרגל חוטף בחזרה ושומר על החומר העודף מהגמביט, תוך פתיחת קווים לטובת הפיתוח של הלבן. הערכת המנוע לאחר המהלך: +1.09 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "aa80da11",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "חוטף בחזרה ושומר על החומר העודף מהגמביט.",
+    "model": "curated-kb",
+    "inputHash": "bb37e026",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e5 dxe5 Bc5 Nf3 d6 exd6 Ne7": {
     "key": "d4 e5 dxe5 Bc5 Nf3 d6 exd6 Ne7",
     "san": "Ne7",
-    "rationale": "פרש שמכוון ל-g6 כדי ללחוץ על e5. הלבן משלים פיתוח ושומר על היתרון החומרי. הערכת המנוע לאחר המהלך: +2.04 (יתרון גדול ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "4e3cd0ee",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "מכוון את הפרש ל-g6 כדי ללחוץ על e5.",
+    "model": "curated-kb",
+    "inputHash": "32d65da2",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e5 dxe5 Bc5 Nf3 d6 exd6 Ne7 Nc3": {
     "key": "d4 e5 dxe5 Bc5 Nf3 d6 exd6 Ne7 Nc3",
     "san": "Nc3",
-    "rationale": "מהלך הזיהוי של ז׳ובבה־לונדון: הפרש מתפתח ל-c3 ולוחץ על המשבצות d5 ו-e4 מבלי לחסום את רגל ה-c. כך נשמרת האופציה של Nb5 ושל לחץ מהיר, בשונה מהלונדון הקלאסי עם c3. הערכת המנוע לאחר המהלך: +1.16 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "31e68ebe",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "מפתח את הפרש ולוחץ על d5 ו-e4 בלי לחסום את רגל ה-c.",
+    "model": "curated-kb",
+    "inputHash": "3ec55683",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e5 dxe5 Nc6": {
     "key": "d4 e5 dxe5 Nc6",
     "san": "Nc6",
-    "rationale": "פיתוח פעיל, אך הוא מחליש את ההגנה על c7 ומזמין את Nb5 עם איומי Nxc7+ ו-Nd6 — בדיוק המבנה שהלבן מקדם בברכה. הערכת המנוע לאחר המהלך: +1.16 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "77fb38ce",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "פיתוח פעיל שמחליש את c7 ומזמין Nb5.",
+    "model": "curated-kb",
+    "inputHash": "faae6ba5",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e5 dxe5 Nc6 Nf3": {
     "key": "d4 e5 dxe5 Nc6 Nf3",
     "san": "Nf3",
-    "rationale": "פיתוח טבעי שתומך ב-d4 וב-e5, מכין הצרחה קצרה ומשלים את הסטאפ המוצק של הלבן. הערכת המנוע לאחר המהלך: +0.98 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "24cc53ca",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "מפתח את הפרש ותומך ב-d4 וב-e5.",
+    "model": "curated-kb",
+    "inputHash": "ef4be796",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e5 dxe5 Nc6 Nf3 Qe7": {
     "key": "d4 e5 dxe5 Nc6 Nf3 Qe7",
     "san": "Qe7",
-    "rationale": "בקו ה-1...e5, מנסה להחזיר את הרגל בלחץ על e5. הלבן מפתח בזהירות (Nf3, Nc3) ושומר על החומר העודף. הערכת המנוע לאחר המהלך: +1.81 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "a1159d11",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "מנסה להחזיר את הרגל בקו הגמביט.",
+    "model": "curated-kb",
+    "inputHash": "4e2b5bd5",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e5 dxe5 Nc6 Nf3 Qe7 Nc3": {
     "key": "d4 e5 dxe5 Nc6 Nf3 Qe7 Nc3",
     "san": "Nc3",
-    "rationale": "מהלך הזיהוי של ז׳ובבה־לונדון: הפרש מתפתח ל-c3 ולוחץ על המשבצות d5 ו-e4 מבלי לחסום את רגל ה-c. כך נשמרת האופציה של Nb5 ושל לחץ מהיר, בשונה מהלונדון הקלאסי עם c3. הערכת המנוע לאחר המהלך: +1.64 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "7d5a91ea",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "מפתח את הפרש ולוחץ על d5 ו-e4 בלי לחסום את רגל ה-c.",
+    "model": "curated-kb",
+    "inputHash": "3ec55683",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e5 dxe5 d6": {
     "key": "d4 e5 dxe5 d6",
     "san": "d6",
-    "rationale": "מהלך מאופק שמכין ...e5 או סטאפ היפר־מודרני. הלבן תופס מרכז ב-e4 ומשחק על המרחב. הערכת המנוע לאחר המהלך: +1.37 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "e97ef417",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "מהלך מאופק לקראת ...e5 או מבנה היפר־מודרני.",
+    "model": "curated-kb",
+    "inputHash": "d2a58fd4",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e5 dxe5 d6 Nf3": {
     "key": "d4 e5 dxe5 d6 Nf3",
     "san": "Nf3",
-    "rationale": "פיתוח טבעי שתומך ב-d4 וב-e5, מכין הצרחה קצרה ומשלים את הסטאפ המוצק של הלבן. הערכת המנוע לאחר המהלך: +0.91 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "8bfec7a1",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "מפתח את הפרש ותומך ב-d4 וב-e5.",
+    "model": "curated-kb",
+    "inputHash": "ef4be796",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6": {
     "key": "d4 e6",
     "san": "e6",
-    "rationale": "תומך ב-d5 ופותח את רץ f8, אך חוסם זמנית את רץ c8 (״הרץ הרע״). הלבן ימשיך e3 ופיתוח טבעי. הערכת המנוע לאחר המהלך: +1.16 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "144ffa25",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "תומך ב-d5 אך חוסם זמנית את רץ c8.",
+    "model": "curated-kb",
+    "inputHash": "3b220210",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3": {
     "key": "d4 e6 Nc3",
     "san": "Nc3",
-    "rationale": "מהלך הזיהוי של ז׳ובבה־לונדון: הפרש מתפתח ל-c3 ולוחץ על המשבצות d5 ו-e4 מבלי לחסום את רגל ה-c. כך נשמרת האופציה של Nb5 ושל לחץ מהיר, בשונה מהלונדון הקלאסי עם c3. הערכת המנוע לאחר המהלך: -0.03 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "8f7dc5da",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "מפתח את הפרש ולוחץ על d5 ו-e4 בלי לחסום את רגל ה-c.",
+    "model": "curated-kb",
+    "inputHash": "3ec55683",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 Nc6": {
     "key": "d4 e6 Nc3 Nc6",
     "san": "Nc6",
-    "rationale": "פיתוח פעיל, אך הוא מחליש את ההגנה על c7 ומזמין את Nb5 עם איומי Nxc7+ ו-Nd6 — בדיוק המבנה שהלבן מקדם בברכה. הערכת המנוע לאחר המהלך: +1.11 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "0f7811e0",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "פיתוח פעיל שמחליש את c7 ומזמין Nb5.",
+    "model": "curated-kb",
+    "inputHash": "faae6ba5",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 Nc6 e4": {
     "key": "d4 e6 Nc3 Nc6 e4",
     "san": "e4",
-    "rationale": "תופס מרכז מלא. נגד סטאפ היפר־מודרני (...g6/...d6) הלבן בונה מרכז גדול ומכין e5 לדחיקת הפרש ולפתיחת יוזמה. הערכת המנוע לאחר המהלך: +0.57 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "2b6ae915",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "תופס מרכז מלא נגד מבנים היפר־מודרניים.",
+    "model": "curated-kb",
+    "inputHash": "e2a10a6c",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 Nf6": {
     "key": "d4 e6 Nc3 Nf6",
     "san": "Nf6",
-    "rationale": "מפתח את הפרש ושולט ב-e4 וב-d5. הלבן יענה לרוב ב-Bf4 ובפיתוח רגוע. הערכת המנוע לאחר המהלך: +0.58 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "b9ef22c9",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "מפתח ושולט ב-e4 וב-d5.",
+    "model": "curated-kb",
+    "inputHash": "c72d505c",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 Nf6 e4": {
     "key": "d4 e6 Nc3 Nf6 e4",
     "san": "e4",
-    "rationale": "תופס מרכז מלא. נגד סטאפ היפר־מודרני (...g6/...d6) הלבן בונה מרכז גדול ומכין e5 לדחיקת הפרש ולפתיחת יוזמה. הערכת המנוע לאחר המהלך: +0.00 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "8506477a",
-    "generatedAt": "2026-06-16T19:33:56.253Z"
+    "rationale": "תופס מרכז מלא נגד מבנים היפר־מודרניים.",
+    "model": "curated-kb",
+    "inputHash": "e2a10a6c",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5": {
     "key": "d4 e6 Nc3 d5",
     "san": "d5",
-    "rationale": "תופס מרכז קלאסי ומבסס נוכחות ב-d5/e4. הלבן ימשיך בתוכנית הז׳ובבה: Nc3, Bf4 ולחץ. הערכת המנוע לאחר המהלך: +0.58 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "3a2f35b0",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "תופס מרכז קלאסי.",
+    "model": "curated-kb",
+    "inputHash": "7fa7a6f5",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4": {
     "key": "d4 e6 Nc3 d5 Bf4",
     "san": "Bf4",
-    "rationale": "הרץ השחור־משבצות יוצא אל מחוץ לשרשרת הרגלים עוד לפני e3 — לב השיטה. מ-f4 הוא לוחץ על c7 ועל הכנף המלכותית של השחור ומכין רעיונות כמו Nb5. הערכת המנוע לאחר המהלך: -0.37 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "85420cdf",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "מוציא את הרץ אל מחוץ לשרשרת הרגלים ולוחץ על c7 — לב השיטה.",
+    "model": "curated-kb",
+    "inputHash": "6623380e",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Bb4": {
     "key": "d4 e6 Nc3 d5 Bf4 Bb4",
     "san": "Bb4",
-    "rationale": "סיכה על הפרש c3 ולחץ על המרכז. הלבן יענה a3 (לשאול את הרץ) או Ne2 (לתמוך ב-c3 ולשמור על גמישות g4). הערכת המנוע לאחר המהלך: +0.41 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "b50866fb",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "מסכל את הפרש c3 ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "8ec40f15",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Bb4 e3": {
     "key": "d4 e6 Nc3 d5 Bf4 Bb4 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: +0.14 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "9628b9fc",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Bb4 e3 Nf6": {
     "key": "d4 e6 Nc3 d5 Bf4 Bb4 e3 Nf6",
     "san": "Nf6",
-    "rationale": "מפתח את הפרש ושולט ב-e4 וב-d5. הלבן יענה לרוב ב-Bf4 ובפיתוח רגוע. הערכת המנוע לאחר המהלך: +0.28 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "e5843366",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "מפתח ושולט ב-e4 וב-d5.",
+    "model": "curated-kb",
+    "inputHash": "c72d505c",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Bb4 e3 Nf6 Ne2": {
     "key": "d4 e6 Nc3 d5 Bf4 Bb4 e3 Nf6 Ne2",
     "san": "Ne2",
-    "rationale": "דווקא ל-e2 ולא ל-f3: כך נשמר רגל ה-f לדחיפת g4 בעתיד, הפרש תומך ב-Nc3, ואם השחור יחליף ב-...Bxc3 הלבן יחזיר בפרש וישמור על מבנה טוב. מהלך גמיש האופייני נגד ...Bb4. הערכת המנוע לאחר המהלך: -0.53 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "e58098d3",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "שומר את רגל ה-f לדחיפת g4 בעתיד ותומך בפרש c3.",
+    "model": "curated-kb",
+    "inputHash": "e6b60d23",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Bb4 e3 Nf6 Ne2 Ne4": {
     "key": "d4 e6 Nc3 d5 Bf4 Bb4 e3 Nf6 Ne2 Ne4",
     "san": "Ne4",
-    "rationale": "פרש פעיל במרכז שמזמין החלפות ומנסה להקל על השחור. הלבן יגיב בדרך כלל ב-a3/f3 או בפיתוח שמנצל את היציבות במרכז. הערכת המנוע לאחר המהלך: +1.03 (יתרון ברור ללבן). ניסיון לא מדויק שמשחק לידי הלבן.",
-    "quality": "dubious",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "5e6b9ddf",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "פרש פעיל במרכז שמנסה להחליף ולהקל.",
+    "model": "curated-kb",
+    "inputHash": "ff86f944",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Bb4 e3 Nf6 Ne2 Ne4 a3": {
     "key": "d4 e6 Nc3 d5 Bf4 Bb4 e3 Nf6 Ne2 Ne4 a3",
     "san": "a3",
-    "rationale": "שואל את הרץ ב-b4: אם ...Bxc3 הלבן פותח קו, משפר מבנה ושומר על זוג הרצים, ואם הרץ נסוג הלבן הרוויח טמפו ומרחב. הערכת המנוע לאחר המהלך: +0.61 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "417fc732",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "שואל את הרץ ב-b4 — או זוג רצים או טמפו ומרחב.",
+    "model": "curated-kb",
+    "inputHash": "9ed5804b",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Bd6": {
     "key": "d4 e6 Nc3 d5 Bf4 Bd6",
     "san": "Bd6",
-    "rationale": "מציע להחליף את רץ f4 החשוב של הלבן. הלבן ישקול Bxd6 (שמעניק לשחור מבנה כפול) או נסיגה כדי לשמור על הרץ, לפי העמדה. הערכת המנוע לאחר המהלך: +0.27 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "5c22fee7",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "מציע להחליף את רץ f4 החשוב של הלבן.",
+    "model": "curated-kb",
+    "inputHash": "0de7aebb",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Bd6 e3": {
     "key": "d4 e6 Nc3 d5 Bf4 Bd6 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: -0.40 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "6114d6b1",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Bd6 e3 Nf6": {
     "key": "d4 e6 Nc3 d5 Bf4 Bd6 e3 Nf6",
     "san": "Nf6",
-    "rationale": "מפתח את הפרש ושולט ב-e4 וב-d5. הלבן יענה לרוב ב-Bf4 ובפיתוח רגוע. הערכת המנוע לאחר המהלך: +0.31 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "ea38c9f8",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "מפתח ושולט ב-e4 וב-d5.",
+    "model": "curated-kb",
+    "inputHash": "c72d505c",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Bd6 e3 Nf6 Nf3": {
     "key": "d4 e6 Nc3 d5 Bf4 Bd6 e3 Nf6 Nf3",
     "san": "Nf3",
-    "rationale": "פיתוח טבעי שתומך ב-d4 וב-e5, מכין הצרחה קצרה ומשלים את הסטאפ המוצק של הלבן. הערכת המנוע לאחר המהלך: -0.36 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "c3908e10",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "מפתח את הפרש ותומך ב-d4 וב-e5.",
+    "model": "curated-kb",
+    "inputHash": "ef4be796",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Nc6": {
     "key": "d4 e6 Nc3 d5 Bf4 Nc6",
     "san": "Nc6",
-    "rationale": "פיתוח פעיל, אך הוא מחליש את ההגנה על c7 ומזמין את Nb5 עם איומי Nxc7+ ו-Nd6 — בדיוק המבנה שהלבן מקדם בברכה. הערכת המנוע לאחר המהלך: +0.73 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "06e4840b",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "פיתוח פעיל שמחליש את c7 ומזמין Nb5.",
+    "model": "curated-kb",
+    "inputHash": "faae6ba5",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Nc6 Nb5": {
     "key": "d4 e6 Nc3 d5 Bf4 Nc6 Nb5",
     "san": "Nb5",
-    "rationale": "הפרש קופץ ל-b5 ומנצל את חולשת המשבצת c7. נוצרים איומים של Nxc7+ (מזלג על המלך והצריח) ושל פלישה ל-d6 — מהלך מעשי ואגרסיבי האופייני לז׳ובבה. הערכת המנוע לאחר המהלך: -0.82 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "7bef711c",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "מנצל את חולשת c7 ומאיים לפלוש ל-c7 או ל-d6.",
+    "model": "curated-kb",
+    "inputHash": "d3178c4d",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Nc6 Nb5 Bd6": {
     "key": "d4 e6 Nc3 d5 Bf4 Nc6 Nb5 Bd6",
     "san": "Bd6",
-    "rationale": "מציע להחליף את רץ f4 החשוב של הלבן. הלבן ישקול Bxd6 (שמעניק לשחור מבנה כפול) או נסיגה כדי לשמור על הרץ, לפי העמדה. הערכת המנוע לאחר המהלך: -0.16 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "2aea478e",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "מציע להחליף את רץ f4 החשוב של הלבן.",
+    "model": "curated-kb",
+    "inputHash": "0de7aebb",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Nc6 Nb5 Bd6 Nxd6+": {
     "key": "d4 e6 Nc3 d5 Bf4 Nc6 Nb5 Bd6 Nxd6+",
     "san": "Nxd6+",
-    "rationale": "מחליף את רץ d6 — הרץ הטוב של השחור — ומכריח ...cxd6, שמותיר לשחור מבנה רגלים כפול וכבד על קו ה-d. הערכת המנוע לאחר המהלך: -0.44 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "f245a71c",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "מחליף את הרץ הטוב של השחור ומשאיר לו רגליים כפולות.",
+    "model": "curated-kb",
+    "inputHash": "f262c547",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Nc6 Nb5 Bd6 Nxd6+ cxd6": {
     "key": "d4 e6 Nc3 d5 Bf4 Nc6 Nb5 Bd6 Nxd6+ cxd6",
     "san": "cxd6",
-    "rationale": "מחזיר על d6, אך נשאר עם רגליים כפולות וכבדות על קו ה-d — בדיוק היתרון המבני שהלבן חיפש. הערכת המנוע לאחר המהלך: -0.02 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "4d91c7d8",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "מחזיר על d6 אך נשאר עם רגליים כפולות.",
+    "model": "curated-kb",
+    "inputHash": "81973ab9",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Nc6 Nb5 Bd6 Nxd6+ cxd6 Nf3": {
     "key": "d4 e6 Nc3 d5 Bf4 Nc6 Nb5 Bd6 Nxd6+ cxd6 Nf3",
     "san": "Nf3",
-    "rationale": "פיתוח טבעי שתומך ב-d4 וב-e5, מכין הצרחה קצרה ומשלים את הסטאפ המוצק של הלבן. הערכת המנוע לאחר המהלך: -0.59 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "32d0089f",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "מפתח את הפרש ותומך ב-d4 וב-e5.",
+    "model": "curated-kb",
+    "inputHash": "ef4be796",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Nf6": {
     "key": "d4 e6 Nc3 d5 Bf4 Nf6",
     "san": "Nf6",
-    "rationale": "מפתח את הפרש ושולט ב-e4 וב-d5. הלבן יענה לרוב ב-Bf4 ובפיתוח רגוע. הערכת המנוע לאחר המהלך: +0.30 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "8a9d801f",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "מפתח ושולט ב-e4 וב-d5.",
+    "model": "curated-kb",
+    "inputHash": "c72d505c",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Nf6 e3": {
     "key": "d4 e6 Nc3 d5 Bf4 Nf6 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: -0.26 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "0270a215",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Nf6 e3 Bb4": {
     "key": "d4 e6 Nc3 d5 Bf4 Nf6 e3 Bb4",
     "san": "Bb4",
-    "rationale": "סיכה על הפרש c3 ולחץ על המרכז. הלבן יענה a3 (לשאול את הרץ) או Ne2 (לתמוך ב-c3 ולשמור על גמישות g4). הערכת המנוע לאחר המהלך: +0.19 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "f1e657ca",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "מסכל את הפרש c3 ולוחץ על המרכז.",
+    "model": "curated-kb",
+    "inputHash": "8ec40f15",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Nf6 e3 Bb4 Ne2": {
     "key": "d4 e6 Nc3 d5 Bf4 Nf6 e3 Bb4 Ne2",
     "san": "Ne2",
-    "rationale": "דווקא ל-e2 ולא ל-f3: כך נשמר רגל ה-f לדחיפת g4 בעתיד, הפרש תומך ב-Nc3, ואם השחור יחליף ב-...Bxc3 הלבן יחזיר בפרש וישמור על מבנה טוב. מהלך גמיש האופייני נגד ...Bb4. הערכת המנוע לאחר המהלך: -0.24 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "664006ed",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "שומר את רגל ה-f לדחיפת g4 בעתיד ותומך בפרש c3.",
+    "model": "curated-kb",
+    "inputHash": "e6b60d23",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Nf6 e3 Bb4 Ne2 Ne4": {
     "key": "d4 e6 Nc3 d5 Bf4 Nf6 e3 Bb4 Ne2 Ne4",
     "san": "Ne4",
-    "rationale": "פרש פעיל במרכז שמזמין החלפות ומנסה להקל על השחור. הלבן יגיב בדרך כלל ב-a3/f3 או בפיתוח שמנצל את היציבות במרכז. הערכת המנוע לאחר המהלך: +1.12 (יתרון ברור ללבן). ניסיון לא מדויק שמשחק לידי הלבן.",
-    "quality": "dubious",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "0edddc2d",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "פרש פעיל במרכז שמנסה להחליף ולהקל.",
+    "model": "curated-kb",
+    "inputHash": "ff86f944",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Nf6 e3 Bb4 Ne2 Ne4 a3": {
     "key": "d4 e6 Nc3 d5 Bf4 Nf6 e3 Bb4 Ne2 Ne4 a3",
     "san": "a3",
-    "rationale": "שואל את הרץ ב-b4: אם ...Bxc3 הלבן פותח קו, משפר מבנה ושומר על זוג הרצים, ואם הרץ נסוג הלבן הרוויח טמפו ומרחב. הערכת המנוע לאחר המהלך: +0.50 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "ae45932e",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "שואל את הרץ ב-b4 — או זוג רצים או טמפו ומרחב.",
+    "model": "curated-kb",
+    "inputHash": "9ed5804b",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Nf6 e3 Bd6": {
     "key": "d4 e6 Nc3 d5 Bf4 Nf6 e3 Bd6",
     "san": "Bd6",
-    "rationale": "מציע להחליף את רץ f4 החשוב של הלבן. הלבן ישקול Bxd6 (שמעניק לשחור מבנה כפול) או נסיגה כדי לשמור על הרץ, לפי העמדה. הערכת המנוע לאחר המהלך: +0.42 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "11302e42",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "מציע להחליף את רץ f4 החשוב של הלבן.",
+    "model": "curated-kb",
+    "inputHash": "0de7aebb",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Nf6 e3 Bd6 Nf3": {
     "key": "d4 e6 Nc3 d5 Bf4 Nf6 e3 Bd6 Nf3",
     "san": "Nf3",
-    "rationale": "פיתוח טבעי שתומך ב-d4 וב-e5, מכין הצרחה קצרה ומשלים את הסטאפ המוצק של הלבן. הערכת המנוע לאחר המהלך: -0.18 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "6c8de870",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "מפתח את הפרש ותומך ב-d4 וב-e5.",
+    "model": "curated-kb",
+    "inputHash": "ef4be796",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Nf6 e3 a6": {
     "key": "d4 e6 Nc3 d5 Bf4 Nf6 e3 a6",
     "san": "a6",
-    "rationale": "מונע מראש את Nb5 וקובע מעט שטח בכנף, אך זהו מהלך איטי שמאפשר ללבן g4 או פיתוח רגוע עם יתרון מרחבי. הערכת המנוע לאחר המהלך: +0.46 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "16d7b2d6",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "מונע Nb5 אך זהו מהלך איטי.",
+    "model": "curated-kb",
+    "inputHash": "b647a8be",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 Nf6 e3 a6 g4": {
     "key": "d4 e6 Nc3 d5 Bf4 Nf6 e3 a6 g4",
     "san": "g4",
-    "rationale": "דחיפת רגל תוקפנית בכנף המלכותית: מרחיבה שטח, מאיימת לתפוס את רץ השחור (בדרך כלל ב-f5/g6) ופותחת קווי התקפה. אופייני נגד ...Bf5 ובעמדות בהן השחור איטי. הערכת המנוע לאחר המהלך: -0.53 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "dab49620",
-    "generatedAt": "2026-06-16T19:33:56.251Z"
+    "rationale": "תופס שטח בכנף המלכותית ורודף אחרי רץ השחור.",
+    "model": "curated-kb",
+    "inputHash": "5bad35f3",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 a6": {
     "key": "d4 e6 Nc3 d5 Bf4 a6",
     "san": "a6",
-    "rationale": "מונע מראש את Nb5 וקובע מעט שטח בכנף, אך זהו מהלך איטי שמאפשר ללבן g4 או פיתוח רגוע עם יתרון מרחבי. הערכת המנוע לאחר המהלך: +0.86 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "05f5d3db",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "מונע Nb5 אך זהו מהלך איטי.",
+    "model": "curated-kb",
+    "inputHash": "b647a8be",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 a6 e3": {
     "key": "d4 e6 Nc3 d5 Bf4 a6 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: -0.15 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "cb478d46",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 a6 e3 Nf6": {
     "key": "d4 e6 Nc3 d5 Bf4 a6 e3 Nf6",
     "san": "Nf6",
-    "rationale": "מפתח את הפרש ושולט ב-e4 וב-d5. הלבן יענה לרוב ב-Bf4 ובפיתוח רגוע. הערכת המנוע לאחר המהלך: +0.18 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "a126e464",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "מפתח ושולט ב-e4 וב-d5.",
+    "model": "curated-kb",
+    "inputHash": "c72d505c",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 a6 e3 Nf6 g4": {
     "key": "d4 e6 Nc3 d5 Bf4 a6 e3 Nf6 g4",
     "san": "g4",
-    "rationale": "דחיפת רגל תוקפנית בכנף המלכותית: מרחיבה שטח, מאיימת לתפוס את רץ השחור (בדרך כלל ב-f5/g6) ופותחת קווי התקפה. אופייני נגד ...Bf5 ובעמדות בהן השחור איטי. הערכת המנוע לאחר המהלך: -0.37 (יתרון קל לשחור).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "ff6217e0",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "תופס שטח בכנף המלכותית ורודף אחרי רץ השחור.",
+    "model": "curated-kb",
+    "inputHash": "5bad35f3",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 c5": {
     "key": "d4 e6 Nc3 d5 Bf4 c5",
     "san": "c5",
-    "rationale": "מאתגר מיד את d4. הלבן יכול d5 לתפוס שטח, או לפתח תוך ניצול היתרון בפיתוח. הערכת המנוע לאחר המהלך: +0.81 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "b0a4b3eb",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "מאתגר מיד את הרגל d4.",
+    "model": "curated-kb",
+    "inputHash": "83ef1d35",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 c5 e3": {
     "key": "d4 e6 Nc3 d5 Bf4 c5 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: -0.21 (העמדה שקולה בקירוב).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "1d5ab510",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 c6": {
     "key": "d4 e6 Nc3 d5 Bf4 c6",
     "san": "c6",
-    "rationale": "מבנה סלאבי מוצק שתומך ב-d5. הלבן ממשיך e3 ופיתוח, עם משחק נוח וקל יותר. הערכת המנוע לאחר המהלך: +1.02 (יתרון ברור ללבן). ניסיון לא מדויק שמשחק לידי הלבן.",
-    "quality": "dubious",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "2987cc68",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "מבנה סלאבי מוצק שתומך ב-d5.",
+    "model": "curated-kb",
+    "inputHash": "aef44002",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 e6 Nc3 d5 Bf4 c6 e3": {
     "key": "d4 e6 Nc3 d5 Bf4 c6 e3",
     "san": "e3",
-    "rationale": "מהלך־יסוד: פותח את רץ f1, מבצר את הרגל d4 ומשלים פיתוח איתן. כעת ללבן מבנה לונדון מוצק עם הרץ כבר פעיל מחוץ לשרשרת הרגלים. הערכת המנוע לאחר המהלך: +0.50 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "f6a32b21",
-    "generatedAt": "2026-06-16T19:33:56.252Z"
+    "rationale": "פותח את רץ f1 ומבצר את d4 — מבנה לונדון מוצק.",
+    "model": "curated-kb",
+    "inputHash": "fddadafa",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 f5": {
     "key": "d4 f5",
     "san": "f5",
-    "rationale": "מבנה הולנדי תוקפני, אך מחליש את עמדת המלך. הלבן מפתח עם Nc3 ולוחץ על החולשות. הערכת המנוע לאחר המהלך: +1.04 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "2cf1a6f8",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מבנה הולנדי תוקפני שמחליש את המלך.",
+    "model": "curated-kb",
+    "inputHash": "e20376da",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 f5 Nc3": {
     "key": "d4 f5 Nc3",
     "san": "Nc3",
-    "rationale": "מהלך הזיהוי של ז׳ובבה־לונדון: הפרש מתפתח ל-c3 ולוחץ על המשבצות d5 ו-e4 מבלי לחסום את רגל ה-c. כך נשמרת האופציה של Nb5 ושל לחץ מהיר, בשונה מהלונדון הקלאסי עם c3. הערכת המנוע לאחר המהלך: +0.47 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "08e5fa48",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מפתח את הפרש ולוחץ על d5 ו-e4 בלי לחסום את רגל ה-c.",
+    "model": "curated-kb",
+    "inputHash": "3ec55683",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 g6": {
     "key": "d4 g6",
     "san": "g6",
-    "rationale": "מבנה קינג׳ס־אינדיאני: הרץ יפותח ל-g7 וילחץ על המרכז מרחוק. הלבן תופס מרכז גדול ב-e4 ומכין e5. הערכת המנוע לאחר המהלך: +1.42 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "c33ccbd4",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מבנה קינג׳ס־אינדיאני עם פיאנקטו.",
+    "model": "curated-kb",
+    "inputHash": "8d2fe7d4",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 g6 e4": {
     "key": "d4 g6 e4",
     "san": "e4",
-    "rationale": "תופס מרכז מלא. נגד סטאפ היפר־מודרני (...g6/...d6) הלבן בונה מרכז גדול ומכין e5 לדחיקת הפרש ולפתיחת יוזמה. הערכת המנוע לאחר המהלך: +0.73 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "5f00fd21",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "תופס מרכז מלא נגד מבנים היפר־מודרניים.",
+    "model": "curated-kb",
+    "inputHash": "e2a10a6c",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 g6 e4 Bg7": {
     "key": "d4 g6 e4 Bg7",
     "san": "Bg7",
-    "rationale": "משלים את הפיאנקטו ולוחץ על האלכסון הארוך. הלבן ממשיך בבניית מרכז עם e4-e5. הערכת המנוע לאחר המהלך: +1.30 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "0e65bcba",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "משלים את הפיאנקטו ולוחץ על האלכסון הארוך.",
+    "model": "curated-kb",
+    "inputHash": "400300d6",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 g6 e4 Bg7 Nc3": {
     "key": "d4 g6 e4 Bg7 Nc3",
     "san": "Nc3",
-    "rationale": "מהלך הזיהוי של ז׳ובבה־לונדון: הפרש מתפתח ל-c3 ולוחץ על המשבצות d5 ו-e4 מבלי לחסום את רגל ה-c. כך נשמרת האופציה של Nb5 ושל לחץ מהיר, בשונה מהלונדון הקלאסי עם c3. הערכת המנוע לאחר המהלך: +0.60 (יתרון קל ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "aa227a2e",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מפתח את הפרש ולוחץ על d5 ו-e4 בלי לחסום את רגל ה-c.",
+    "model": "curated-kb",
+    "inputHash": "3ec55683",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 g6 e4 Bg7 Nc3 Nf6": {
     "key": "d4 g6 e4 Bg7 Nc3 Nf6",
     "san": "Nf6",
-    "rationale": "מפתח את הפרש ושולט ב-e4 וב-d5. הלבן יענה לרוב ב-Bf4 ובפיתוח רגוע. הערכת המנוע לאחר המהלך: +1.93 (יתרון ברור ללבן). ניסיון לא מדויק שמשחק לידי הלבן.",
-    "quality": "dubious",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "029b80c8",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "מפתח ושולט ב-e4 וב-d5.",
+    "model": "curated-kb",
+    "inputHash": "c72d505c",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   },
   "d4 g6 e4 Bg7 Nc3 Nf6 e5": {
     "key": "d4 g6 e4 Bg7 Nc3 Nf6 e5",
     "san": "e5",
-    "rationale": "דוחף את הפרש מ-f6, תופס שטח וסוגר את רץ c8 של השחור — הלבן זוכה ביוזמה מרחבית. הערכת המנוע לאחר המהלך: +1.66 (יתרון ברור ללבן).",
-    "quality": "good",
-    "model": "curated-kb (jobava) + stockfish-grounding",
-    "inputHash": "25b5cb82",
-    "generatedAt": "2026-06-16T19:33:56.256Z"
+    "rationale": "דוחף את הפרש מ-f6 ותופס שטח.",
+    "model": "curated-kb",
+    "inputHash": "f89d4312",
+    "generatedAt": "2026-06-23T07:48:09.611Z"
   }
 }

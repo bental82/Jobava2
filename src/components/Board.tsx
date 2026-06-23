@@ -1,15 +1,11 @@
 'use client';
 
-// Thin wrapper around react-chessboard (v4 API). Loaded client-side only
-// (react-chessboard touches `window`), oriented for White, read-only —
-// navigation happens through the move tree. White + bright-blue board theme.
+// Thin wrapper around react-chessboard (v4 API). Client-only (it touches
+// `window`), read-only — navigation happens through the move chips/tree.
 //
 // dir="ltr" on the wrapper: the page is RTL (Hebrew), which would otherwise
-// mirror the board's file coordinates (a–h running right-to-left). Forcing LTR
-// keeps files a→h left-to-right as they should be from White's side.
-//
-// We measure the container and pass an explicit, integer `boardWidth` so the
-// board stays perfectly square at any container size.
+// mirror the board's file coordinates. We also measure the container and pass
+// an explicit integer boardWidth so the board stays perfectly square.
 
 import dynamic from 'next/dynamic';
 import { useEffect, useRef, useState } from 'react';
@@ -19,7 +15,13 @@ const Chessboard = dynamic(
   { ssr: false },
 );
 
-export default function Board({ fen }: { fen: string }) {
+export default function Board({
+  fen,
+  orientation = 'white',
+}: {
+  fen: string;
+  orientation?: 'white' | 'black';
+}) {
   const ref = useRef<HTMLDivElement>(null);
   const [width, setWidth] = useState(0);
 
@@ -38,7 +40,7 @@ export default function Board({ fen }: { fen: string }) {
       {width > 0 && (
         <Chessboard
           position={fen}
-          boardOrientation="white"
+          boardOrientation={orientation}
           arePiecesDraggable={false}
           id="repertoire-board"
           boardWidth={width}
